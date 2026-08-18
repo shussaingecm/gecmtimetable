@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Faculty Timetable</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+/* =====================
+   GLOBAL RESET
+===================== */
+* {
+box-sizing: border-box;
+}
+
+/* =====================
+PAGE BACKGROUND & LAYOUT
+===================== */
+body {
+margin: 0;
+font-family: Georgia, Arial, Helvetica, 'Times New Roman', Times, serif;
+background: linear-gradient(120deg, #4facfe, #00f2fe);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+/* =====================
+MAIN CARD CONTAINER
+===================== */
+.card {
+background: #ffffff;
+width: 100%;
+max-width: 800px;
+padding: 80px 40px;
+border-radius: 12px;
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+transition: 0.1s;
+}
+.card.big {
+max-width: 1100px;   /* bigger after table shows */
+}
+/* =====================
+PAGE HEADING
+===================== */
+h2 {
+text-align: center;
+margin: 15px 0;
+color: #333;
+font-size: 20px;
+}
+
+/* =====================
+INPUT & BUTTON GROUP
+===================== */
+.input-group {
+display: flex;
+gap: 20px;
+justify-content: center;
+margin-bottom: 15px;
+flex-wrap: wrap;
+width: 100%;
+}
+
+/* Employee ID input box */
+input {
+padding: 10px;
+font-size: 14px;
+font-family: Arial,'Times New Roman', Times, serif;
+border-radius: 6px;
+border: 1px solid #0b5592;
+max-width: 140px;
+width: 50%;
+}
+
+/* View Timetable & Download buttons */
+button {
+padding: 10px 20px;
+font-size: 14px;
+border: none;
+border-radius: 6px;
+background: #05457e;
+color: #fff;
+cursor: pointer;
+width: 100%;
+max-width: 150px;
+}
+
+button:hover {
+background: #065396;
+}
+
+/* =====================
+TABLE WRAPPER
+===================== */
+.table-wrapper {
+width: 100%;
+margin-top: 15px;
+overflow-x: hidden; /* desktop */
+}
+
+/* =====================
+TABLE STRUCTURE
+===================== */
+table {
+border-collapse: collapse;
+width: 100%;
+background: white;
+table-layout: fixed;
+}
+
+/* =====================
+TABLE CELL TEXT (MAIN CONTROL)
+👉 THIS CONTROLS TABLE DATA SIZE & COLOR
+===================== */
+th,td {
+border: 1px solid rgb(182, 200, 207);
+padding: 12px;
+text-align: center;
+font-size: 13px;        /* ✅ table font size */
+color: #0b3c5d;         /* ✅ table text color */
+white-space: normal;
+word-break: break-word;
+}
+
+/* =====================
+TABLE HEADER ROW
+===================== */
+th {
+background: #0b3c5d;
+color: white;
+font-size: 13px;   /* ← ADD THIS LINE */
+}
+
+/* =====================
+FIRST COLUMN (DAY)
+===================== */
+td:first-child {
+background: #0b3c5d;
+color: white;
+font-weight: bold;
+position: sticky;
+left: 0;
+z-index: 1;
+}
+
+th:first-child {
+position: sticky;
+left: 0;
+z-index: 2;
+background: #0b3c5d;
+font-size: 12px;
+color: white;
+}
+
+/* Alternate row background */
+tr:nth-child(even) {
+background: #fcfaf7;
+}
+
+/* =====================
+EMPLOYEE INFO TEXT
+===================== */
+.emp-text {
+font-weight: 700;
+}
+
+/* Employee name & department ONLY */
+#empName,
+#empDept {
+color: #186294;
+font-size: 15px;
+}
+
+/* Reduce spacing between name & department */
+#empInfo p {
+margin: 2px 0;
+line-height: 1.5;
+}
+
+/* =====================
+FOOTER NOTE
+===================== */
+.note {
+text-align: center;
+margin-top: 12px;
+color: #0f477a;
+font-weight: bold;
+font-size: 12px;
+}
+
+/* =====================
+LOGO
+===================== */
+.logo-container {
+text-align: center;
+margin-bottom: 10px;
+}
+
+.college-logo {
+max-width: 120px;
+height: auto;
+}
+
+/* ------ marging for DownloadPDF button--- */
+#downloadSection {
+margin-top: 40px; 
+}
+
+/* ===== ACTION BUTTONS FIX ===== */
+#downloadSection {
+display: flex;
+justify-content: center;
+gap: 30px;               /* space between buttons (desktop) */
+flex-wrap: wrap;
+}
+
+.action-btn {
+background: #0b3c5d;
+color: white;
+padding: 6px 12px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+font-size: 12px;
+min-width: 100px;
+}
+
+.subject-popup,
+.faculty-popup{
+position:absolute;
+background:white;
+border:1px solid #ccc;
+border-radius:6px;
+padding:8px 10px;
+font-size:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+z-index:1000;
+max-width:250px;
+}
+
+.subject-popup b,
+.faculty-popup b{
+color:#0b3c5d;
+}
+
+.clickable-code{
+cursor:pointer;
+font-weight:bold;
+}
+
+.subject-code{
+color:#0b3c5d;
+font-weight:bold;
+cursor:pointer;
+}
+
+.subject-code:hover{
+text-decoration:underline;
+}
+
+.faculty-code{
+color:green;
+font-weight:bold;
+cursor:pointer;
+}
+
+.faculty-code:hover{
+text-decoration:underline;
+}
+/* =====================
+   MOBILE RESPONSIVE
+===================== */
+@media (max-width: 600px) {
+
+h2 {
+font-size: 16px;
+}
+
+.table-wrapper {
+overflow-x: auto;
+}
+
+table {
+min-width: 600px;
+}
+
+/* MOBILE: reduce row height */
+th, td {
+padding: 4px 6px;        /* 👈 reduces vertical gap */
+font-size: 11px;
+height: auto;            /* 👈 IMPORTANT */
+line-height: 1.4;
+}
+
+tbody tr {
+height: 35px;              /* 👈 THIS fixes Saturday */
+}
+
+/* MOBILE: Day column (first column) */
+td:first-child,
+th:first-child {
+min-width: 60px;
+white-space: nowrap;
+padding: 4px 6px;        /* 👈 match other cells */
+}
+
+.card {
+background: #ffffff;
+width: 95%;
+max-width: 600px;
+padding: 40px 10px;
+border-radius: 14px;
+text-align: center;
+box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+select,
+input,
+button {
+max-width: 180px;
+width: 55%;
+margin: 1px auto;
+display: block;
+font-size: 12px;
+padding: 12px;
+}
+
+button {
+width: 55%;
+}
+.college-logo {
+max-width: 100px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class="card">
+    
+    <div class="logo-container">
+      <img src="gecm_logo.jpg" alt="GEC Munger Logo" class="college-logo">
+    </div>
+
+    <h2>Faculty Timetable</h2>
+
+    <div class="input-group">
+      <input type="text" id="empId" placeholder="Enter Employee ID">
+      <button onclick="loadTimetable()">View Timetable</button>
+    </div>
+
+    <div id="empInfo" style="display:none; margin:15px 0; text-align: center; font-size:15px;">
+      <p><b>Faculty:</b> <span id="empName" class="emp-text"></span></p>
+      <p><b>Department:</b> <span id="empDept" class="emp-text"></span></p>
+    </div>
+    <div class="table-wrapper">
+      <table id="table" style="display:none;">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>10:00 AM<br>11:00 AM</th>
+            <th>11:00 AM<br>12:00 PM</th>
+            <th>12:00 PM<br>01:00 PM</th>
+            <th>Lunch<br>Hour</th>
+            <th>02:00 PM<br>03:00 PM</th>
+            <th>03:00 PM<br>04:00 PM</th>
+            <th>04:00 PM<br>05:00 PM</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div id="downloadSection" style="text-align:center; display:none;">
+
+      <button onclick="window.open('subject_info.html','_blank')" class="action-btn">
+        Subject Information
+      </button>
+
+      <button onclick="downloadPDF()" class="action-btn">
+        Download (PDF)
+      </button>
+
+    </div>
+
+    <div class="note">
+    <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
+    IT Cell GEC Munger</a>
+    </div>
+  </div>
+
+<script src="timetable-common.js"></script>
+
+<script>
+
+const TIMETABLE_URL = "./timetable.json";
+const FACULTY_URL = "./faculty_info.json";
+const SUBJECT_URL = "./subject_info.json";
+
+let commonDataLoaded = false;
+
+async function loadCommonData() {
+  try {
+    const [facultyResponse, subjectResponse] = await Promise.all([
+      fetch(FACULTY_URL),
+      fetch(SUBJECT_URL)
+    ]);
+
+    if (!facultyResponse.ok) {
+      throw new Error("Unable to load faculty_info.json");
+    }
+
+    if (!subjectResponse.ok) {
+      throw new Error("Unable to load subject_info.json");
+    }
+
+    const facultyData = await facultyResponse.json();
+    const subjectData = await subjectResponse.json();
+
+    initializeTimetableCommon(facultyData, subjectData);
+
+    commonDataLoaded = true;
+
+  } catch (error) {
+    console.error(error);
+    alert("Unable to load faculty or subject information.");
+  }
+}
+
+const timeSlots = [
+  "10:00 AM - 11:00 AM",
+  "11:00 AM - 12:00 PM",
+  "12:00 PM - 01:00 PM",
+  "Lunch",
+  "02:00 PM - 03:00 PM",
+  "03:00 PM - 04:00 PM",
+  "04:00 PM - 05:00 PM"
+];
+
+
+/* =====================================================
+   FORMAT TIMETABLE CELL FOR DISPLAY
+   ===================================================== */
+
+function formatCell(text) {
+  if (!text) return "";
+  return subjectLink(text.trim());
+}
+
+/* =====================================================
+   PARSE CANONICAL TIMETABLE CELL
+
+   Format:
+
+   [Group, ]SubjectCode|FacultyCode[+AdditionalFaculty]|RoomNo
+
+   Examples:
+
+   DBMS-L|ASP|R-13
+
+   DBMS-P|ASP+SK|R-13
+
+   G1, DBMS-P|ASP+SK|R-13
+   ===================================================== */
+
+function parseTimetableCell(cell) {
+
+  if (!cell) return null;
+
+  cell = String(cell).trim();
+
+  /* Special cells */
+  if (
+    cell.toUpperCase() === "LIB" ||
+    cell.toUpperCase() === "HOLIDAY" ||
+    cell.toUpperCase() === "FREE"
+  ) {
+    return null;
+  }
+
+  const parts = cell.split("|");
+
+  if (parts.length !== 3) {
+    return null;
+  }
+
+  let firstPart = parts[0].trim();
+  let facultyPart = parts[1].trim();
+  let room = parts[2].trim();
+
+  let group = "";
+  let subject = firstPart;
+
+  /* Optional group */
+  if (firstPart.includes(",")) {
+
+    const commaIndex = firstPart.indexOf(",");
+
+    group = firstPart
+      .substring(0, commaIndex)
+      .trim();
+
+    subject = firstPart
+      .substring(commaIndex + 1)
+      .trim();
+  }
+
+  /* Faculty codes */
+  const facultyList = facultyPart
+    .split("+")
+    .map(code => code.trim().toUpperCase())
+    .filter(code => code !== "");
+
+  return {
+    group: group,
+    subject: subject,
+    faculty: facultyList,
+    room: room
+  };
+}
+
+
+/* =====================================================
+   LOAD FACULTY TIMETABLE
+   ===================================================== */
+
+async function loadTimetable() {
+
+  const empId = document.getElementById("empId").value.trim();
+
+  const table = document.getElementById("table");
+  const tbody = table.querySelector("tbody");
+
+  if (!empId) {
+    alert("Please enter Employee ID");
+    return;
+  }
+  if (!commonDataLoaded) {
+  await loadCommonData();
+
+  if (!commonDataLoaded) {
+    return;
+  }
+}
+  /* Load faculty information + master timetable */
+  Promise.all([
+    fetch(FACULTY_URL).then(response => response.json()),
+    fetch(TIMETABLE_URL).then(response => response.json())
+  ])
+
+  .then(([facultyData, timetableData]) => {
+
+    /* ---------------------------------------------
+       Find faculty using Employee ID
+       --------------------------------------------- */
+
+    const employee = facultyData.find(
+      faculty =>
+        String(faculty.EmployeeID).trim() ===
+        String(empId).trim()
+    );
+
+    if (!employee) {
+
+      alert("Employee ID not found");
+
+      return;
+    }
+
+
+    /* ---------------------------------------------
+       Get Faculty Code
+       --------------------------------------------- */
+
+    const facultyCode =
+      String(employee.FacultyCode || "")
+        .trim()
+        .toUpperCase();
+
+    if (!facultyCode) {
+
+      alert("Faculty Code not found for this Employee ID");
+
+      return;
+    }
+
+
+    console.log("Employee ID:", empId);
+    console.log("Faculty Code:", facultyCode);
+
+
+    /* ---------------------------------------------
+       Display faculty information
+       --------------------------------------------- */
+
+    document.getElementById("empName").textContent =
+      employee.Name || "";
+
+    document.getElementById("empDept").textContent =
+      employee.Department || "";
+
+    document.getElementById("empInfo").style.display = "block";
+
+
+    /* ---------------------------------------------
+       Make sure timetable is an array
+       --------------------------------------------- */
+
+    const rows = Array.isArray(timetableData)
+      ? timetableData
+      : timetableData.data;
+
+    if (!Array.isArray(rows)) {
+
+      console.error("Invalid timetable.json format:", timetableData);
+
+      alert("Invalid timetable JSON format");
+
+      return;
+    }
+
+
+    /* ---------------------------------------------
+       Clear old timetable
+       --------------------------------------------- */
+
+    tbody.innerHTML = "";
+
+    let foundAnyClass = false;
+
+
+    /* ---------------------------------------------
+       Search every timetable row
+       --------------------------------------------- */
+
+    const days = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+
+const dayData = {};
+
+days.forEach(day => {
+  dayData[day] = {};
+
+  timeSlots.forEach(slot => {
+    dayData[day][slot] = "";
+  });
+});
+
+
+/* ---------------------------------------------
+   Search every timetable row
+   --------------------------------------------- */
+
+rows.forEach(row => {
+
+  const day = String(row.Day || "").trim();
+
+  if (!days.includes(day)) return;
+
+  timeSlots.forEach(slot => {
+
+    /* Lunch */
+    if (slot === "Lunch") return;
+
+    const cell = String(row[slot] || "").trim();
+
+    if (!cell) return;
+
+    const classData = parseTimetableCell(cell);
+
+    if (!classData) return;
+
+    /* Check faculty */
+    const belongsToFaculty =
+      classData.faculty.includes(facultyCode);
+
+    if (!belongsToFaculty) return;
+
+    foundAnyClass = true;
+
+    const branch = String(row["Branch"] || "").trim();
+const semester = row["Semester"];
+
+const semesterText =
+  semester == 1 ? "1st" :
+  semester == 2 ? "2nd" :
+  semester == 3 ? "3rd" :
+  semester == 4 ? "4th" :
+  semester == 5 ? "5th" :
+  semester == 6 ? "6th" :
+  semester == 7 ? "7th" :
+  semester == 8 ? "8th" :
+  semester;
+
+const branchSemester =
+  `${branch} ${semesterText}`;
+
+
+dayData[day][slot] += `
+  ${classData.group ? `<div>${classData.group}</div>` : ""}
+  <div>${formatCell(classData.subject)}</div>
+  <div>${branchSemester}</div>
+  <div>${classData.room}</div>
+`;
+  });
+
+});
+
+
+/* ---------------------------------------------
+   Create exactly one row for each day
+   --------------------------------------------- */
+
+days.forEach(day => {
+
+  let rowHTML = `<td><b>${day}</b></td>`;
+
+  timeSlots.forEach(slot => {
+
+    if (slot === "Lunch") {
+      rowHTML += `<td></td>`;
+      return;
+    }
+
+    rowHTML += `
+      <td>
+        ${dayData[day][slot]}
+      </td>
+    `;
+  });
+
+  const tr = document.createElement("tr");
+
+  tr.innerHTML = rowHTML;
+
+  tbody.appendChild(tr);
+});
+
+   /* ---------------------------------------------
+       No timetable found
+       --------------------------------------------- */
+
+    if (!foundAnyClass) {
+
+      alert(
+        "No timetable found for Faculty Code: " +
+        facultyCode
+      );
+
+      document.getElementById("empInfo").style.display =
+        "none";
+
+      return;
+    }
+
+
+    /* ---------------------------------------------
+       Display timetable
+       --------------------------------------------- */
+
+    table.style.display = "table";
+
+    document.getElementById("downloadSection")
+      .style.display = "flex";
+
+    document.querySelector(".card")
+      .classList.add("big");
+
+  })
+
+  .catch(error => {
+
+    console.error("Error:", error);
+
+    alert(
+      "Error loading faculty/timetable data. " +
+      "Please check the JSON files."
+    );
+
+  });
+}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+function downloadPDF() {
+
+const card = document.querySelector('.card');
+const tableWrapper = document.querySelector('.table-wrapper');
+const originalCardPadding = card.style.padding;
+const originalDownloadMargin = document.getElementById("downloadSection").style.marginTop;
+const originalNoteMargin = document.querySelector(".note").style.marginTop;
+
+card.style.padding = "2px 20px";
+document.getElementById("downloadSection").style.marginTop = "5px";
+document.querySelector(".note").style.marginTop = "5px";
+document.querySelectorAll("#downloadSection button").forEach(btn => {
+  btn.style.fontSize = "10px";
+  btn.style.padding = "6px 10px";
+});
+document.querySelectorAll("th, td, #classInfo, #downloadSection, .note").forEach(el => {
+  el.dataset.originalFontSize = el.style.fontSize;
+  el.style.fontSize = "10px";
+});
+document.querySelector(".note").style.fontSize = "11px";
+
+  /* ---- TEMP FIX FOR MOBILE PDF ---- */
+  tableWrapper.style.overflow = "visible";
+
+  document.querySelectorAll("th, td").forEach(el => {
+    el.style.position = "static";
+  });
+
+  const now = new Date();
+  const dateTime =
+    now.toLocaleDateString() + " " + now.toLocaleTimeString();
+
+  const footer = document.createElement("div");
+  footer.style.textAlign = "center";
+  footer.style.fontSize = "11px";
+  footer.style.marginTop = "10px";
+  footer.innerHTML = `Downloaded on: <b>${dateTime}</b>`;
+
+  card.appendChild(footer);
+
+  const opt = {
+    margin: 0.3,
+    filename: 'Timetable_' + now.getTime() + '.pdf',
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: {
+      scale: 2,
+      scrollX: 0,
+      scrollY: 0,
+      useCORS: true
+    },
+    jsPDF: {
+      unit: 'in',
+      format: 'a4',
+      orientation: 'landscape'
+    }
+  };
+
+  html2pdf().set(opt).from(card).save().then(() => {
+
+    /* ---- RESTORE UI AFTER DOWNLOAD ---- */
+    tableWrapper.style.overflowX = "";
+
+    document.querySelectorAll("th, td").forEach(el => {
+      el.style.position = "";
+    });
+
+    footer.remove();
+    card.style.padding = originalCardPadding;
+    document.getElementById("downloadSection").style.marginTop = originalDownloadMargin;
+    document.querySelector(".note").style.marginTop = originalNoteMargin;
+      });
+}
+
+</script>
+</body>
+</html>

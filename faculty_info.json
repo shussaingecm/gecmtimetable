@@ -1,0 +1,401 @@
+[
+  {
+    "EmployeeID": 40357462,
+    "Name": "Dr. Shahadat Hussain",
+    "FacultyCode": "SDT",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 40231948,
+    "Name": "Ms. Anshu Priya",
+    "FacultyCode": "ASP",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 40231589,
+    "Name": "Mr. Nischay Ranjan",
+    "FacultyCode": "NCR",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 40231588,
+    "Name": "Mr. Anupam Kumar",
+    "FacultyCode": "ANP",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 40228696,
+    "Name": "Mrs. Deepa Kumari",
+    "FacultyCode": "DPI",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 40152010,
+    "Name": "Mr. Aditya Narayan Pandey",
+    "FacultyCode": "ADP",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 40151602,
+    "Name": "Dr. Ram Kumar Das",
+    "FacultyCode": "RKD",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 40148282,
+    "Name": "Dr. Anshu Kumari",
+    "FacultyCode": "ASK",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 40089983,
+    "Name": "Mr. Ravi Ranjan",
+    "FacultyCode": "RVR",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 40047444,
+    "Name": "Prof. Keshavendra Choudhary",
+    "FacultyCode": "KVC",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40043960,
+    "Name": "Mr. Vinay Shankar Kumar",
+    "FacultyCode": "VSK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40043914,
+    "Name": "Mr. Seraj Ahmed",
+    "FacultyCode": "SRJ",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40043833,
+    "Name": "Mr. Nasim Akhter",
+    "FacultyCode": "NSA",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043814,
+    "Name": "Mr. Sudhir Kumar",
+    "FacultyCode": "SDK",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043812,
+    "Name": "Mr. Sanat",
+    "FacultyCode": "SNT",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043778,
+    "Name": "Mr. Nishant Kumar",
+    "FacultyCode": "NTK",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043777,
+    "Name": "Mr. Jitendra Kumar",
+    "FacultyCode": "JTK",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043773,
+    "Name": "Mr. Saurabh Kumar Jha",
+    "FacultyCode": "SKJ",
+    "Designation": "Assistant Professor",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 40043238,
+    "Name": "Mr. Amit Kumar",
+    "FacultyCode": "AMK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40043138,
+    "Name": "Mr. Vikram Kumar",
+    "FacultyCode": "VKK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40043065,
+    "Name": "Mr. Raju Kumar Sharma",
+    "FacultyCode": "RKS",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40042931,
+    "Name": "Mr. Suryamani Kumar",
+    "FacultyCode": "SMK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40042927,
+    "Name": "Mr. Avinash Kumar",
+    "FacultyCode": "AVK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 40041884,
+    "Name": "Mr. Raushan Kumar Ravi",
+    "FacultyCode": "RSR",
+    "Designation": "Assistant Professor",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 40038214,
+    "Name": "Dr. Ravindra Kumar",
+    "FacultyCode": "RVK",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 40014626,
+    "Name": "Dr. Sanjeev Kumar",
+    "FacultyCode": "SJK",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 40014008,
+    "Name": "Dr. Mukesh Kumar",
+    "FacultyCode": "MUK",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 40014000,
+    "Name": "Mr. Brij Mohan Kumar",
+    "FacultyCode": "BMK",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 40003385,
+    "Name": "Mr. Pankaj Kumar",
+    "FacultyCode": "PNK",
+    "Designation": "Assistant Professor",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 40003381,
+    "Name": "Mr. Deepak Kumar",
+    "FacultyCode": "DPK",
+    "Designation": "Assistant Professor",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 40000471,
+    "Name": "Mr. Arun Kumar",
+    "FacultyCode": "ARK",
+    "Designation": "Assistant Professor",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 30010582,
+    "Name": "Dr. Dinesh Sah",
+    "FacultyCode": "DSS",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 10832200,
+    "Name": "Dr. Chandan Kuamar",
+    "FacultyCode": "CDK",
+    "Designation": "Assistant Professor",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 8047,
+    "Name": "Dr. Mati Ram Das",
+    "FacultyCode": "MTD",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 8046,
+    "Name": "Mr. Fahim Ahmad Khan",
+    "FacultyCode": "FKH",
+    "Designation": "Assistant Professor",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 8040,
+    "Name": "Dr. Yogendra Kumar Poddar",
+    "FacultyCode": "YGP",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 8039,
+    "Name": "Mr. Munan Kumar Thakur",
+    "FacultyCode": "MKT",
+    "Designation": "Assistant Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 8032,
+    "Name": "Mr. Krishna Murari",
+    "FacultyCode": "KSM",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 8026,
+    "Name": "Dr. Mukesh Kumar Pandey",
+    "FacultyCode": "MKP",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 8024,
+    "Name": "Mr. Rakesh Kumar Ravi",
+    "FacultyCode": "RKR",
+    "Designation": "Assistant Professor",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 8012,
+    "Name": "Mr. Abhishek Kumar",
+    "FacultyCode": "ABK",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 8011,
+    "Name": "Mr. Sumit Sardesai",
+    "FacultyCode": "SSI",
+    "Designation": "Assistant Professor",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 100,
+    "Name": "Dr. Jaishanker Prasad Keshari",
+    "FacultyCode": "JSK",
+    "Designation": "Associate Professor",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 24,
+    "Name": "Mr. SANTU KUMAR",
+    "FacultyCode": "ST",
+    "Designation": "Technical Assistant",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 23,
+    "Name": "Ms. PRIYANKA KUMARI",
+    "FacultyCode": "PI",
+    "Designation": "Technical Assistant",
+    "Department": "Applied Science"
+  },
+  {
+    "EmployeeID": 22,
+    "Name": "Mr. AMAN RAJ",
+    "FacultyCode": "AR",
+    "Designation": "Technical Assistant",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 20,
+    "Name": "Mr. PANKAJ KUMAR",
+    "FacultyCode": "PK",
+    "Designation": "Technical Assistant",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 20,
+    "Name": "Mr. DIPAK KUMAR",
+    "FacultyCode": "DP",
+    "Designation": "Technical Assistant",
+    "Department": "Electronics and Communication Engineering"
+  },
+  {
+    "EmployeeID": 19,
+    "Name": "Mr. SHAFQUET PARWEZ",
+    "FacultyCode": "SP",
+    "Designation": "Technical Assistant",
+    "Department": "Civil Engineering"
+  },
+  {
+    "EmployeeID": 18,
+    "Name": "Mr. RAVI KUMAR",
+    "FacultyCode": "RV",
+    "Designation": "Technical Assistant",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 17,
+    "Name": "Mr. SHEKHAR KUMAR",
+    "FacultyCode": "SK",
+    "Designation": "Technical Assistant",
+    "Department": "Computer Science and Engineering (Data Science)"
+  },
+  {
+    "EmployeeID": 16,
+    "Name": "Mr. MANISH KUMAR",
+    "FacultyCode": "MN",
+    "Designation": "Technical Assistant",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 15,
+    "Name": "Mr. NIKHIL RANJAN",
+    "FacultyCode": "NR",
+    "Designation": "Technical Assistant",
+    "Department": "Electrical Engineering"
+  },
+  {
+    "EmployeeID": 14,
+    "Name": "Mr. SURAJ KUMAR",
+    "FacultyCode": "SJ",
+    "Designation": "Technical Assistant",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 13,
+    "Name": "Mr. PRADEEP SINGH",
+    "FacultyCode": "PD",
+    "Designation": "Technical Assistant",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 12,
+    "Name": "Mr. KARNVIR KUMAR",
+    "FacultyCode": "KK",
+    "Designation": "Technical Assistant",
+    "Department": "Mechanical Engineering"
+  },
+  {
+    "EmployeeID": 11,
+    "Name": "Mr. AWNISH KUMAR",
+    "FacultyCode": "AW",
+    "Designation": "Technical Assistant",
+    "Department": "Mechanical Engineering"
+  }
+]

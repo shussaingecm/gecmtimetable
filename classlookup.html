@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Timetable Slot Search</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;font-family:Georgia,'Times New Roman',Times,serif;background:linear-gradient(120deg,#4facfe,#00f2fe);min-height:100vh;display:flex;justify-content:center;align-items:center;padding:15px}
+.card{background:white;width:100%;max-width:900px;padding:30px;border-radius:12px;box-shadow:0 15px 30px rgba(0,0,0,.2)}
+h1{text-align:center;color:#0b3c5d;margin-bottom:18px;font-size:22px}
+h2{text-align:center;color:#0b3c5d;margin-bottom:50px;font-size:18px}
+.controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
+select,button{padding:8px;font-size:13px;border-radius:6px;border:1px solid #0b5592}
+button{background:#0b3c5d;color:white;cursor:pointer;border:none;width:12%}
+button:hover{background:#06263d}
+table{width:100%;border-collapse:collapse;margin-top:15px}
+th,td{border:1px solid #ccc;padding:8px;font-size:13px;text-align:center}
+th{background:#0b3c5d;color:white}
+tr:nth-child(even){background:#f5f8ff}
+.logo-container{text-align:center;margin-bottom:10px}
+.college-logo{max-width:100px;height:auto}
+.college-name{text-align:center;color:#0b3c5d;margin:5px 0 10px;font-size:20px;font-weight:bold}
+.faculty-code{color:green;font-weight:bold;cursor:pointer}
+.faculty-code:hover{text-decoration:underline}
+.subject-code{font-weight:bold;color:#0b3c5d;cursor:pointer}
+.subject-code:hover{text-decoration:underline}
+.class-group{font-weight:bold;margin-bottom:3px}
+.note{text-align:center;margin-top:50px;margin-bottom:30px;color:#0e4791;font-weight:bold;font-size:14px}
+.popup{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;justify-content:center;align-items:center;z-index:2000}
+.popup-content{background:white;width:90%;max-width:400px;padding:25px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.3);position:relative}
+.popup-content h3{margin-top:0;color:#0b3c5d}
+.popup-content p{margin:10px 0}
+.popup-close{position:absolute;right:10px;top:8px;width:auto;background:none;color:#333;border:none;font-size:24px;padding:0;cursor:pointer}
+.popup-close:hover{background:none;color:#d00}
+
+.subject-popup{
+position:absolute;
+background:white;
+border:1px solid #ccc;
+border-radius:6px;
+padding:8px 10px;
+font-size:14px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+z-index:1000;
+max-width:250px;
+}
+
+.subject-popup b{
+color:#0b3c5d;
+}
+.faculty-popup{
+position:absolute;
+background:white;
+border:1px solid #ccc;
+border-radius:6px;
+padding:8px 10px;
+font-size:14px;
+box-shadow:0 4px 10px rgba(0,0,0,.2);
+z-index:1000;
+max-width:250px;
+}
+
+.faculty-popup b{
+color:#0b3c5d;
+}
+@media(max-width:600px){
+.card{padding:15px}
+button{width:auto}
+th,td{font-size:11px;padding:6px}
+.popup-content{width:80%}
+}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="logo-container">
+<img src="gecm_logo.jpg" class="college-logo">
+</div>
+<h1>Government Engineering College Munger</h1>
+<h2>Classes as per Timeslots</h2>
+
+<div class="controls">
+<select id="day">
+<option value="">Select Day</option>
+<option value="Monday">Monday</option>
+<option value="Tuesday">Tuesday</option>
+<option value="Wednesday">Wednesday</option>
+<option value="Thursday">Thursday</option>
+<option value="Friday">Friday</option>
+<option value="Saturday">Saturday</option>
+</select>
+
+<select id="slot">
+<option value="">Select Time Slot</option>
+<option value="10:00 AM - 11:00 AM">10:00 – 11:00</option>
+<option value="11:00 AM - 12:00 PM">11:00 – 12:00</option>
+<option value="12:00 PM - 01:00 PM">12:00 – 01:00</option>
+<option value="02:00 PM - 03:00 PM">02:00 – 03:00</option>
+<option value="03:00 PM - 04:00 PM">03:00 – 04:00</option>
+<option value="04:00 PM - 05:00 PM">04:00 – 05:00</option>
+</select>
+
+<button onclick="searchSlot()">Search</button>
+</div>
+
+<div id="result"></div>
+
+<div class="note">
+<a href="itcell.html" style="text-decoration:none;color:#0f477a;">Hosted by: IT Cell GEC Munger</a>
+</div>
+</div>
+
+<script src="timetable-common.js"></script>
+
+<script>
+const API="./timetable.json";
+let commonDataLoaded=false;
+
+async function loadCommonData(){
+    try{
+        const [facultyResponse,subjectResponse]=await Promise.all([
+            fetch("./faculty_info.json"),
+            fetch("./subject_info.json")
+        ]);
+
+        if(!facultyResponse.ok) throw new Error("Unable to load faculty_info.json");
+        if(!subjectResponse.ok) throw new Error("Unable to load subject_info.json");
+
+        const facultyData=await facultyResponse.json();
+        const subjectData=await subjectResponse.json();
+
+console.log("Subject JSON:", subjectData);
+
+initializeTimetableCommon(facultyData,subjectData);
+commonDataLoaded=true;
+    }catch(error){
+        console.error(error);
+        alert("Unable to load faculty or subject information.");
+    }
+}
+
+function parseTimetableCell(cell){
+    if(!cell) return null;
+
+    cell=String(cell).trim();
+
+    if(["LIB","HOLIDAY","FREE"].includes(cell.toUpperCase())) return null;
+
+    const parts=cell.split("|");
+    if(parts.length!==3) return null;
+
+    let firstPart=parts[0].trim();
+    const facultyPart=parts[1].trim();
+    const room=parts[2].trim();
+    let group="";
+    let subject=firstPart;
+
+    if(firstPart.includes(",")){
+        const commaIndex=firstPart.indexOf(",");
+        group=firstPart.substring(0,commaIndex).trim();
+        subject=firstPart.substring(commaIndex+1).trim();
+    }
+
+    const faculty=facultyPart.split("+")
+        .map(code=>code.trim().toUpperCase())
+        .filter(Boolean);
+
+    return{
+        group,
+        subject,
+        faculty,
+        room
+    };
+}
+
+function formatSubject(group,subject){
+    let html="";
+
+    if(group){
+        html+=`<div class="class-group">${escapeHTML(group)}</div>`;
+    }
+
+    html+=`<div class="subject-code">${subjectLink(subject)}</div>`;
+
+    return html;
+}
+
+function formatFaculty(facultyCodes){
+    if(!facultyCodes||facultyCodes.length===0) return "";
+
+    return facultyCodes
+        .map(code=>facultyLink(code))
+        .join(" + ");
+}
+
+async function searchSlot(){
+    const day=document.getElementById("day").value;
+    const slot=document.getElementById("slot").value;
+    const result=document.getElementById("result");
+
+    if(!day||!slot){
+        result.innerHTML="Please select both Day and Time Slot";
+        return;
+    }
+
+    if(!commonDataLoaded){
+        result.innerHTML="Loading information. Please try again.";
+        await loadCommonData();
+
+        if(!commonDataLoaded) return;
+    }
+
+    try{
+        const response=await fetch(API);
+
+        if(!response.ok) throw new Error("Unable to load timetable.json");
+
+        const data=await response.json();
+        const results=[];
+
+        data.forEach(row=>{
+            if(String(row.Day||"").trim()!==day) return;
+
+            const cell=String(row[slot]||"").trim();
+            if(!cell) return;
+
+            const classData=parseTimetableCell(cell);
+            if(!classData) return;
+
+            results.push({
+                room:classData.room,
+                branch:row.Branch,
+                semester:row.Semester,
+                group:classData.group,
+                subject:classData.subject,
+                faculty:classData.faculty
+            });
+        });
+
+        if(results.length===0){
+            result.innerHTML="No classes running in this slot.";
+            return;
+        }
+
+        let html=`
+        <table>
+        <thead>
+        <tr>
+        <th>Room</th>
+        <th>Branch</th>
+        <th>Semester</th>
+        <th>Subject</th>
+        <th>Faculty</th>
+        </tr>
+        </thead>
+        <tbody>`;
+
+        results.forEach(r=>{
+            html+=`
+            <tr>
+            <td>${escapeHTML(r.room||"")}</td>
+            <td>${escapeHTML(r.branch||"")}</td>
+            <td>${escapeHTML(r.semester||"")}</td>
+            <td>${formatSubject(r.group,r.subject)}</td>
+            <td>${formatFaculty(r.faculty)}</td>
+            </tr>`;
+        });
+
+        html+=`</tbody></table>`;
+        result.innerHTML=html;
+
+    }catch(error){
+        console.error(error);
+        result.innerHTML="Error loading timetable. Please try again.";
+    }
+}
+
+loadCommonData();
+</script>
+</body>
+</html>

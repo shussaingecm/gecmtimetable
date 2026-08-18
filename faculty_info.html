@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Faculty Information</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+  margin-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(120deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px 40px;
+  align-items: flex-start;
+}
+
+.card{
+background:white;
+width:95%;
+max-width:700px;
+height:fit-content;
+min-height:0;
+padding:40px 40px;
+border-radius:12px;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+.card.expanded{
+width:100%;
+max-width:800px;
+height:auto;
+padding:25px 30px 10px;
+}
+.logo-container{
+  text-align:center;
+  margin-bottom:8px;
+}
+
+.college-logo{
+  max-width:100px;
+  height:auto;
+}
+h2 { 
+  text-align:center;
+  color:#0b3c5d;
+  margin:15px 0 15px;
+  font-size:20px;
+}
+
+/* ===== LOADING TEXT ===== */
+#loading {
+  text-align: center;
+  font-size: 14px;
+  color: #0b3c5d;
+  font-weight: bold;
+}
+
+/* ===== TABLE ===== */
+.table-wrapper {
+  overflow-x: auto;
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #cfd8dc;
+  padding: 8px;
+  text-align: center;
+  font-size: 13px;
+}
+
+th {
+  background: #0b3c5d;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+tr:nth-child(even) {
+  background: #f8fbff;
+}
+
+.dept-section{
+  margin-bottom:10px;
+}
+
+.dept-title{
+  background:#0b3c5d;
+  color:white;
+  padding:8px;
+  text-align:center;
+  border-radius:6px;
+  margin-bottom:8px;
+  font-size:15px;
+}
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  border:1px solid #cfd8dc;
+  padding:8px;
+  font-size:13px;
+}
+
+th{
+  background:#0b3c5d;
+  color:white;
+}
+
+tr:nth-child(even){
+  background:#f6f9fc;
+}
+
+.controls{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  margin-bottom:60px;
+  flex-wrap:wrap;
+}
+
+.controls select,
+.controls button{
+  padding:6px 10px;
+  font-size:14px;
+  border-radius:6px;
+  border:1px solid #0b5592;
+}
+
+.controls select{
+  width:180px;
+}
+
+.controls button{
+  width:120px;
+}
+
+.controls button{
+  background:#0b3c5d;
+  color:white;
+  cursor:pointer;
+  border:none;
+}
+
+.controls button:hover{
+  background:#06263d;
+}
+
+.note {
+font-family: Georgia, Arial, Helvetica;
+text-align: center;
+margin-top: 12px;
+margin-bottom: 20px;
+color: #0f477a;
+font-weight: bold;
+font-size: 12px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+  th, td {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+<div class="card">
+
+  <div class="logo-container">
+    <img src="gecm_logo.jpg" alt="GEC Munger Logo" class="college-logo">
+  </div>
+
+<h2>Faculty Information</h2>
+
+<div class="controls">
+  <select id="department">
+    <option value="">Select Department</option>
+  </select>
+
+  <button onclick="showFaculty()">Show Faculty</button>
+</div>
+
+<div id="loading">Loading faculty information…</div>
+
+  <div class="table-wrapper" id="tableWrapper">
+    <table id="facultyTable">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+<div class="note">
+  <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
+    Hosted by: IT Cell GEC Munger
+  </a>
+</div>
+
+</div>
+
+<script>
+const API = "./faculty_info.json";
+
+let facultyData = [];
+
+fetch(API)
+  .then(res => res.json())
+  .then(data => {
+
+    facultyData = data;
+
+    const departmentSelect =
+      document.getElementById("department");
+
+    const departments = [
+      ...new Set(
+        data.map(row => row.Department || "Other")
+      )
+    ];
+
+    departments.sort();
+
+    departments.forEach(dept => {
+
+      const option = document.createElement("option");
+
+      option.value = dept;
+      option.textContent = dept;
+
+      departmentSelect.appendChild(option);
+    });
+
+    document.getElementById("loading").style.display = "none";
+
+  })
+  .catch(err => {
+
+    document.getElementById("loading").innerText =
+      "Error loading data. Please try again.";
+
+    console.error(err);
+  });
+
+
+function showFaculty() {
+  
+  const department =
+    document.getElementById("department").value;
+
+  const container =
+    document.getElementById("tableWrapper");
+
+  if (!department) {
+
+    container.style.display = "none";
+
+    alert("Please select a department.");
+
+    return;
+  }
+  document.querySelector(".card").classList.add("expanded");
+  const filtered = facultyData.filter(
+    row => (row.Department || "Other") === department
+  );
+
+  if (filtered.length === 0) {
+
+    container.innerHTML =
+      '<div style="text-align:center;color:red;font-weight:bold;">No faculty found for this department.</div>';
+
+    container.style.display = "block";
+
+    return;
+  }
+
+  let html = `
+    <div class="dept-section">
+
+      <h3 class="dept-title">
+        ${department}
+      </h3>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Sr. No</th>
+            <th>Faculty Code</th>
+            <th>Name</th>
+            <th>Designation</th>
+          </tr>
+        </thead>
+
+        <tbody>
+  `;
+
+  filtered.forEach((faculty, index) => {
+
+    html += `
+      <tr>
+        <td>${index + 1}</td>
+
+        <td>
+          ${faculty.FacultyCode || ""}
+        </td>
+
+        <td style="text-align:left">
+          ${faculty.Name || ""}
+        </td>
+
+        <td>
+          ${faculty.Designation || ""}
+        </td>
+      </tr>
+    `;
+
+  });
+
+  html += `
+        </tbody>
+
+      </table>
+
+    </div>
+  `;
+
+  container.innerHTML = html;
+
+  container.style.display = "block";
+}
+</script>
+
+</body>
+</html>
+
+

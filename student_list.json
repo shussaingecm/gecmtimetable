@@ -1,0 +1,7580 @@
+[
+  {
+    "Sr. No.": 1,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145001,
+    "Name": "NAYAN DEEP",
+    "Roll Number": "S-25109",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145002,
+    "Name": "SURYANSH VIKRAM SINGH",
+    "Roll Number": "S-25116",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145003,
+    "Name": "DEEPAK KUMAR",
+    "Roll Number": "S-25102",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145004,
+    "Name": "SAHJAD ANSARI",
+    "Roll Number": "S-25101",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145005,
+    "Name": "ANSHIKA SAWARN",
+    "Roll Number": "S-25110",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145006,
+    "Name": "PRIYA KUMARI",
+    "Roll Number": "S-25113",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145007,
+    "Name": "ABHISHEK RAJ",
+    "Roll Number": "S-25117",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145008,
+    "Name": "DHIRAJ KUMAR",
+    "Roll Number": "S-25152",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145009,
+    "Name": "SHUBHAM",
+    "Roll Number": "S-25123",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145010,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-25120",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145011,
+    "Name": "PAWAN KUMAR",
+    "Roll Number": "S-25105",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145012,
+    "Name": "ADARSH",
+    "Roll Number": "S-25103",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145013,
+    "Name": "MUNMUN BHARTI",
+    "Roll Number": "S-25106",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145014,
+    "Name": "BRAJESH PATHAK",
+    "Roll Number": "S-25115",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145015,
+    "Name": "AYUSH KUMAR",
+    "Roll Number": "S-25134",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145016,
+    "Name": "AVIT KUMAR",
+    "Roll Number": "S-25135",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145017,
+    "Name": "AASHISH KUMAR",
+    "Roll Number": "S-25124",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145018,
+    "Name": "RAVINA KUMARI",
+    "Roll Number": "S-25112",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145019,
+    "Name": "AKRITI KUMARI",
+    "Roll Number": "S-25150",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145020,
+    "Name": "ANAMIKA KUMARI",
+    "Roll Number": "S-25107",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145021,
+    "Name": "GAURAV KUMAR",
+    "Roll Number": "S-25128",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145022,
+    "Name": "RASHMI SUMAN",
+    "Roll Number": "S-25114",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145023,
+    "Name": "MADHURENDRA KUMAR",
+    "Roll Number": "S-25104",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145024,
+    "Name": "PIYUSH KUMAR",
+    "Roll Number": "S-25119",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145025,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-25137",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145026,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-25144",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145027,
+    "Name": "SUNNY KUMAR",
+    "Roll Number": "S-25145",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145028,
+    "Name": "AMIT PRAKASH",
+    "Roll Number": "S-25143",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145029,
+    "Name": "MOHAMMAD OMAIR ALAM",
+    "Roll Number": "S-25141",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145030,
+    "Name": "NITISH KUMAR SAHU",
+    "Roll Number": "S-25125",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145031,
+    "Name": "RIBANSHU RAJ",
+    "Roll Number": "S-25132",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145032,
+    "Name": "VIKRAM KUMAR",
+    "Roll Number": "S-25136",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145033,
+    "Name": "MOHIT KUMAR SINGH",
+    "Roll Number": "S-25151",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145034,
+    "Name": "UTSAV KUMAR",
+    "Roll Number": "S-25149",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145035,
+    "Name": "AMRITA KUMARI",
+    "Roll Number": "S-25139",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145036,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-25146",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "CE",
+    "Semester": 3,
+    "Reg. Number": 25101145037,
+    "Name": "ADITI RAJ",
+    "Roll Number": "S-25131",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145001,
+    "Name": "SHIVAM CHAUBEY",
+    "Roll Number": "S-25244",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145002,
+    "Name": "CHUNNU KUMAR",
+    "Roll Number": "S-25227",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145003,
+    "Name": "PREM KUMAR",
+    "Roll Number": "S-25207",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145004,
+    "Name": "MD MAHABOOB ALAM",
+    "Roll Number": "S-25220",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145005,
+    "Name": "SANNI THAKUR",
+    "Roll Number": "S-25217",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145006,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "S-25218",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145007,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-25240",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145008,
+    "Name": "NIKHIL SAI RAJ",
+    "Roll Number": "S-25226",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145009,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-25235",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145010,
+    "Name": "DEEPAK KUMAR PANDIT",
+    "Roll Number": "S-25209",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145011,
+    "Name": "MANI BHUSHAN KUMAR",
+    "Roll Number": "S-25228",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145012,
+    "Name": "PRIYESH SHARMA",
+    "Roll Number": "S-25230",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145013,
+    "Name": "DEEPAK KUMAR",
+    "Roll Number": "S-25201",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145014,
+    "Name": "ARMAN ANSARI",
+    "Roll Number": "S-25229",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145015,
+    "Name": "SAGAR KUMAR",
+    "Roll Number": "S-25234",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145016,
+    "Name": "SAROVAR KUMAR",
+    "Roll Number": "S-25208",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145017,
+    "Name": "TABREJ ALAM",
+    "Roll Number": "S-25237",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145018,
+    "Name": "DIVYANSHU RAJ",
+    "Roll Number": "S-25231",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145019,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-25233",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145020,
+    "Name": "BADAL KUMAR",
+    "Roll Number": "S-25222",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145021,
+    "Name": "ANKUSH RAJ",
+    "Roll Number": "S-25236",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145022,
+    "Name": "NISHANT KUMAR",
+    "Roll Number": "S-25238",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145023,
+    "Name": "DEEPAK KUMAR SAH",
+    "Roll Number": "S-25239",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145024,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "S-25241",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145025,
+    "Name": "PAWAN KUMAR",
+    "Roll Number": "S-25214",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145026,
+    "Name": "RISHU RAJ",
+    "Roll Number": "S-25242",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145027,
+    "Name": "SAURABH KUMAR",
+    "Roll Number": "S-25204",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145028,
+    "Name": "SUDHAKAR KUMAR GUPTA",
+    "Roll Number": "S-25243",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145029,
+    "Name": "AMIT KUMAR",
+    "Roll Number": "S-25215",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "ME",
+    "Semester": 3,
+    "Reg. Number": 25102145030,
+    "Name": "ANKUSH RAJ",
+    "Roll Number": "S-25203",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145001,
+    "Name": "GAUTAM KUMAR",
+    "Roll Number": "S-25304",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145002,
+    "Name": "SANTOSH KUMAR",
+    "Roll Number": "S-25333",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145003,
+    "Name": "ARVIND KUMAR",
+    "Roll Number": "S-25303",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145004,
+    "Name": "AMIT KUMAR",
+    "Roll Number": "S-25327",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145005,
+    "Name": "SHIVAM RAJ",
+    "Roll Number": "S-25340",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145006,
+    "Name": "AKLESH KUMAR",
+    "Roll Number": "S-25325",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145007,
+    "Name": "SACHIN KUMAR",
+    "Roll Number": "S-25305",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145008,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-25329",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145009,
+    "Name": "SHUBHAM KARN",
+    "Roll Number": "S-25332",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145010,
+    "Name": "AYUSH RAJ",
+    "Roll Number": "S-25334",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145011,
+    "Name": "HIMANSHU KUMAR SHARMA",
+    "Roll Number": "S-25338",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145012,
+    "Name": "PRATYAY SOM",
+    "Roll Number": "S-25317",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145013,
+    "Name": "NIKHIL KUMAR",
+    "Roll Number": "S-25319",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145014,
+    "Name": "HARSH RAJ KESHRI",
+    "Roll Number": "S-25302",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145015,
+    "Name": "DEEPAK KUMAR SAHU",
+    "Roll Number": "S-25308",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145016,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "S-25322",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145017,
+    "Name": "SACHIN KUMAR YADAV",
+    "Roll Number": "S-25330",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145018,
+    "Name": "JAIPRAKASH KUMAR",
+    "Roll Number": "S-25320",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145019,
+    "Name": "VIKRAM KUMAR",
+    "Roll Number": "S-25315",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145020,
+    "Name": "AJIT KUMAR",
+    "Roll Number": "S-25323",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145021,
+    "Name": "TARIQUE AHSAN",
+    "Roll Number": "S-25344",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145022,
+    "Name": "PRASHANT KUMAR",
+    "Roll Number": "S-25316",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145023,
+    "Name": "BITTU KUMAR",
+    "Roll Number": "S-25326",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145024,
+    "Name": "RAUNAQUE RAJ",
+    "Roll Number": "S-25328",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145025,
+    "Name": "SUDHANSHU KUMAR",
+    "Roll Number": "S-25337",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145026,
+    "Name": "VISHAL KUMAR",
+    "Roll Number": "S-25339",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145027,
+    "Name": "MD AJMAL RAZA",
+    "Roll Number": "S-25301",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145028,
+    "Name": "YUVRAJ KUMAR",
+    "Roll Number": "S-25345",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145029,
+    "Name": "SHUBHAM KUMAR",
+    "Roll Number": "S-25331",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145030,
+    "Name": "KAMAL KANT PRASAD",
+    "Roll Number": "S-25318",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145031,
+    "Name": "BHAROSH KUMAR",
+    "Roll Number": "S-25346",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145032,
+    "Name": "PAWAN KUMAR",
+    "Roll Number": "S-25341",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145033,
+    "Name": "MANVENDRA KUMAR",
+    "Roll Number": "S-25343",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145034,
+    "Name": "NANDAN KUMAR",
+    "Roll Number": "S-25336",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145035,
+    "Name": "MOHAMMAD SHAHID ANSARI",
+    "Roll Number": "S-25335",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 25103145036,
+    "Name": "RAJAN KUMAR",
+    "Roll Number": "S-25310",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 24103145004,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "S-24318",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 38,
+    "Branch": "EE",
+    "Semester": 3,
+    "Reg. Number": 24103145031,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24317",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145001,
+    "Name": "ASHMIT RANJAN",
+    "Roll Number": "S-25431",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145002,
+    "Name": "ANURAG KUMAR",
+    "Roll Number": "S-25423",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145003,
+    "Name": "SONU KUMAR",
+    "Roll Number": "S-25434",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145004,
+    "Name": "SURAJ RAJESH SAH",
+    "Roll Number": "S-25413",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145005,
+    "Name": "ATUL KUMAR",
+    "Roll Number": "S-25438",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145006,
+    "Name": "RITESH KUMAR",
+    "Roll Number": "S-25442",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145007,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-25401",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145008,
+    "Name": "SAJAN KUMAR",
+    "Roll Number": "S-25414",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145009,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "S-25430",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145010,
+    "Name": "FARDEEN KAUSAR",
+    "Roll Number": "S-25425",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145011,
+    "Name": "ADITYA KUMAR SINGH",
+    "Roll Number": "S-25416",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145012,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-25426",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145013,
+    "Name": "PRASHANT KUMAR",
+    "Roll Number": "S-25402",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145014,
+    "Name": "ALOK RANJAN",
+    "Roll Number": "S-25404",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145015,
+    "Name": "SHUBHAM KUMAR",
+    "Roll Number": "S-25405",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145016,
+    "Name": "RAUSHAN KUMAR YADAV",
+    "Roll Number": "S-25411",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145017,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "S-25424",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145018,
+    "Name": "DHEERAJ SINGH",
+    "Roll Number": "S-25429",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145019,
+    "Name": "ANIKET RAJ",
+    "Roll Number": "S-25412",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145020,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-25432",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145021,
+    "Name": "DHARMENDRA KUMAR",
+    "Roll Number": "S-25440",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145022,
+    "Name": "ARYA KUMARI",
+    "Roll Number": "S-25419",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145023,
+    "Name": "ADITYA SINGH",
+    "Roll Number": "S-25406",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145024,
+    "Name": "ADITYA RAJ",
+    "Roll Number": "S-25415",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145025,
+    "Name": "VIKAS KUMAR",
+    "Roll Number": "S-25409",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145026,
+    "Name": "SHREYASH KUMAR",
+    "Roll Number": "S-25435",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145027,
+    "Name": "ADARSH KUMAR",
+    "Roll Number": "S-25428",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145028,
+    "Name": "KAMLESH KUMAR",
+    "Roll Number": "S-25417",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145029,
+    "Name": "SURAJ KUMAR",
+    "Roll Number": "S-25441",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145030,
+    "Name": "PREM KUMAR GUPTA",
+    "Roll Number": "S-25439",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145031,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-25421",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145032,
+    "Name": "ADITYA RAJ",
+    "Roll Number": "S-25408",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145033,
+    "Name": "PIYUSH KUMAR",
+    "Roll Number": "S-25407",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145034,
+    "Name": "GOURAV KUMAR",
+    "Roll Number": "S-25422",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145035,
+    "Name": "GOLU KUMAR",
+    "Roll Number": "S-25433",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145036,
+    "Name": "KUMARI SHIKHA",
+    "Roll Number": "S-25437",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "CSE (AI)",
+    "Semester": 3,
+    "Reg. Number": 25104145037,
+    "Name": "UTSAV KUMAR",
+    "Roll Number": "S-25436",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145001,
+    "Name": "RAJVEER SINGH",
+    "Roll Number": "S-25517",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145002,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-25512",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145003,
+    "Name": "ASHUTOSH KUMAR",
+    "Roll Number": "S-25524",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145004,
+    "Name": "NITIN KUMAR",
+    "Roll Number": "S-25530",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145005,
+    "Name": "SHIVANI KUMARI",
+    "Roll Number": "S-25513",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145006,
+    "Name": "SUMAN RAJ",
+    "Roll Number": "S-25559",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145007,
+    "Name": "AADITYA KUMAR",
+    "Roll Number": "S-25535",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145008,
+    "Name": "HEMA KUMARI",
+    "Roll Number": "S-25502",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145009,
+    "Name": "PRITOSH KUMAR BHAGAT",
+    "Roll Number": "S-25520",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145010,
+    "Name": "HIMANSHU KUMAR MISHRA",
+    "Roll Number": "S-25532",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145011,
+    "Name": "KUNDAN KUMAR",
+    "Roll Number": "S-25508",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145012,
+    "Name": "JISU KUMAR",
+    "Roll Number": "S-25531",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145013,
+    "Name": "HARSH KUMAR",
+    "Roll Number": "S-25525",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145014,
+    "Name": "PRAKASH DAYAL",
+    "Roll Number": "S-25516",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145015,
+    "Name": "ANKIT RAJ",
+    "Roll Number": "S-25515",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145016,
+    "Name": "PRIYANSHU KUMAR",
+    "Roll Number": "S-25554",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145017,
+    "Name": "AKANKSHA SHANDILYA",
+    "Roll Number": "S-25510",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145018,
+    "Name": "ISHA KUMARI",
+    "Roll Number": "S-25542",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145019,
+    "Name": "RASID ANSARI",
+    "Roll Number": "S-25505",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145020,
+    "Name": "NAVNEET SINGH DANGI",
+    "Roll Number": "S-25511",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145021,
+    "Name": "DIMPLE KUMARI",
+    "Roll Number": "S-25553",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145022,
+    "Name": "ABHINAV",
+    "Roll Number": "S-25506",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145023,
+    "Name": "NANDANI KUMARI",
+    "Roll Number": "S-25561",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145024,
+    "Name": "RISHAV KUMAR",
+    "Roll Number": "S-25548",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145025,
+    "Name": "SHASHI KANT",
+    "Roll Number": "S-25527",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145026,
+    "Name": "NAHID ANSARI",
+    "Roll Number": "S-25514",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145027,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-25509",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145028,
+    "Name": "SUJAL KUMAR",
+    "Roll Number": "S-25526",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145029,
+    "Name": "ROCKY KUMAR",
+    "Roll Number": "S-25551",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145030,
+    "Name": "SURAJ KUMAR YADAV",
+    "Roll Number": "S-25560",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145031,
+    "Name": "ANSHUMAN",
+    "Roll Number": "S-25541",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145032,
+    "Name": "ADITYA KUMAR SINGH",
+    "Roll Number": "S-25529",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145033,
+    "Name": "SUKESH KUMAR",
+    "Roll Number": "S-25518",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145034,
+    "Name": "PRIYANSHI KUMARI",
+    "Roll Number": "S-25558",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145035,
+    "Name": "SURAJ KUMAR",
+    "Roll Number": "S-25534",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145036,
+    "Name": "PRITY KUMARI",
+    "Roll Number": "S-25549",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145037,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-25521",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 38,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145038,
+    "Name": "KHUSHI KUMARI",
+    "Roll Number": "S-25544",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 39,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145039,
+    "Name": "SHREYA KUMARI",
+    "Roll Number": "S-25557",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 40,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145040,
+    "Name": "PALAK KUMARI",
+    "Roll Number": "S-25543",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 41,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145041,
+    "Name": "PAYAL KUMARI",
+    "Roll Number": "S-25537",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 42,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145042,
+    "Name": "SHIVANI KUMARI",
+    "Roll Number": "S-25540",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 43,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145043,
+    "Name": "MEHAK KUMARI",
+    "Roll Number": "S-25536",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 44,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145044,
+    "Name": "KHADIJA HANNAN",
+    "Roll Number": "S-25503",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 45,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145045,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-25555",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 46,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145046,
+    "Name": "BISHNU KUMAR",
+    "Roll Number": "S-25545",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 47,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145047,
+    "Name": "AADARSH SHARMA",
+    "Roll Number": "S-25533",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 48,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145048,
+    "Name": "AMIT KUMAR",
+    "Roll Number": "S-25523",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 49,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145049,
+    "Name": "SHYAM CHAUPAL",
+    "Roll Number": "S-25539",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 50,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145050,
+    "Name": "KAUSHIK SAURAV",
+    "Roll Number": "S-25519",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 51,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145051,
+    "Name": "ROHAN KUMAR",
+    "Roll Number": "S-25550",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 52,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145052,
+    "Name": "AVNISH RAGHAV",
+    "Roll Number": "S-25501",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 53,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145053,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "S-25504",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 54,
+    "Branch": "CSE (DS)",
+    "Semester": 3,
+    "Reg. Number": 25153145054,
+    "Name": "PRAKASH VERMA",
+    "Roll Number": "S-25528",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145001,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "S-25641",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145002,
+    "Name": "RISHAV KUMAR",
+    "Roll Number": "S-25627",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145003,
+    "Name": "SHWETABH SUMAN",
+    "Roll Number": "S-25619",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145004,
+    "Name": "ANURAG KUMAR",
+    "Roll Number": "S-25644",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145005,
+    "Name": "AMIT KUMAR YADAV",
+    "Roll Number": "S-25642",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145006,
+    "Name": "ASHISH KUMAR SHARMA",
+    "Roll Number": "S-25649",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145007,
+    "Name": "ABHIJEET KUMAR",
+    "Roll Number": "S-25638",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145008,
+    "Name": "GULSHAN KUMAR",
+    "Roll Number": "S-25614",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145009,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "S-25602",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145010,
+    "Name": "SYED ARMAN",
+    "Roll Number": "S-25651",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145011,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "S-25604",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145012,
+    "Name": "SACHIN KUMAR",
+    "Roll Number": "S-25624",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145013,
+    "Name": "HIMANSHU RAJ",
+    "Roll Number": "S-25607",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145014,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "S-25608",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145015,
+    "Name": "KHUSHAL KUMAR",
+    "Roll Number": "S-25636",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145016,
+    "Name": "SAPNA KUMARI",
+    "Roll Number": "S-25637",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145017,
+    "Name": "PRASHANT KUMAR",
+    "Roll Number": "S-25628",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145018,
+    "Name": "YUVIKA KUMARI",
+    "Roll Number": "S-25612",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145019,
+    "Name": "SURBHI KUMARI",
+    "Roll Number": "S-25610",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145020,
+    "Name": "NITIN KUMAR",
+    "Roll Number": "S-25613",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145021,
+    "Name": "AYUSH KUMAR",
+    "Roll Number": "S-25635",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145022,
+    "Name": "MAYANK PRAKASH",
+    "Roll Number": "S-25632",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145023,
+    "Name": "GULAM MOINUDDIN",
+    "Roll Number": "S-25631",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145024,
+    "Name": "VIKRAM KUMAR",
+    "Roll Number": "S-25621",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145025,
+    "Name": "SHIVAM KUMAR CHOUDHARY",
+    "Roll Number": "S-25633",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145026,
+    "Name": "AMAN SHARMA",
+    "Roll Number": "S-25617",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145027,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-25605",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145028,
+    "Name": "SANTOSH KUMAR",
+    "Roll Number": "S-25639",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145029,
+    "Name": "BHUPENDRA KUMAR",
+    "Roll Number": "S-25643",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145030,
+    "Name": "MONU KUMAR",
+    "Roll Number": "S-25634",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145031,
+    "Name": "MONU KUMAR",
+    "Roll Number": "S-25648",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145032,
+    "Name": "PANKAJ KUMAR",
+    "Roll Number": "S-25640",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145033,
+    "Name": "RAUSHANI KUMARI",
+    "Roll Number": "S-25620",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145034,
+    "Name": "LUCKY KUMARI",
+    "Roll Number": "S-25626",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145035,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "S-25646",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145036,
+    "Name": "SAHIL KUMAR",
+    "Roll Number": "S-25603",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145037,
+    "Name": "AMAR KUMAR",
+    "Roll Number": "S-25601",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 38,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145038,
+    "Name": "RAJA KUMAR CHAURASIYA",
+    "Roll Number": "S-25622",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 39,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145039,
+    "Name": "JATIN KUMAR",
+    "Roll Number": "S-25606",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 40,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145040,
+    "Name": "HARSH RANJAN",
+    "Roll Number": "S-25652",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 41,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 25119145041,
+    "Name": "RAUNAK RAJ",
+    "Roll Number": "S-25650",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 42,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 24119145006,
+    "Name": "PRAHLAD KUMAR",
+    "Roll Number": "S-24615",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 43,
+    "Branch": "CSE (M&C)",
+    "Semester": 3,
+    "Reg. Number": 24119145027,
+    "Name": "SAHIR MARGUB",
+    "Roll Number": "S-24603",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 1,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145002,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-24104",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 2,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145003,
+    "Name": "MD JAKIR SAFI",
+    "Roll Number": "S-24107",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 3,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145004,
+    "Name": "VISHAL KUMAR",
+    "Roll Number": "S-24108",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 4,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145005,
+    "Name": "DEEPAK KUMAR",
+    "Roll Number": "S-24109",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 5,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145006,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-24111",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 6,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145007,
+    "Name": "RAHUL KUMAR",
+    "Roll Number": "S-24113",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 7,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145008,
+    "Name": "AADITYA KUMAR",
+    "Roll Number": "S-24110",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 8,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145009,
+    "Name": "RITESH KUMAR",
+    "Roll Number": "S-24117",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 9,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145010,
+    "Name": "NAVEEN KUMAR",
+    "Roll Number": "S-24115",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 10,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145011,
+    "Name": "VINEET KUMAR",
+    "Roll Number": "S-24118",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 11,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145012,
+    "Name": "MANISH KUMAR",
+    "Roll Number": "S-24119",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 12,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145013,
+    "Name": "PALLAVI RANI",
+    "Roll Number": "S-24123",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 13,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145014,
+    "Name": "AVINEET KUMAR",
+    "Roll Number": "S-24124",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 14,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145015,
+    "Name": "VISHAL NISHCHHAL",
+    "Roll Number": "S-24125",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 15,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145016,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-24127",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 16,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145017,
+    "Name": "AKASH KUMAR",
+    "Roll Number": "S-24128",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 17,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145018,
+    "Name": "SUMAN KUMAR",
+    "Roll Number": "S-24129",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 18,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145019,
+    "Name": "VIPUL KUMAR",
+    "Roll Number": "S-24130",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 19,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145020,
+    "Name": "ABHAY KUMAR SINGH",
+    "Roll Number": "S-24133",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 20,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145021,
+    "Name": "SAMEER KUMAR SUMAN",
+    "Roll Number": "S-24134",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 21,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145022,
+    "Name": "SUMAN SAURAV",
+    "Roll Number": "S-24132",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 22,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145024,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24140",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 23,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145025,
+    "Name": "PRANAV KUMAR",
+    "Roll Number": "S-24137",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 24,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145026,
+    "Name": "NARESH KUMAR",
+    "Roll Number": "S-24142",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 25,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145027,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-24138",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 26,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145028,
+    "Name": "KUNAL KUMAR SANGAM",
+    "Roll Number": "S-24131",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 27,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145029,
+    "Name": "BIBHAV KUMAR",
+    "Roll Number": "S-24116",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 28,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145030,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-24101",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 29,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145031,
+    "Name": "ADARSH GYANI",
+    "Roll Number": "S-24143",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 30,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145032,
+    "Name": "CHANDANI KUMARI",
+    "Roll Number": "S-24139",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 31,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145033,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24102",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 32,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145034,
+    "Name": "PREM KUMAR",
+    "Roll Number": "S-24114",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 33,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145036,
+    "Name": "SAMIKSHA KUMARI",
+    "Roll Number": "S-24126",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 34,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145037,
+    "Name": "ADITYA KUNDAN",
+    "Roll Number": "S-24112",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 35,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 24101145039,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24121",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 36,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 23101145015,
+    "Name": "BITTU KUMAR GUPTA",
+    "Roll Number": "S-23408",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 37,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 23101145024,
+    "Name": "KAUSHAL KUMAR",
+    "Roll Number": "S-23428",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 38,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145901,
+    "Name": "AYANSHU KUMARI",
+    "Roll Number": "LE-25150",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 39,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145902,
+    "Name": "ANIKET RANJAN",
+    "Roll Number": "LE-25170",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 40,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145903,
+    "Name": "RIMJHIM RAJ",
+    "Roll Number": "LE-25149",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 41,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145904,
+    "Name": "MANISH KUIMAR",
+    "Roll Number": "LE-25147",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 42,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145905,
+    "Name": "FARHAD RASHID",
+    "Roll Number": "LE-25151",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 43,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145906,
+    "Name": "ANJALI KUMARI",
+    "Roll Number": "LE-25154",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 44,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145907,
+    "Name": "SWARNIKA KUMARI",
+    "Roll Number": "LE-25157",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 45,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145908,
+    "Name": "ATULYA KUMAR",
+    "Roll Number": "LE-25152",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 46,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145909,
+    "Name": "ARYAN",
+    "Roll Number": "LE-25159",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 47,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145910,
+    "Name": "UTTAM KUMAR",
+    "Roll Number": "LE-25155",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 48,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145911,
+    "Name": "ARVIND KUMAR",
+    "Roll Number": "LE-25156",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 49,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145912,
+    "Name": "MUSKAN KUMARI",
+    "Roll Number": "LE-25153",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 50,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145913,
+    "Name": "SAKSHI PRIYA",
+    "Roll Number": "LE-25169",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 51,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145914,
+    "Name": "CHANDAN KUMAR",
+    "Roll Number": "LE-25164",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 52,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145915,
+    "Name": "NILU KUMARI",
+    "Roll Number": "LE-25146",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 53,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145916,
+    "Name": "MUKESH KUMAR",
+    "Roll Number": "LE-25148",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 54,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145917,
+    "Name": "MONI KUMARI",
+    "Roll Number": "LE-25167",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 55,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145918,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "LE-25168",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 56,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145919,
+    "Name": "POOJA KUMARI",
+    "Roll Number": "LE-25145",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 57,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145920,
+    "Name": "SHRAWAN KUMAR",
+    "Roll Number": "LE-25158",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 58,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145921,
+    "Name": "HITESH VERDHAN",
+    "Roll Number": "LE-25171",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 59,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145922,
+    "Name": "ANJESH KUMAR",
+    "Roll Number": "LE-25161",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 60,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145923,
+    "Name": "RAVISHANKAR KUMAR",
+    "Roll Number": "LE-25172",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 61,
+    "Branch": "CE",
+    "Semester": 2,
+    "Reg. Number": 25101145924,
+    "Name": "DILKHUSH KUMAR",
+    "Roll Number": "LE-25162",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 301,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145001,
+    "Name": "ANKIT KUMAR ARYA",
+    "Roll Number": "S-24203",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 302,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145002,
+    "Name": "DIVYANSHU SINGH",
+    "Roll Number": "S-24206",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 303,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145003,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "S-24229",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 304,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145005,
+    "Name": "AKASH KUMAR",
+    "Roll Number": "S-24220",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 305,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145006,
+    "Name": "RAVI KUMAR YADAV",
+    "Roll Number": "S-24202",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 306,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145007,
+    "Name": "MD IRAFAN ANSARI",
+    "Roll Number": "S-24223",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 307,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145008,
+    "Name": "AASHISH KUMAR SHARMA",
+    "Roll Number": "S-24218",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 308,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145009,
+    "Name": "MD REHAN",
+    "Roll Number": "S-24225",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 309,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145011,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "S-24216",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 310,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145012,
+    "Name": "DIPANSU KUMAR",
+    "Roll Number": "S-24207",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 311,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145013,
+    "Name": "DIPAK KUMAR",
+    "Roll Number": "S-24236",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 312,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145014,
+    "Name": "ANAND KUMAR",
+    "Roll Number": "S-24222",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 313,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145015,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "S-24219",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 314,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145016,
+    "Name": "SHEKHAR KUMAR",
+    "Roll Number": "S-24228",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 315,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145017,
+    "Name": "YUVRAJ KUMAR",
+    "Roll Number": "S-24204",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 316,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145018,
+    "Name": "ADITI RAJ",
+    "Roll Number": "S-24212",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 317,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145021,
+    "Name": "ARYAN RAJ",
+    "Roll Number": "S-24232",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 318,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145022,
+    "Name": "VIVEK KUMAR DUBEY",
+    "Roll Number": "S-24231",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 319,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145023,
+    "Name": "DEEPAK KUMAR",
+    "Roll Number": "S-24213",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 320,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145024,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24214",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 321,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145025,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-24205",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 322,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145027,
+    "Name": "SATISH KUMAR",
+    "Roll Number": "S-24233",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 323,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145028,
+    "Name": "CHANDAN KUMAR YADAV",
+    "Roll Number": "S-24227",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 324,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145029,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-24217",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 325,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145030,
+    "Name": "RAUNAK DUBEY",
+    "Roll Number": "S-24209",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 326,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 24102145031,
+    "Name": "RAJ KUSHWAHA",
+    "Roll Number": "S-24221",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 327,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145901,
+    "Name": "RAKESH RANJAN",
+    "Roll Number": "LE-25247",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 328,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145902,
+    "Name": "RISHIKESH KUMAR PANDEY",
+    "Roll Number": "LE-25244",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 329,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145903,
+    "Name": "MANISH KUMAR",
+    "Roll Number": "LE-25240",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 330,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145904,
+    "Name": "MD JAMAL",
+    "Roll Number": "LE-25246",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 331,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145905,
+    "Name": "PRABHAT CHAUDHARY",
+    "Roll Number": "LE-25249",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 332,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145906,
+    "Name": "ZAHID HUSSAIN",
+    "Roll Number": "LE-25248",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 333,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145907,
+    "Name": "ALOK KUMAR",
+    "Roll Number": "LE-25238",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 334,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145908,
+    "Name": "SANDEEP SHEKHAR",
+    "Roll Number": "LE-25245",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 335,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145909,
+    "Name": "VISHAL KUMAR",
+    "Roll Number": "LE-25243",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 336,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145910,
+    "Name": "MD MONAZIR HUSSAIN",
+    "Roll Number": "LE-25241",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 337,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145911,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "LE-25239",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 338,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145912,
+    "Name": "CHANDARA AMIT KUMAR",
+    "Roll Number": "LE-25242",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 339,
+    "Branch": "ME",
+    "Semester": 4,
+    "Reg. Number": 25102145913,
+    "Name": "PRABHAKAR KUMAR",
+    "Roll Number": "LE-25237",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 340,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145001,
+    "Name": "RAUSHAN KUMAR PANDIT",
+    "Roll Number": "S-24331",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 341,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145002,
+    "Name": "VISHESH MISHRA",
+    "Roll Number": "S-24316",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 342,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145004,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "S-24318",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 343,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145005,
+    "Name": "MD SEJAN KHAN",
+    "Roll Number": "S-24313",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 344,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145006,
+    "Name": "SUNNY KUMAR",
+    "Roll Number": "S-24307",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 345,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145007,
+    "Name": "KESHAB KUMAR",
+    "Roll Number": "S-24320",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 346,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145008,
+    "Name": "PRABHAT RANJAN",
+    "Roll Number": "S-24334",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 347,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145009,
+    "Name": "GOVIND KUMAR",
+    "Roll Number": "S-24328",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 348,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145010,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "S-24314",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 349,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145011,
+    "Name": "RISHAV KUMAR",
+    "Roll Number": "S-24305",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 350,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145012,
+    "Name": "SNEHA GUPTA",
+    "Roll Number": "S-24308",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 351,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145013,
+    "Name": "Sanjay Kumar",
+    "Roll Number": "S-24309",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 352,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145014,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24336",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 353,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145015,
+    "Name": "RAUSHAN RAJ",
+    "Roll Number": "S-24304",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 354,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145016,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-24312",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 355,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145017,
+    "Name": "SHAYM KUMAR",
+    "Roll Number": "S-24301",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 356,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145018,
+    "Name": "MANISHA KUMARI",
+    "Roll Number": "S-24319",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 357,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145019,
+    "Name": "RAHUL KUMAR",
+    "Roll Number": "S-24326",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 358,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145020,
+    "Name": "VIKAS KUMAR",
+    "Roll Number": "S-24321",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 359,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145021,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "S-24323",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 360,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145022,
+    "Name": "SINHA BHASKAR KUMBHRAJ",
+    "Roll Number": "S-24302",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 361,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145023,
+    "Name": "GAUTAM KUMAR",
+    "Roll Number": "S-24324",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 362,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145024,
+    "Name": "VIRAT KUMAR",
+    "Roll Number": "S-24332",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 363,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145025,
+    "Name": "HANSH RAJ",
+    "Roll Number": "S-24322",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 364,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145027,
+    "Name": "AJAY KUMAR",
+    "Roll Number": "S-24311",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 365,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145028,
+    "Name": "SURAJ KUMAR RAY",
+    "Roll Number": "S-24315",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 366,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145029,
+    "Name": "GULSHAN KUMAR",
+    "Roll Number": "S-24327",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 367,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145031,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24317",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 368,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 24103145032,
+    "Name": "HARSH VARDHAN",
+    "Roll Number": "S-24329",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 369,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 23103145005,
+    "Name": "PRINCE KUMAR SHARMA",
+    "Roll Number": "S-23120",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 370,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 23103145013,
+    "Name": "JAGJIVAN KUMAR",
+    "Roll Number": "S-23108",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 371,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 23103145014,
+    "Name": "SATYAM KUMAR",
+    "Roll Number": "S-23117",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 372,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 23103145016,
+    "Name": "KAUSHAL KUMAR",
+    "Roll Number": "S-23113",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 373,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 23103145017,
+    "Name": "HIMANSHU RANJAN",
+    "Roll Number": "S-23124",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 374,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145901,
+    "Name": "SHREYA KUMARI",
+    "Roll Number": "LE-25342",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 375,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145902,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "LE-25346",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 376,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145903,
+    "Name": "SAURABH KUMAR JHA",
+    "Roll Number": "LE-25345",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 377,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145904,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "LE-25364",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 378,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145905,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "LE-25354",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 379,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145906,
+    "Name": "BACHCHAN KUMAR",
+    "Roll Number": "LE-25338",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 380,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145907,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "LE-25351",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 381,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145908,
+    "Name": "VINA KUMARI",
+    "Roll Number": "LE-25349",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 382,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145909,
+    "Name": "AMRITA KUMARI",
+    "Roll Number": "LE-25355",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 383,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145910,
+    "Name": "SAMIKSHA KUMARI",
+    "Roll Number": "LE-25356",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 384,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145911,
+    "Name": "NIRAJ KUMAR",
+    "Roll Number": "LE-25353",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 385,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145912,
+    "Name": "ABHINANDAN KUMAR JHA",
+    "Roll Number": "LE-25347",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 386,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145913,
+    "Name": "PRAKHAR KUMAR",
+    "Roll Number": "LE-25343",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 387,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145914,
+    "Name": "RAHUL KUMAR",
+    "Roll Number": "LE-25341",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 388,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145915,
+    "Name": "PARTHVI KUMARI",
+    "Roll Number": "LE-25363",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 389,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145916,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "LE-25357",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 390,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145917,
+    "Name": "SANIYA KUMARI",
+    "Roll Number": "LE-25359",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 391,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145918,
+    "Name": "ASHISH ANAND",
+    "Roll Number": "LE-25344",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 392,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145919,
+    "Name": "ABHISHEKH KUMAR YADAV",
+    "Roll Number": "LE-25358",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 393,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145920,
+    "Name": "SHAMSHER ALAM",
+    "Roll Number": "LE-25360",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 394,
+    "Branch": "CSE (DS)",
+    "Semester": 4,
+    "Reg. Number": 25103145921,
+    "Name": "SAMEER KUMAR",
+    "Roll Number": "LE-25340",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 395,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145002,
+    "Name": "ADARSH RAJ",
+    "Roll Number": "S-24403",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 396,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145003,
+    "Name": "AVINASH KUMAR",
+    "Roll Number": "S-24406",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 397,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145004,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-24415",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 398,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145005,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "S-24422",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 399,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145006,
+    "Name": "RAJA KUMAR",
+    "Roll Number": "S-24401",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 400,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145007,
+    "Name": "SHIVSHANKAR KUMAR",
+    "Roll Number": "S-24409",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 401,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145008,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-24427",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 402,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145009,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-24404",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 403,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145010,
+    "Name": "SHUSHANT KUMAR",
+    "Roll Number": "S-24426",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 404,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145011,
+    "Name": "AMAN VISHWAJEET",
+    "Roll Number": "S-24411",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 405,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145012,
+    "Name": "SHREYASH PANDEY",
+    "Roll Number": "S-24414",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 406,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145013,
+    "Name": "AYUSH KUMAR SHARMA",
+    "Roll Number": "S-24424",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 407,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145014,
+    "Name": "MUSTAJAB ALAM",
+    "Roll Number": "S-24402",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 408,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145015,
+    "Name": "ADITI PRIYA",
+    "Roll Number": "S-24419",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 409,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145016,
+    "Name": "ABHINAY THAKUR",
+    "Roll Number": "S-24435",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 410,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145017,
+    "Name": "BHASKAR KUNAL",
+    "Roll Number": "S-24420",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 411,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145018,
+    "Name": "ROHAN KUMAR",
+    "Roll Number": "S-24408",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 412,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145019,
+    "Name": "RANKIT KUMAR",
+    "Roll Number": "S-24432",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 413,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145020,
+    "Name": "SUJIT KUMAR",
+    "Roll Number": "S-24410",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 414,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145021,
+    "Name": "DHRUV KUMAR",
+    "Roll Number": "S-24425",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 415,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145022,
+    "Name": "NEHA KUMARI",
+    "Roll Number": "S-24421",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 416,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145023,
+    "Name": "ANKUSH KUMAR",
+    "Roll Number": "S-24423",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 417,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145024,
+    "Name": "SUMAN KUMAR",
+    "Roll Number": "S-24412",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 418,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145025,
+    "Name": "ASHISH KUMAR MISHRA",
+    "Roll Number": "S-24407",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 419,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145026,
+    "Name": "PRIYANSHU KUMAR",
+    "Roll Number": "S-24429",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 420,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145027,
+    "Name": "UJJWAL KUMAR SINGH",
+    "Roll Number": "S-24417",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 421,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145028,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-24434",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 422,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145029,
+    "Name": "MD REHAN",
+    "Roll Number": "S-24405",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 423,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145030,
+    "Name": "ASHU",
+    "Roll Number": "S-24428",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 424,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 24104145032,
+    "Name": "MANI RATNAM",
+    "Roll Number": "S-24433",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 425,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 23104145004,
+    "Name": "MD SHABAB ALAM",
+    "Roll Number": "S-23302",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 426,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 23104145005,
+    "Name": "RAVIRANJAN KUMAR",
+    "Roll Number": "S-23304",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 427,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 23104145007,
+    "Name": "VICKI KUMAR",
+    "Roll Number": "S-23309",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 428,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 23104145008,
+    "Name": "MANTOSH KUMAR",
+    "Roll Number": "S-23307",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 429,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145901,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "LE-25453",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 430,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145902,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "LE-25448",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 431,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145903,
+    "Name": "MANTU DAS",
+    "Roll Number": "LE-25441",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 432,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145904,
+    "Name": "AYUSH RAJ",
+    "Roll Number": "LE-25447",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 433,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145905,
+    "Name": "HARSH RAJ",
+    "Roll Number": "LE-25443",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 434,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145906,
+    "Name": "SACHIN KUMAR",
+    "Roll Number": "LE-25436",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 435,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145907,
+    "Name": "SURAJ KUMAR",
+    "Roll Number": "LE-25450",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 436,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145908,
+    "Name": "ALOK KUMAR",
+    "Roll Number": "LE-25449",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 437,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145909,
+    "Name": "SUMAN KUMARI",
+    "Roll Number": "LE-25440",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 438,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145910,
+    "Name": "RIYA KUMARI",
+    "Roll Number": "LE-25442",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 439,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145911,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "LE-25439",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 440,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145912,
+    "Name": "MD AZAM",
+    "Roll Number": "LE-25454",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 441,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145913,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "LE-25452",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 442,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145914,
+    "Name": "ADITYA RAJ",
+    "Roll Number": "LE-25445",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 443,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145915,
+    "Name": "SAGAR KUMAR SAH",
+    "Roll Number": "LE-25438",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 444,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145916,
+    "Name": "NEHA KUMARI",
+    "Roll Number": "LE-25437",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 445,
+    "Branch": "CSE (AI)",
+    "Semester": 2,
+    "Reg. Number": 25104145917,
+    "Name": "AMIT KUMAR PANDIT",
+    "Roll Number": "LE-25451",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 446,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145001,
+    "Name": "HIMANSHU RANJAN",
+    "Roll Number": "S-24504",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 447,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145002,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-24512",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 448,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145004,
+    "Name": "SURYANSH KUMAR",
+    "Roll Number": "S-24505",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 449,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145005,
+    "Name": "HARSHVARDHAN SEN",
+    "Roll Number": "S-24532",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 450,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145006,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24550",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 451,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145007,
+    "Name": "JYOTI ADITYA",
+    "Roll Number": "S-24509",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 452,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145008,
+    "Name": "ABHIGYAN KASHYAP",
+    "Roll Number": "S-24537",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 453,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145009,
+    "Name": "SHUBHAM KUMAR SRIVASTAV",
+    "Roll Number": "S-24522",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 454,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145010,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24515",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 455,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145011,
+    "Name": "MUSKAN KUMARI",
+    "Roll Number": "S-24543",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 456,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145012,
+    "Name": "PIYUSH KUMAR",
+    "Roll Number": "S-24523",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 457,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145013,
+    "Name": "VAISHNAWI VERMA",
+    "Roll Number": "S-24520",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 458,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145014,
+    "Name": "SONALI KUMARI",
+    "Roll Number": "S-24526",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 459,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145015,
+    "Name": "SWARUPA KUMARI",
+    "Roll Number": "S-24549",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 460,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145016,
+    "Name": "PRINCE",
+    "Roll Number": "S-24545",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 461,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145017,
+    "Name": "KHUSBOO KUMARI",
+    "Roll Number": "S-24544",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 462,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145018,
+    "Name": "ASMITA KUMARI",
+    "Roll Number": "S-24555",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 463,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145019,
+    "Name": "ANAND KUMAR GUPTA",
+    "Roll Number": "S-24529",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 464,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145020,
+    "Name": "AARTI RANI",
+    "Roll Number": "S-24546",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 465,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145021,
+    "Name": "RETU KUMARI",
+    "Roll Number": "S-24560",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 466,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145022,
+    "Name": "MANISHA KUMARI",
+    "Roll Number": "S-24524",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 467,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145023,
+    "Name": "SHIVANI KUMARI",
+    "Roll Number": "S-24503",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 468,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145024,
+    "Name": "ASHUTOSH RAJ",
+    "Roll Number": "S-24506",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 469,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145025,
+    "Name": "PRABHAT KUMAR",
+    "Roll Number": "S-24558",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 470,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145026,
+    "Name": "SAMEER KUMAR",
+    "Roll Number": "S-24536",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 471,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145027,
+    "Name": "ANSHU KUMARI",
+    "Roll Number": "S-24554",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 472,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145028,
+    "Name": "ANURADHA KUMARI",
+    "Roll Number": "S-24559",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 473,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145029,
+    "Name": "RIJU KUMARI",
+    "Roll Number": "S-24547",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 474,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145030,
+    "Name": "RAMASHANKAR KUMAR",
+    "Roll Number": "S-24530",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 475,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145032,
+    "Name": "MEGHNA ROBERT",
+    "Roll Number": "S-24514",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 476,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145033,
+    "Name": "GOLU KUMAR MANDAL",
+    "Roll Number": "S-24508",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 477,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145034,
+    "Name": "KESHAV CHOUDHARY",
+    "Roll Number": "S-24507",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 478,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145035,
+    "Name": "ASHIKA RAJ",
+    "Roll Number": "S-24501",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 479,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145036,
+    "Name": "AKRITI KUMARI",
+    "Roll Number": "S-24533",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 480,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145037,
+    "Name": "ABHIRAJ YADAV",
+    "Roll Number": "S-24541",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 481,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145038,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24557",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 482,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145039,
+    "Name": "PRATIGYA KUMARI",
+    "Roll Number": "S-24551",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 483,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145040,
+    "Name": "PRINCE AARYANARYA RAAZ",
+    "Roll Number": "S-24556",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 484,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145041,
+    "Name": "AKRITI KUMARI GUPTA",
+    "Roll Number": "S-24552",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 485,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145042,
+    "Name": "SILTU KUMAR",
+    "Roll Number": "S-24521",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 486,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145043,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "S-24510",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 487,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145044,
+    "Name": "PRAMESH ANAND",
+    "Roll Number": "S-24540",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 488,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145045,
+    "Name": "GHULAM TAHA",
+    "Roll Number": "S-24527",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 489,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145046,
+    "Name": "SUBHAM RAJ",
+    "Roll Number": "S-24502",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 490,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145047,
+    "Name": "RISHABH KUMAR",
+    "Roll Number": "S-24528",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 491,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145048,
+    "Name": "RAUNAK KUMAR",
+    "Roll Number": "S-24511",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 492,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145049,
+    "Name": "ANKUR KUMAR TRIVEDI",
+    "Roll Number": "S-24531",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 493,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145050,
+    "Name": "NARAYAN KUMAR",
+    "Roll Number": "S-24538",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 494,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145051,
+    "Name": "SHRUTIDHAR KUMAR",
+    "Roll Number": "S-24517",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 495,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145052,
+    "Name": "RAJKUMAR",
+    "Roll Number": "S-24534",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 496,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145053,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "S-24539",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 497,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145054,
+    "Name": "ANUP KUMAR",
+    "Roll Number": "S-24542",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 498,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145055,
+    "Name": "SUHANI KUMARI",
+    "Roll Number": "S-24553",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 499,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145056,
+    "Name": "RANJAN KUMAR",
+    "Roll Number": "S-24516",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 500,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 24153145057,
+    "Name": "NIRAJ KUMAR",
+    "Roll Number": "S-24519",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 501,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 23153145026,
+    "Name": "RAVI SHANKAR KUMAR",
+    "Roll Number": "S-23546",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 502,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 23153145032,
+    "Name": "NAMAN KUMAR",
+    "Roll Number": "S-23507",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 503,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 23153145035,
+    "Name": "SAHID ALI",
+    "Roll Number": "S-23503",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 504,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145901,
+    "Name": "ASHUTOSH KUMAR JHA",
+    "Roll Number": "LE-25563",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 505,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145902,
+    "Name": "RAJU KUMAR SAH",
+    "Roll Number": "LE-25564",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 506,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145903,
+    "Name": "ALOK KUMAR",
+    "Roll Number": "LE-25569",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 507,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145904,
+    "Name": "SUNNY KUMAR",
+    "Roll Number": "LE-25566",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 508,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145905,
+    "Name": "SMRITI KUMARI",
+    "Roll Number": "LE-25567",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 509,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145906,
+    "Name": "SYED ALI RAZA",
+    "Roll Number": "LE-25562",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 510,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145907,
+    "Name": "SHUBHAM RAJ",
+    "Roll Number": "LE-25565",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 511,
+    "Branch": "CSE (DS)",
+    "Semester": 6,
+    "Reg. Number": 25153145908,
+    "Name": "SHIKHA KUMARI",
+    "Roll Number": "LE-25568",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 512,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145001,
+    "Name": "ADITYA PRAKASH",
+    "Roll Number": "S-24601",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 513,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145002,
+    "Name": "ANISH KUMAR",
+    "Roll Number": "S-24602",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 514,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145003,
+    "Name": "SATYAM RAJ",
+    "Roll Number": "S-24607",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 515,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145004,
+    "Name": "ABHIJEET RAJ",
+    "Roll Number": "S-24611",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 516,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145005,
+    "Name": "SUDHANSHU KUMAR",
+    "Roll Number": "S-24614",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 517,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145007,
+    "Name": "ABHIDEO KUMAR ANAND",
+    "Roll Number": "S-24616",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 518,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145008,
+    "Name": "MD TAHSIM RAJA",
+    "Roll Number": "S-24617",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 519,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145009,
+    "Name": "DURGANAND YADAV",
+    "Roll Number": "S-24618",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 520,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145010,
+    "Name": "VISHAL KUMAR",
+    "Roll Number": "S-24605",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 521,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145011,
+    "Name": "RITURAJ KUMAR",
+    "Roll Number": "S-24619",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 522,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145013,
+    "Name": "RAHUL RAJ",
+    "Roll Number": "S-24622",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 523,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145014,
+    "Name": "RAUNAK RAJ",
+    "Roll Number": "S-24623",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 524,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145015,
+    "Name": "RAVI RAJ",
+    "Roll Number": "S-24625",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 525,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145016,
+    "Name": "NIDHI KUMARI",
+    "Roll Number": "S-24613",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 526,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145017,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "S-24626",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 527,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145018,
+    "Name": "ADARSH KUMAR",
+    "Roll Number": "S-24629",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 528,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145020,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-24612",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 529,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145021,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "S-24604",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 530,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145022,
+    "Name": "SURAJ KUMAR NIRALA",
+    "Roll Number": "S-24632",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 531,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145023,
+    "Name": "BIKASH KUMAR YADAV",
+    "Roll Number": "S-24631",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 532,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145024,
+    "Name": "ARUN KUMAR",
+    "Roll Number": "S-24630",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 533,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145025,
+    "Name": "SUMIT KUMAR",
+    "Roll Number": "S-24635",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 534,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145026,
+    "Name": "MD MERAJ",
+    "Roll Number": "S-24636",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 535,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145028,
+    "Name": "Tarakant Kumar",
+    "Roll Number": "S-24610",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 536,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 24119145029,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-24633",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 537,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 23119145001,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "S-23610",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 538,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 23119145016,
+    "Name": "VIPIN KUMAR",
+    "Roll Number": "S-23613",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 539,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145901,
+    "Name": "GAURI SHANKAR MAHTO",
+    "Roll Number": "LE-25646",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 540,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145902,
+    "Name": "PRIYANSHU KUMAR",
+    "Roll Number": "LE-25639",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 541,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145903,
+    "Name": "ADITYA RAJ",
+    "Roll Number": "LE-25638",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 542,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145904,
+    "Name": "SHABNAM PRAVIN",
+    "Roll Number": "LE-25661",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 543,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145905,
+    "Name": "SANIYA KUMARI",
+    "Roll Number": "LE-25657",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 544,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145906,
+    "Name": "ANJALI KUMARI",
+    "Roll Number": "LE-25658",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 545,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145907,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "LE-25642",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 546,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145908,
+    "Name": "VIDYASAGAR",
+    "Roll Number": "LE-25640",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 547,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145909,
+    "Name": "SWEETY KUMARI",
+    "Roll Number": "LE-25663",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 548,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145910,
+    "Name": "ADIL AKHTAR",
+    "Roll Number": "LE-25653",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 549,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145911,
+    "Name": "AKASH KUMAR",
+    "Roll Number": "LE-25644",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 550,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145912,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "LE-25647",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 551,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145913,
+    "Name": "ADITYA KUMAR",
+    "Roll Number": "LE-25643",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 552,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145914,
+    "Name": "KAUSHAL KUMAR",
+    "Roll Number": "LE-25652",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 553,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145915,
+    "Name": "ANUJ KUMAR",
+    "Roll Number": "LE-25637",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 554,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145916,
+    "Name": "VICKI KUMAR",
+    "Roll Number": "LE-25645",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 555,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145917,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "LE-25651",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 556,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145918,
+    "Name": "SONU KUMAR",
+    "Roll Number": "LE-25659",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 557,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145919,
+    "Name": "SANJIV KUMAR",
+    "Roll Number": "LE-25660",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 558,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145920,
+    "Name": "AKANKSHA KUMARI",
+    "Roll Number": "LE-25656",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 559,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145921,
+    "Name": "ALMAS QAMAR KHAN",
+    "Roll Number": "LE-25655",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 560,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145922,
+    "Name": "HARSH RAJ",
+    "Roll Number": "LE-25649",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 561,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145923,
+    "Name": "RIYA KUMARI",
+    "Roll Number": "LE-25662",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 562,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145924,
+    "Name": "RAJ KUMAR",
+    "Roll Number": "LE-25650",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 563,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145925,
+    "Name": "BHOLA KUMAR",
+    "Roll Number": "LE-25648",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 564,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145926,
+    "Name": "NAVAL KUMAR BAITHA",
+    "Roll Number": "LE-25664",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 565,
+    "Branch": "CSE (M&C)",
+    "Semester": 6,
+    "Reg. Number": 25119145927,
+    "Name": "ADITYA PATHAK",
+    "Roll Number": "LE-25641",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 566,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145001,
+    "Name": "DHEERAJ KUMAR CHOUDHARY",
+    "Roll Number": "S-23410",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 567,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145002,
+    "Name": "SUBHANSHU KUMAR RAY",
+    "Roll Number": "S-23412",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 568,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145003,
+    "Name": "NARESH KUMAR",
+    "Roll Number": "S-23402",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 569,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145004,
+    "Name": "PRITAM KUMAR",
+    "Roll Number": "S-23419",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 570,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145006,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-23404",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 571,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145007,
+    "Name": "SUSHIL KUMAR",
+    "Roll Number": "S-23425",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 572,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145008,
+    "Name": "DEVENDRA KUMAR",
+    "Roll Number": "S-23413",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 573,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145011,
+    "Name": "ANIL KUMAR",
+    "Roll Number": "S-23430",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 574,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145012,
+    "Name": "SANDHYA KUMARI",
+    "Roll Number": "S-23415",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 575,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145016,
+    "Name": "RITESH RAUSHAN",
+    "Roll Number": "S-23426",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 576,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145018,
+    "Name": "SATYA SURAJ",
+    "Roll Number": "S-23401",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 577,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145022,
+    "Name": "KARAN KUMAR",
+    "Roll Number": "S-23422",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 578,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145023,
+    "Name": "KAUSHAL KUMAR ANKIT",
+    "Roll Number": "S-23417",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 579,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 23101145025,
+    "Name": "ANI RAJ",
+    "Roll Number": "S-23403",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 580,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145901,
+    "Name": "RICHA KUMARI",
+    "Roll Number": "LE-24434",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 581,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145902,
+    "Name": "ADITYA RAJ",
+    "Roll Number": "LE-24437",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 582,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145903,
+    "Name": "HARENDRA KUMAR",
+    "Roll Number": "LE-24432",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 583,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145904,
+    "Name": "MD IMRAN",
+    "Roll Number": "LE-24439",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 584,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145905,
+    "Name": "AMAN RAJ GUPTA",
+    "Roll Number": "LE-24436",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 585,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145907,
+    "Name": "ABHISHEK KUMAR",
+    "Roll Number": "LE-24435",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 586,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145908,
+    "Name": "UJJAWAL PRAKASH",
+    "Roll Number": "LE-24438",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 587,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145909,
+    "Name": "VICKI KUMAR",
+    "Roll Number": "LE-24440",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 588,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 24101145910,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "LE-24433",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 589,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 21101145034,
+    "Name": "HIMANSHU KUMAR",
+    "Roll Number": "S-21444",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 590,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 21101145055,
+    "Name": "MD AARIPH",
+    "Roll Number": "S-21442",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 591,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 21101145043,
+    "Name": "Anurag Ranjan",
+    "Roll Number": "S-21431",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 592,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 21101145032,
+    "Name": "MANISH KUMAR",
+    "Roll Number": "S-21437",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 593,
+    "Branch": "CE",
+    "Semester": 6,
+    "Reg. Number": 22101145033,
+    "Name": "Sunil Kumar",
+    "Roll Number": "S-22438",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 594,
+    "Branch": "ME",
+    "Semester": 6,
+    "Reg. Number": 23102145001,
+    "Name": "ANJIT KUMAR",
+    "Roll Number": "S-23201",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 595,
+    "Branch": "ME",
+    "Semester": 6,
+    "Reg. Number": 23102145002,
+    "Name": "DIVYA KUMAR",
+    "Roll Number": "S-23202",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 596,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145002,
+    "Name": "MUKESH KUMAR",
+    "Roll Number": "S-23107",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 597,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145003,
+    "Name": "MD EHTASHAM",
+    "Roll Number": "S-23121",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 598,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145006,
+    "Name": "GAURAV KUMAR",
+    "Roll Number": "S-23119",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 599,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145008,
+    "Name": "RAHUL KUMAR",
+    "Roll Number": "S-23111",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 600,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145011,
+    "Name": "RAUSHAN KUMAR PATEL",
+    "Roll Number": "S-23118",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 601,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145012,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-23115",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 602,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145018,
+    "Name": "GOVIND KUMAR",
+    "Roll Number": "S-23106",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 603,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145019,
+    "Name": "AASHISH KUMAR",
+    "Roll Number": "S-23103",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 604,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145021,
+    "Name": "ISHWAR PRAKASH",
+    "Roll Number": "S-23112",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 605,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145022,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-23105",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 606,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 24103145901,
+    "Name": "MD HASAN ALI",
+    "Roll Number": "LE-24127",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 607,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 22103145003,
+    "Name": "SAURAV KUMAR",
+    "Roll Number": "S-22108",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 608,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 22103145005,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-22102",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 609,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 22103145007,
+    "Name": "CHANDAN KUMAR",
+    "Roll Number": "S-22105",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 610,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 22103145008,
+    "Name": "AJIT KUMAR",
+    "Roll Number": "S-22109",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 611,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145922,
+    "Name": "SHIVAM",
+    "Roll Number": "LE-23121",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 612,
+    "Branch": "EE",
+    "Semester": 6,
+    "Reg. Number": 23103145920,
+    "Name": "MD ASIF IMAM",
+    "Roll Number": "LE-23128",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 613,
+    "Branch": "ECE",
+    "Semester": 6,
+    "Reg. Number": 23104145001,
+    "Name": "SUJEET KUMAR",
+    "Roll Number": "S-23308",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 614,
+    "Branch": "ECE",
+    "Semester": 6,
+    "Reg. Number": 23104145002,
+    "Name": "HARSH RAJ",
+    "Roll Number": "S-23306",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 615,
+    "Branch": "ECE",
+    "Semester": 6,
+    "Reg. Number": 23104145003,
+    "Name": "MD FAISHAL ALAM",
+    "Roll Number": "S-23303",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 616,
+    "Branch": "ECE",
+    "Semester": 6,
+    "Reg. Number": 23104145006,
+    "Name": "AMARNATH KUMAR",
+    "Roll Number": "S-23301",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 617,
+    "Branch": "ECE",
+    "Semester": 6,
+    "Reg. Number": 21104145003,
+    "Name": "Rishu Kumar",
+    "Roll Number": "S-21307",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 618,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145001,
+    "Name": "AMIT RAJ",
+    "Roll Number": "S-23528",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 619,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145002,
+    "Name": "GUNJESH KUMAR",
+    "Roll Number": "S-23527",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 620,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145003,
+    "Name": "MOHAMMAD BIN SUBHAN",
+    "Roll Number": "S-23513",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 621,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145004,
+    "Name": "ANUJ MISHRA",
+    "Roll Number": "S-23542",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 622,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145005,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-23501",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 623,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145006,
+    "Name": "AMANDEEP RAJ",
+    "Roll Number": "S-23506",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 624,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145008,
+    "Name": "SHEKHAR KUMAR",
+    "Roll Number": "S-23502",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 625,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145009,
+    "Name": "RITU RAJ SONI",
+    "Roll Number": "S-23504",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 626,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145010,
+    "Name": "MANISH KUMAR YADAV",
+    "Roll Number": "S-23516",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 627,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145011,
+    "Name": "PALAK PRIYA",
+    "Roll Number": "S-23534",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 628,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145012,
+    "Name": "KISHAN KUMAR",
+    "Roll Number": "S-23540",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 629,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145014,
+    "Name": "SACHIN KUMAR",
+    "Roll Number": "S-23515",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 630,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145015,
+    "Name": "RITU RANJAN SONI",
+    "Roll Number": "S-23505",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 631,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145016,
+    "Name": "RANA YASH RAJ",
+    "Roll Number": "S-23512",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 632,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145017,
+    "Name": "RAGANI KUMARI",
+    "Roll Number": "S-23535",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 633,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145019,
+    "Name": "MANISH KUMAR",
+    "Roll Number": "S-23511",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 634,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145020,
+    "Name": "ANSHU RAJ",
+    "Roll Number": "S-23521",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 635,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145021,
+    "Name": "HARSHRAJ KUMAR",
+    "Roll Number": "S-23530",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 636,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145022,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-23523",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 637,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145023,
+    "Name": "AAYUSHMAN SINHA",
+    "Roll Number": "S-23509",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 638,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145027,
+    "Name": "KHUSHI KUMARI",
+    "Roll Number": "S-23533",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 639,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145024,
+    "Name": "KAUSHALENDRA THAKUR",
+    "Roll Number": "S-23519",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 640,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145025,
+    "Name": "RITESH RANJAN",
+    "Roll Number": "S-23520",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 641,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145029,
+    "Name": "RAVISHANKAR KUMAR",
+    "Roll Number": "S-23508",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 642,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145030,
+    "Name": "CHANDRA DIWAKAR CHITRANSH",
+    "Roll Number": "S-23526",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 643,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145031,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "S-23532",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 644,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145033,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "S-23510",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 645,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145038,
+    "Name": "HANS RAJ DAKSH",
+    "Roll Number": "S-23514",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 646,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145040,
+    "Name": "SIDDHARTH RANJAN",
+    "Roll Number": "S-23524",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 647,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 23153145041,
+    "Name": "PRATEEK RAJ",
+    "Roll Number": "S-23529",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 648,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 24153145901,
+    "Name": "SOMYA SAHAY",
+    "Roll Number": "LE-24547",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 649,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 22153145008,
+    "Name": "PANKAJ KUMAR",
+    "Roll Number": "S-22520",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 650,
+    "Branch": "CSE (AI)",
+    "Semester": 6,
+    "Reg. Number": 22153145019,
+    "Name": "RISHU KUMAR",
+    "Roll Number": "S-22514",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 651,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145018,
+    "Name": "Saurya Samrat",
+    "Roll Number": "S-22401",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 652,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145012,
+    "Name": "Bhogendra Sah",
+    "Roll Number": "S-22403",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 653,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145003,
+    "Name": "Ravi Kumar",
+    "Roll Number": "S-22404",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 654,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145019,
+    "Name": "Vandana Kumari",
+    "Roll Number": "S-22406",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 655,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145024,
+    "Name": "Sawan Kumar",
+    "Roll Number": "S-22409",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 656,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145008,
+    "Name": "Raunak Kumar",
+    "Roll Number": "S-22411",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 657,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145029,
+    "Name": "Amrendra Kumar",
+    "Roll Number": "S-22412",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 658,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145015,
+    "Name": "Sandhaya Kumari",
+    "Roll Number": "S-22413",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 659,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145021,
+    "Name": "Shubham Kumar",
+    "Roll Number": "S-22414",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 660,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145023,
+    "Name": "Anshu kumar",
+    "Roll Number": "S-22415",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 661,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145005,
+    "Name": "Saloni",
+    "Roll Number": "S-22416",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 662,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145041,
+    "Name": "Hammad Shaikh",
+    "Roll Number": "S-22417",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 663,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22104145020,
+    "Name": "Jyoti Kumari",
+    "Roll Number": "S-22418",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 664,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145038,
+    "Name": "Abhishek Kumar",
+    "Roll Number": "S-22419",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 665,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145034,
+    "Name": "Priyanshu Kumar",
+    "Roll Number": "S-22420",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 666,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145036,
+    "Name": "Prabhat Kumar",
+    "Roll Number": "S-22421",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 667,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145035,
+    "Name": "Rishav Raj",
+    "Roll Number": "S-22422",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 668,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145040,
+    "Name": "Aashish Kumar",
+    "Roll Number": "S-22424",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 669,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145028,
+    "Name": "Manish Kumar",
+    "Roll Number": "S-22425",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 670,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145030,
+    "Name": "Jayesh Kumar",
+    "Roll Number": "S-22426",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 671,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145004,
+    "Name": "Kiran Kumari",
+    "Roll Number": "S-22427",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 672,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145026,
+    "Name": "Rohit Kumar",
+    "Roll Number": "S-22428",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 673,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145017,
+    "Name": "Jyoti Bharti",
+    "Roll Number": "S-22429",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 674,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145009,
+    "Name": "Priyanka Kumari",
+    "Roll Number": "S-22430",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 675,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145037,
+    "Name": "Aayush Kumar Ram",
+    "Roll Number": "S-22433",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 676,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145011,
+    "Name": "Ankit Kumar",
+    "Roll Number": "S-22434",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 677,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145010,
+    "Name": "Pradeep Kumar",
+    "Roll Number": "S-22435",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 678,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145022,
+    "Name": "Kundan Kumar",
+    "Roll Number": "S-22436",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 679,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145031,
+    "Name": "Paritosh Verma",
+    "Roll Number": "S-22437",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 680,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145032,
+    "Name": "Ashish Kumar",
+    "Roll Number": "S-22439",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 681,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145014,
+    "Name": "Raushan Kumar",
+    "Roll Number": "S-22440",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 682,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145039,
+    "Name": "Naman Kr.Jha",
+    "Roll Number": "S-22441",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 683,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145027,
+    "Name": "Atish Kumar",
+    "Roll Number": "S-22442",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 684,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145007,
+    "Name": "Ayush Ranjan",
+    "Roll Number": "S-22443",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 685,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145016,
+    "Name": "Yash Raj",
+    "Roll Number": "S-22444",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 686,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145001,
+    "Name": "Gautam Kumar",
+    "Roll Number": "S-22445",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 687,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145002,
+    "Name": "Monu Kumar",
+    "Roll Number": "S-22446",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 688,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 22101145006,
+    "Name": "shubhankar Priyedarshi",
+    "Roll Number": "S-22447",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 689,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145910,
+    "Name": "PALLAVI KUMARI",
+    "Roll Number": "LE-23448",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 690,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145917,
+    "Name": "NANDAN KUMAR",
+    "Roll Number": "LE-23449",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 691,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145901,
+    "Name": "NISHCHHAL KUMAR",
+    "Roll Number": "LE-23450",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 692,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145915,
+    "Name": "UJALA KUMARI",
+    "Roll Number": "LE-23451",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 693,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145911,
+    "Name": "SUDHIR KUMAR",
+    "Roll Number": "LE-23452",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 694,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145906,
+    "Name": "UTKARSH RAJ",
+    "Roll Number": "LE-23453",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 695,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145909,
+    "Name": "MOHIT KUMAR",
+    "Roll Number": "LE-23454",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 696,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145904,
+    "Name": "RAHUL KUMAR",
+    "Roll Number": "LE-23455",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 697,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145908,
+    "Name": "GUDDU KUMAR",
+    "Roll Number": "LE-23456",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 698,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145907,
+    "Name": "HIM RAJ",
+    "Roll Number": "LE-23458",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 699,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145913,
+    "Name": "KAJAL KUMARI",
+    "Roll Number": "LE-23459",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 700,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145916,
+    "Name": "MOUSAM KUMARI",
+    "Roll Number": "LE-23460",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 701,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145914,
+    "Name": "VISHNUSHAKTI",
+    "Roll Number": "LE-23461",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 702,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145918,
+    "Name": "ANJALI KUMARI",
+    "Roll Number": "LE-23462",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 703,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145905,
+    "Name": "RISHIKESH KUMAR",
+    "Roll Number": "LE-23463",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 704,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 23101145902,
+    "Name": "SANTOSH RAM",
+    "Roll Number": "LE-23464",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 705,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 21101145015,
+    "Name": "Manish Kumar",
+    "Roll Number": "S-21416",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 706,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 20101145018,
+    "Name": "PRAKASH KUMAR",
+    "Roll Number": "S-20423",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 707,
+    "Branch": "EE",
+    "Semester": 4,
+    "Reg. Number": 20101145038,
+    "Name": "SURAJ KUMAR",
+    "Roll Number": "S-20449",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 708,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 22102145001,
+    "Name": "ANJALI KUMARI",
+    "Roll Number": "S-22202",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 709,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 22102145002,
+    "Name": "AMRENDRA KUMAR",
+    "Roll Number": "S-22203",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 710,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145904,
+    "Name": "VIKRAM KUMAR",
+    "Roll Number": "LE-23204",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 711,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145903,
+    "Name": "MANISHA KUMARI",
+    "Roll Number": "LE-23205",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 712,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145902,
+    "Name": "NITESH KUMAR",
+    "Roll Number": "LE-23206",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 713,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145906,
+    "Name": "VIVEK KUMAR",
+    "Roll Number": "LE-23207",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 714,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145901,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "LE-23208",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 715,
+    "Branch": "ME",
+    "Semester": 8,
+    "Reg. Number": 23102145905,
+    "Name": "SURUCHI KUMARI",
+    "Roll Number": "LE-23211",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 716,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145010,
+    "Name": "RITIKA KUMARI",
+    "Roll Number": "S-22101`",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 717,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145006,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "S-22103",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 718,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145009,
+    "Name": "DEEPANSHU VERMA",
+    "Roll Number": "S-22104",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 719,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22104145011,
+    "Name": "SHACHEE KUMARI",
+    "Roll Number": "S-22106",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 720,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145004,
+    "Name": "KOMAL SINGH",
+    "Roll Number": "S-22107",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 721,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145001,
+    "Name": "RAJA KUMAR",
+    "Roll Number": "S-22110",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 722,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145002,
+    "Name": "SHUBHAM KUMAR",
+    "Roll Number": "S-22111",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 723,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145904,
+    "Name": "LILA KUMARI",
+    "Roll Number": "LE-23112",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 724,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145910,
+    "Name": "RAVISH KUMAR",
+    "Roll Number": "LE-23113",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 725,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145917,
+    "Name": "RAJU KUMAR",
+    "Roll Number": "LE-23114",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 726,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145926,
+    "Name": "YASHAVANT KUMAR YADAV",
+    "Roll Number": "LE-23115",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 727,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145908,
+    "Name": "PAWAN KUMAR",
+    "Roll Number": "LE-23116",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 728,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145924,
+    "Name": "RITU RAJ",
+    "Roll Number": "LE-23117",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 729,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145913,
+    "Name": "RAUSHAN KUMAR",
+    "Roll Number": "LE-23118",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 730,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145905,
+    "Name": "MD AFZAL ANSARI",
+    "Roll Number": "LE-23119",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 731,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145923,
+    "Name": "RITIK RAUSHAN",
+    "Roll Number": "LE-23120",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 732,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145912,
+    "Name": "ANKIT RAJ",
+    "Roll Number": "LE-23122",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 733,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145911,
+    "Name": "AVNISH CHAUDHARY",
+    "Roll Number": "LE-23123",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 734,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145902,
+    "Name": "NIRAJ KUMAR",
+    "Roll Number": "LE-23124",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 735,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145914,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "LE-23125",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 736,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145921,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "LE-23126",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 737,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145901,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "LE-23127",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 738,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145909,
+    "Name": "SHANKAR KUMAR",
+    "Roll Number": "LE-23129",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 739,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145906,
+    "Name": "RAJEEV KUMAR",
+    "Roll Number": "LE-23130",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 740,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145915,
+    "Name": "VIP KUMAR",
+    "Roll Number": "LE-23131",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 741,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145903,
+    "Name": "ANUSHA KUMARI",
+    "Roll Number": "LE-23133",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 742,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145925,
+    "Name": "ASHUTOSH KUMAR",
+    "Roll Number": "LE-23134",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 743,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145919,
+    "Name": "VEENA KUMARI",
+    "Roll Number": "LE-23135",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 744,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 23103145907,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "LE-23137",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 745,
+    "Branch": "EE",
+    "Semester": 8,
+    "Reg. Number": 22103145909,
+    "Name": "VIVEKANAND KUMAR",
+    "Roll Number": "LE-22125",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 746,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145010,
+    "Name": "KHUSHI KUMARI",
+    "Roll Number": "S-22301",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 747,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145001,
+    "Name": "MOHAMMAD ASIF",
+    "Roll Number": "S-22302",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 748,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145005,
+    "Name": "NIKKI KUMARI",
+    "Roll Number": "S-22303",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 749,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145003,
+    "Name": "MADHAV KUMAR",
+    "Roll Number": "S-22304",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 750,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145004,
+    "Name": "AKSHAY KUMAR",
+    "Roll Number": "S-22305",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 751,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145008,
+    "Name": "RISHABH KUMAR",
+    "Roll Number": "S-22306",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 752,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145007,
+    "Name": "ANKIT RAJ VERMA",
+    "Roll Number": "S-22308",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 753,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145013,
+    "Name": "SAURABH KUMAR",
+    "Roll Number": "S-22309",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 754,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 22104145011,
+    "Name": "AASTHA KUMARI",
+    "Roll Number": "S-22311",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 755,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145909,
+    "Name": "PRITI KUMARI",
+    "Roll Number": "LE-23315",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 756,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145902,
+    "Name": "NAINSHI RAJ",
+    "Roll Number": "LE-23317",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 757,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145905,
+    "Name": "ANJALI BHARTI",
+    "Roll Number": "LE-23318",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 758,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145916,
+    "Name": "KISHAN KUMAR",
+    "Roll Number": "LE-23319",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 759,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145914,
+    "Name": "ANKIT RAJ",
+    "Roll Number": "LE-23320",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 760,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145903,
+    "Name": "AKASH KUMAR",
+    "Roll Number": "LE-23321",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 761,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145904,
+    "Name": "ANIKET RAJ",
+    "Roll Number": "LE-23322",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 762,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145917,
+    "Name": "PRINCE RAJ",
+    "Roll Number": "LE-23323",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 763,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145908,
+    "Name": "ANURAG KUMAR SAH",
+    "Roll Number": "LE-23324",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 764,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145910,
+    "Name": "ROUSHANDEEP",
+    "Roll Number": "LE-23325",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 765,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145901,
+    "Name": "SURAJBHAN",
+    "Roll Number": "LE-23326",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 766,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145919,
+    "Name": "PRITAM KUMAR",
+    "Roll Number": "LE-23327",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 767,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145913,
+    "Name": "AYUSH ANAND",
+    "Roll Number": "LE-23328",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 768,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145915,
+    "Name": "NITISH KUMAR",
+    "Roll Number": "LE-23329",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 769,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145912,
+    "Name": "PRINCE KUMAR",
+    "Roll Number": "LE-23330",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 770,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145911,
+    "Name": "PRIYANSHU KUMAR",
+    "Roll Number": "LE-23331",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 771,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145906,
+    "Name": "ABHINANDAN KUMAR",
+    "Roll Number": "LE-23332",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 772,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145918,
+    "Name": "SUJAL KUMAR",
+    "Roll Number": "LE-23333",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 773,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 23104145907,
+    "Name": "ATUL KUMAR",
+    "Roll Number": "LE-23334",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 774,
+    "Branch": "ECE",
+    "Semester": 8,
+    "Reg. Number": 21104145005,
+    "Name": "Rahul Raj",
+    "Roll Number": "S-21311",
+    "Remarks": "Year Back"
+  },
+  {
+    "Sr. No.": 775,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145046,
+    "Name": "ADITYA KR. MISHRA",
+    "Roll Number": "S-22501",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 776,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145023,
+    "Name": "ANJALI KUMARI",
+    "Roll Number": "S-22502",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 777,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145028,
+    "Name": "SUMAN KUMAR",
+    "Roll Number": "S-22503",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 778,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145036,
+    "Name": "ROHAN KUMAR",
+    "Roll Number": "S-22504",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 779,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145007,
+    "Name": "AKASH KUMAR",
+    "Roll Number": "S-22505",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 780,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145034,
+    "Name": "ANIKET KR. KARAN",
+    "Roll Number": "S-22506",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 781,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145049,
+    "Name": "RITIK KR. MANDAL",
+    "Roll Number": "S-22507",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 782,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145044,
+    "Name": "MD. AHMAD HUSSAIN",
+    "Roll Number": "S-22508",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 783,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145014,
+    "Name": "GOVIND KR. SHARMA",
+    "Roll Number": "S-22509",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 784,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145001,
+    "Name": "MUSKAN SINGH",
+    "Roll Number": "S-22510",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 785,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145033,
+    "Name": "ANKIT KUMAR",
+    "Roll Number": "S-22511",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 786,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145048,
+    "Name": "TALIB MUSARRAF KHAN",
+    "Roll Number": "S-22512",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 787,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145035,
+    "Name": "RAJ",
+    "Roll Number": "S-22513",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 788,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22103145020,
+    "Name": "PANKAJ KUMAR",
+    "Roll Number": "S-22515",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 789,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145037,
+    "Name": "AKASH KR. SHARMA",
+    "Roll Number": "S-22516",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 790,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145053,
+    "Name": "POOJA KUMARI",
+    "Roll Number": "S-22517",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 791,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145013,
+    "Name": "AMAN JHA",
+    "Roll Number": "S-22518",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 792,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145038,
+    "Name": "SHRESTH SHAURYA",
+    "Roll Number": "S-22519",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 793,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145025,
+    "Name": "MITHELESH KUMAR",
+    "Roll Number": "S-22522",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 794,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145024,
+    "Name": "VARSHA SINGH",
+    "Roll Number": "S-22523",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 795,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145009,
+    "Name": "SOHANI KUMARI",
+    "Roll Number": "S-22524",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 796,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145010,
+    "Name": "GAURI KUMARI",
+    "Roll Number": "S-22525",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 797,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145026,
+    "Name": "DIPENDRA KUMAR",
+    "Roll Number": "S-22526",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 798,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145012,
+    "Name": "SWEETY KUMARI",
+    "Roll Number": "S-22528",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 799,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145016,
+    "Name": "RANJAN KUMAR",
+    "Roll Number": "S-22529",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 800,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145006,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "S-22530",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 801,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145029,
+    "Name": "CHANDAN KUMAR",
+    "Roll Number": "S-22531",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 802,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145047,
+    "Name": "MD IMRAN",
+    "Roll Number": "S-22532",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 803,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145022,
+    "Name": "RAJ RAUSHAN KUMAR",
+    "Roll Number": "S-22534",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 804,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145052,
+    "Name": "ADITYA PRATAP SINGH",
+    "Roll Number": "S-22535",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 805,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145004,
+    "Name": "KRISHAN KUMAR",
+    "Roll Number": "S-22536",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 806,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145027,
+    "Name": "MANISH KUMAR",
+    "Roll Number": "S-22537",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 807,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145011,
+    "Name": "OM KUMAR",
+    "Roll Number": "S-22538",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 808,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145045,
+    "Name": "SYED MUZAFFAR IMAM",
+    "Roll Number": "S-22540",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 809,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145051,
+    "Name": "SAURABH KUMAR RAJ",
+    "Roll Number": "S-22542",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 810,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145031,
+    "Name": "SHAURABH KR. UPADHYAY",
+    "Roll Number": "S-22543",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 811,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145030,
+    "Name": "ANKIT SINGH",
+    "Roll Number": "S-22544",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 812,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145032,
+    "Name": "NAMAN KR. NAMAN",
+    "Roll Number": "S-22546",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 813,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145021,
+    "Name": "NEHA KUMARI",
+    "Roll Number": "S-22547",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 814,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145015,
+    "Name": "NIKHAT FATMA",
+    "Roll Number": "S-22548",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 815,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145017,
+    "Name": "ANUSHKA KUMARI",
+    "Roll Number": "S-22549",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 816,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145003,
+    "Name": "MANSI GUPTA",
+    "Roll Number": "S-22550",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 817,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145040,
+    "Name": "VIKASH KUMAR",
+    "Roll Number": "S-22551",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 818,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145039,
+    "Name": "DIVYAM VISHAL",
+    "Roll Number": "S-22552",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 819,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145043,
+    "Name": "ANKIT RAJ",
+    "Roll Number": "S-22553",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 820,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145002,
+    "Name": "NIRJALA KUMARI",
+    "Roll Number": "S-22554",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 821,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145018,
+    "Name": "RAKESH KUMAR",
+    "Roll Number": "S-22555",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 822,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145005,
+    "Name": "MOHAMMAD ARIJ",
+    "Roll Number": "S-22556",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 823,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145054,
+    "Name": "PRINCE RAJ",
+    "Roll Number": "S-22557",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 824,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145041,
+    "Name": "AJEET KUMAR",
+    "Roll Number": "S-22558",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 825,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 22153145042,
+    "Name": "POONAM KUMARI",
+    "Roll Number": "S-22559",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 826,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 23153145902,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "LE-23561",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 827,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 23153145904,
+    "Name": "ASHISH KUMAR SINGH",
+    "Roll Number": "LE-23562",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 828,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 23153145903,
+    "Name": "RICHA KUMARI",
+    "Roll Number": "LE-23563",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 829,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 23153145901,
+    "Name": "SWATI KUMARI",
+    "Roll Number": "LE-23564",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 830,
+    "Branch": "CSE (DS)",
+    "Semester": 8,
+    "Reg. Number": 23153145905,
+    "Name": "SHIVANSHU KUMAR",
+    "Roll Number": "LE-23565",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 831,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145002,
+    "Name": "ARYAN VERMA",
+    "Roll Number": "S-23601",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 832,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145003,
+    "Name": "KRISHAN KUMAR",
+    "Roll Number": "S-23617",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 833,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145004,
+    "Name": "ADARSH RAJ",
+    "Roll Number": "S-23621",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 834,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145005,
+    "Name": "RAJAN KUMAR",
+    "Roll Number": "S-23608",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 835,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145006,
+    "Name": "NISHIKANT KUMAR",
+    "Roll Number": "S-23604",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 836,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145008,
+    "Name": "AMAN KUMAR",
+    "Roll Number": "S-23619",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 837,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145011,
+    "Name": "ROHIT KUMAR",
+    "Roll Number": "S-23605",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 838,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145013,
+    "Name": "VIMLESH KUMAR",
+    "Roll Number": "S-23606",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 839,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145014,
+    "Name": "SHIVAM KUMAR",
+    "Roll Number": "S-23622",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 840,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145015,
+    "Name": "SHAMEEM AJAZ",
+    "Roll Number": "S-23615",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 841,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145017,
+    "Name": "ANURAG KUMAR",
+    "Roll Number": "S-23614",
+    "Remarks": ""
+  },
+  {
+    "Sr. No.": 842,
+    "Branch": "CECA",
+    "Semester": 5,
+    "Reg. Number": 23119145018,
+    "Name": "PRADUMAN KUMAR",
+    "Roll Number": "S-23616",
+    "Remarks": ""
+  }
+]

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student List</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+margin:0;
+font-family:Georgia, 'Times New Roman', Times, serif;
+background:linear-gradient(120deg,#4facfe,#00f2fe);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:15px;
+}
+
+.card{
+background:white;
+width:95%;
+max-width:800px;
+padding:40px;
+border-radius:12px;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#0b3c5d;
+font-size:20px;
+margin-bottom:10px;
+}
+
+h2{
+text-align:center;
+color:#065396;
+font-size:16px;
+margin-bottom:20px;
+}
+
+.controls{
+display:flex;
+gap:10px;
+justify-content:center;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+
+select,button{
+padding:8px;
+font-size:13px;
+border-radius:6px;
+border:1px solid #0b5592;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #05457e;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+  max-width: 150px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:10px;
+}
+
+th,td{
+border:1px solid #ccc;
+padding:8px;
+text-align:center;
+font-size:13px;
+}
+
+th{
+background:#0b3c5d;
+color:white;
+}
+
+tr:nth-child(even){
+background:#f5f8ff;
+}
+
+.logo{
+display:block;
+margin:0 auto 10px auto;
+max-width:100px;
+}
+.note {
+text-align: center;
+margin-top: 12px;
+color: #0e4791;
+font-weight: bold;
+font-size: 12px;
+}
+
+@media (max-width: 600px){
+
+.controls{
+flex-direction:column;
+align-items:center;
+}
+
+select, button{
+width:70%;
+max-width:140px;
+font-size:12px;
+padding:8px;
+}
+
+button{
+width:54%;
+max-width:300px;
+padding:12px;
+font-size:14px;
+}
+
+th, td{
+font-size:11px;
+padding:6px;
+}
+.card{
+padding:30px 10px;
+}
+h1{
+font-size:18px;
+}
+h2{
+font-size:14px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="gecm_logo.jpg" class="logo">
+
+<h1>Government Engineering College Munger</h1>
+<h2>Student List</h2>
+
+<div class="controls">
+
+<select id="branch">
+<option value="">Select Branch</option>
+<option value="CE">CE</option>
+<option value="CSE (DS)">CSE (DS)</option>
+<option value="CSE (AI)">CSE (AI)</option>
+<option value="CSE (M&C)">CSE (M&C)</option>
+<option value="EE">EE</option>
+<option value="ME">ME</option>
+</select>
+
+<select id="semester">
+<option value="">Select Semester</option>
+<option value="1">Sem 1</option>
+<option value="2">Sem 2</option>
+<option value="3">Sem 3</option>
+<option value="4">Sem 4</option>
+<option value="5">Sem 5</option>
+<option value="6">Sem 6</option>
+<option value="7">Sem 7</option>
+<option value="8">Sem 8</option>
+</select>
+
+<button onclick="loadStudents()">Search</button>
+
+</div>
+
+<div id="classInfo" style="
+text-align:center;
+margin-top:5px;
+font-size:14px;
+font-weight:bold;
+color:#0b3c5d;">
+</div>
+
+<div style="overflow-x:auto;">
+  <div id="result"></div>
+</div>
+
+<div id="downloadSection" style="display:none; text-align:center; margin-top:15px;">
+  <button onclick="downloadPDF()">Download PDF</button>
+</div>
+
+<div class="note">
+  <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
+    IT Cell GEC Munger</a>
+  </div>
+
+</div>
+
+</div>
+
+<script>
+
+const API="student_list.json";
+
+async function loadStudents(){
+
+const params = new URLSearchParams(window.location.search);
+
+const branch =
+  params.get("branch") ||
+  document.getElementById("branch").value;
+
+const semester =
+  params.get("semester") ||
+  document.getElementById("semester").value;
+
+if(!branch || !semester){
+document.getElementById("result").innerHTML="Please select both Branch and Semester";
+document.getElementById("downloadSection").style.display="none";
+return;
+}
+
+const response=await fetch(API);
+const data=await response.json();
+
+const filtered=data.filter(row =>
+row.Branch===branch && String(row.Semester)===semester
+);
+
+document.getElementById("classInfo").innerHTML =
+"Branch: " + branch + " | Semester: " + semester;
+if(filtered.length===0){
+document.getElementById("result").innerHTML='<div style="text-align:center; font-weight:bold; color:red;">Semester not running/No records found</div>';
+document.getElementById("downloadSection").style.display="none";
+return;
+}
+
+let headers = ["Sr. No.", "Reg. Number", "Name", "Roll Number", "Remarks"];
+
+let html="<table>";
+html+="<tr>"+headers.map(h=>`<th>${h}</th>`).join("")+"</tr>";
+
+filtered.forEach(row=>{
+html+="<tr>"+headers.map(h=>`<td>${row[h] || ""}</td>`).join("")+"</tr>";
+});
+
+html+="</table>";
+
+document.getElementById("result").innerHTML=html;
+document.getElementById("downloadSection").style.display="block";
+
+}
+
+function downloadPDF(){
+
+const result = document.getElementById("result");
+
+if(!result.innerHTML.trim()){
+alert("No data to download");
+return;
+}
+
+/* Create clean container */
+const temp = document.createElement("div");
+
+temp.style.width = "100%";
+temp.style.width = "800px";
+temp.style.padding = "10px";
+temp.style.fontFamily = "Georgia";
+temp.style.margin = "0 auto";
+
+/* Header */
+const header = document.createElement("div");
+header.style.textAlign = "center";
+header.style.marginBottom = "10px";
+
+header.innerHTML = `
+<h3 style="margin:0;">Government Engineering College Munger</h3>
+<p style="margin:2px;">Student List</p>
+<p style="margin:2px;">${document.getElementById("classInfo").innerText}</p>
+`;
+
+/* Clone table */
+const table = result.querySelector("table").cloneNode(true);
+/* ---- COLUMN WIDTH FIX (PORTRAIT FIT) ---- */
+const headers = table.querySelectorAll("th");
+
+headers.forEach((th, i) => {
+
+if(i === 0) th.style.width = "8%";   // Sr No
+if(i === 1) th.style.width = "20%";  // Registration No
+if(i === 2) th.style.width = "25%";  // Name
+if(i === 3) th.style.width = "15%";  // Roll No
+if(i === 4) th.style.width = "15%";  // Remarks
+
+});
+
+/* ---- TEXT WRAP FIX ---- */
+table.querySelectorAll("td, th").forEach(el=>{
+el.style.wordBreak = "break-word";
+});
+
+/* Reduce size */
+table.style.fontSize = "9px";
+table.style.width = "95%";
+table.style.margin = "0 auto";
+table.style.tableLayout = "fixed";
+table.style.borderCollapse = "collapse";
+
+table.querySelectorAll("th,td").forEach(el=>{
+el.style.padding = "4px";
+});
+
+/* Append */
+temp.appendChild(header);
+temp.appendChild(table);
+
+temp.style.width = "90%";   // ⭐ IMPORTANT
+temp.style.margin = "0 auto";
+temp.style.padding = "10px";
+temp.style.fontFamily = "Georgia";
+temp.style.background = "white";   // ⭐ important
+
+document.body.appendChild(temp);
+
+/* PDF options */
+const opt = {
+margin: [0.3, 0.5, 0.4, 0.5],
+filename: 'Student_List.pdf',
+image: { type: 'jpeg', quality: 0.98 },
+html2canvas: {
+  scale: 2,
+  useCORS: true,
+  letterRendering: true,
+  scrollY: 0
+},
+jsPDF: {
+  unit: 'in',
+  format: 'a4',
+  orientation: 'portrait'
+}
+};
+
+setTimeout(()=>{
+html2pdf().set(opt).from(temp).save().then(()=>{
+temp.remove();
+});
+}, 300);
+
+}
+
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("branch") && params.get("semester")) {
+  document.getElementById("branch").value = params.get("branch");
+  document.getElementById("semester").value = params.get("semester");
+  loadStudents();
+}
+
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</body>
+</html>
