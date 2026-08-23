@@ -226,13 +226,16 @@ text-decoration:underline;
 }
     /* ===== Mobile specific tweaks ===== */
 @media (max-width: 600px) {
+
 h2 {
 font-size: 16px;
 }
+
 th, td {
 height: 35px;
 font-size: 11px;
 }
+
 td:first-child,
 th:first-child {
 min-width: 70px;
@@ -241,6 +244,7 @@ min-width: 70px;
 .table-wrapper {
 overflow-x: auto;
 }
+
 table {
 min-width: 600px;
 }
@@ -249,7 +253,7 @@ min-width: 600px;
 .form-group {
 display: flex;
 flex-direction: column;
-align-items: center;   /* 👈 centers everything */
+align-items: center;
 }
 
 .card {
@@ -276,45 +280,38 @@ select, input, button {
 width: 50%;
 max-width: 350px;
 margin: 2px auto;
-margin-right: auto;        /* 👈 centers horizontally */
-display: block;          /* 👈 REQUIRED */
+margin-right: auto;
+display: block;
 font-size: 12px;
 padding: 10px;
-
 }
 
-#downloadSection {
-display: flex;
-flex-direction: column;   /* stack vertically */
-align-items: center;      /* center horizontally */
-gap: 10px;                /* vertical spacing between buttons */
-width: 100%;
-}
-
-.action-btn {
-width: 100%;               /* centered, same size */
-max-width: 350px;
-padding: 14px;
-}
 
 /* ===== MOBILE ACTION BUTTONS ===== */
+
 #downloadSection {
   width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  margin-top: 20px;
+  box-sizing: border-box;
 }
 
 #downloadSection .action-btn {
-  width: 55%;
+  width: 55% !important;
   max-width: 300px;
-  margin: 0 auto;
+  min-width: 0;
+  margin: 0 auto !important;
+  padding: 12px 10px;
   display: block;
+  box-sizing: border-box;
   text-align: center;
 }
+
 }
 </style>
 </head>
