@@ -106,6 +106,15 @@ color:#0b3c5d;
 margin-bottom:5px;
 }
 
+.note {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #0f477a;
+  font-weight: bold;
+  font-size: 12px;
+}
+
 @media (max-width:600px){
   th,td{
     font-size:12px;
@@ -125,11 +134,23 @@ Government Engineering College Munger
 </div>
 
 <h2>Subject Information</h2>
+<div id="classInfo" style="
+  text-align:center;
+  margin:5px 0 15px;
+  font-size:14px;
+  font-weight:bold;
+  color:#0b3c5d;">
+</div>
 
 <div id="loading">Loading Subject information…</div>
 
 <div id="tableWrapper"></div>
 
+<div class="note">
+  <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
+    Hosted by IT Cell GEC Munger
+  </a>
+</div>
 </div>
 
 <script>
@@ -147,10 +168,28 @@ fetch(API)
 .then(data => {
 
 if (selectedBranch && selectedSemester) {
+
+  const departmentMap = {
+    "CE": "Civil Engineering",
+    "CSE (DS)": "Computer Science and Egineering (DS)",
+    "CSE (AI)": "Computer Science and Egineering (AI)",
+    "CSE (M&C)": "Computer Science and Egineering (M&C)",
+    "EE": "Electrical Engineering",
+    "ME": "Mechanical Engineering",
+    "ECE": "Electronics and Communication Engineering",
+    "CECA": "Civil Engineering"
+  };
+
+  const selectedDepartment =
+    departmentMap[selectedBranch] || selectedBranch;
+
   data = data.filter(row =>
-    row.Department === selectedBranch &&
-    String(row.Semester) === String(selectedSemester)
+    String(row.Department || "").trim() ===
+    String(selectedDepartment).trim() &&
+    String(row.Semester || "").trim() ===
+    String(selectedSemester).trim()
   );
+
 }
 
 data.sort((a,b)=>{
@@ -173,8 +212,8 @@ const deptGroups={};
 
 data.forEach(row=>{
 
-const dept=row.Department || "Other";
-const sem=row.Semester || "NA";
+const dept = row.Department;
+const sem = row.Semester;
 
 if(!deptGroups[dept]){
 deptGroups[dept]={};
@@ -219,7 +258,9 @@ html+=`
 
 <tbody>
 `;
-
+deptGroups[dept][sem].sort((a, b) =>
+  Number(b.Credits || 0) - Number(a.Credits || 0)
+);
 deptGroups[dept][sem].forEach((sub,i)=>{
 
 html+=`

@@ -468,7 +468,7 @@ function formatCell(text) {
    G1, DBMS-P|ASP+SK|R-13
    ===================================================== */
 
-function parseTimetableCell(cell) {
+function parseTimetableCell(cell, facultyCode) {
 
   if (!cell) return null;
 
@@ -478,50 +478,83 @@ function parseTimetableCell(cell) {
   if (
     cell.toUpperCase() === "LIB" ||
     cell.toUpperCase() === "HOLIDAY" ||
-    cell.toUpperCase() === "FREE"
+    cell.toUpperCase() === "FREE" ||
+    cell.toUpperCase() === "NPTEL" ||
+    cell.toUpperCase() === "NPTL" ||
+    cell.toUpperCase() === "TUTORIAL" ||
+    cell.toUpperCase() === "EXT CURR ACTS"
   ) {
     return null;
   }
 
-  const parts = cell.split("|");
+  /*
+   * Multiple entries in one cell
+   *
+   * Example:
+   * G1, JAVA-P|ZIA|R-229; G2, DSA-P|ABY|R-229
+   */
+  const entries = cell
+    .split(";")
+    .map(entry => entry.trim())
+    .filter(Boolean);
 
-  if (parts.length !== 3) {
-    return null;
+  for (const entry of entries) {
+
+    const parts = entry.split("|");
+
+    if (parts.length !== 3) {
+      continue;
+    }
+
+    let firstPart = parts[0].trim();
+    const facultyPart = parts[1].trim();
+    const room = parts[2].trim();
+
+    let group = "";
+    let subject = firstPart;
+
+    /* Optional group */
+    if (firstPart.includes(",")) {
+
+      const commaIndex = firstPart.indexOf(",");
+
+      group = firstPart
+        .substring(0, commaIndex)
+        .trim();
+
+      subject = firstPart
+        .substring(commaIndex + 1)
+        .trim();
+    }
+
+    /* Faculty codes */
+    const facultyList = facultyPart
+      .split("+")
+      .map(code => code.trim().toUpperCase())
+      .filter(Boolean);
+
+    /*
+     * Return only the entry belonging
+     * to the faculty being searched.
+     */
+    if (
+      facultyCode &&
+      !facultyList.includes(
+        String(facultyCode).trim().toUpperCase()
+      )
+    ) {
+      continue;
+    }
+
+    return {
+      group: group,
+      subject: subject,
+      faculty: facultyList,
+      room: room
+    };
   }
 
-  let firstPart = parts[0].trim();
-  let facultyPart = parts[1].trim();
-  let room = parts[2].trim();
-
-  let group = "";
-  let subject = firstPart;
-
-  /* Optional group */
-  if (firstPart.includes(",")) {
-
-    const commaIndex = firstPart.indexOf(",");
-
-    group = firstPart
-      .substring(0, commaIndex)
-      .trim();
-
-    subject = firstPart
-      .substring(commaIndex + 1)
-      .trim();
-  }
-
-  /* Faculty codes */
-  const facultyList = facultyPart
-    .split("+")
-    .map(code => code.trim().toUpperCase())
-    .filter(code => code !== "");
-
-  return {
-    group: group,
-    subject: subject,
-    faculty: facultyList,
-    room: room
-  };
+  return null;
 }
 
 
@@ -677,7 +710,7 @@ rows.forEach(row => {
 
     if (!cell) return;
 
-    const classData = parseTimetableCell(cell);
+    const classData = parseTimetableCell(cell, facultyCode);
 
     if (!classData) return;
 

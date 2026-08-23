@@ -361,7 +361,7 @@ style="
   Faculty Information
 </button>
 
-<button onclick="window.open('subject_info.html','_blank')"
+<button onclick="openSubjectInfo()"
 style="
   background:#0b3c5d;
   color:white;
@@ -410,79 +410,140 @@ IT Cell GEC Munger</a>
 
 
 function formatStudentCell(cell) {
-  if (!cell) return "";
-  cell = cell.trim();
-  /* Special entries */
-  if (
-    cell === "LIB" ||
-    cell === "HOLIDAY" ||
-    cell === "FREE"
-  ) {
-    return cell;
-  }
-  const parts = cell.split("|");
-  /*
-   * Expected:
-   * [Group, ]SubjectCode|FacultyCode[+AdditionalFaculty]|RoomNo
-   */
-  if (parts.length !== 3) {
-    /* Fallback for invalid/old data */
-    return formatCell(cell);
-  }
-  let firstPart = parts[0].trim();
-  const facultyPart = parts[1].trim();
-  const room = parts[2].trim();
-  let group = "";
-  let subject = firstPart;
-  /* Optional group */
-  if (firstPart.includes(",")) {
-  const commaIndex = firstPart.indexOf(",");
-  group = firstPart
-    .substring(0, commaIndex)
-    .trim();
-    subject = firstPart
-    .substring(commaIndex + 1)
-    .trim();
-  }
+    if (!cell) return "";
 
-  /*
-   * Faculty codes
-   * Example:
-   * RSR+PK
-   */
+    cell = cell.trim();
 
-  const facultyDisplay = facultyPart
-    .split("+")
-    .map(code => code.trim())
-    .filter(Boolean)
-    .join(" + ");
+    /* Special entries */
+    if (
+        cell === "LIB" ||
+        cell === "HOLIDAY" ||
+        cell === "FREE" ||
+        cell === "NPTEL" ||
+        cell === "NPTL" ||
+        cell === "TUTORIAL" ||
+        cell === "Ext Curr Acts"
+    ) {
+        return cell;
+    }
 
-  let html = "";
+    /* Multiple group entries */
+    const entries = cell
+        .split(";")
+        .map(entry => entry.trim())
+        .filter(Boolean);
 
-  /* Group */
-  if (group) {
-    html += `<div><b>${group}</b></div>`;
-  }
+    let finalHTML = "";
 
-  /* Subject */
-  html += `<div>${subjectLink(subject)}</div>`;
+    entries.forEach((entry, index) => {
 
-  /* Faculty */
-  /* Faculty */
-if (facultyDisplay) {
-    html += `<div>${
-        facultyDisplay
-            .split(" + ")
-            .map(code => facultyLink(code))
-            .join(" + ")
-    }</div>`;
+        const parts = entry.split("|");
+
+        if (parts.length !== 3) {
+            finalHTML += `<div>${escapeHTML(entry)}</div>`;
+            return;
+        }
+
+        let firstPart = parts[0].trim();
+        const facultyPart = parts[1].trim();
+        const room = parts[2].trim();
+
+        let group = "";
+        let subject = firstPart;
+
+        /* Optional group */
+        if (firstPart.includes(",")) {
+
+            const commaIndex = firstPart.indexOf(",");
+
+            group = firstPart
+                .substring(0, commaIndex)
+                .trim();
+
+            subject = firstPart
+                .substring(commaIndex + 1)
+                .trim();
+        }
+
+        /* Faculty */
+        const facultyDisplay = facultyPart
+            .split("+")
+            .map(code => code.trim())
+            .filter(Boolean)
+            .join(" + ");
+
+        /*
+         * LINE 1:
+         * G1
+         *
+         * LINE 2:
+         * JAVA-P | ZIA | R-229
+         */
+
+        let html = "";
+
+        if (group) {
+            html += `
+                <div style="
+                    font-weight:bold;
+                    line-height:1.15;
+                    margin-bottom:1px;
+                ">
+                    ${escapeHTML(group)}
+                </div>
+            `;
+        }
+
+        html += `
+            <div style="
+                line-height:1.15;
+                white-space:normal;
+                word-break:break-word;
+            ">
+                ${subjectLink(subject)}
+        `;
+
+        if (facultyDisplay) {
+            html += `
+                &nbsp;
+                ${facultyDisplay
+                    .split(" + ")
+                    .map(code => facultyLink(code))
+                    .join(" + ")}
+            `;
+        }
+
+        if (room) {
+    html += `
+        <span style="white-space:nowrap;">
+            &nbsp;${escapeHTML(room)}
+        </span>
+    `;
 }
-  /* Room */
-  if (room) {
-    html += `<div>${room}</div>`;
-  }
 
-  return html;
+        html += `</div>`;
+
+        finalHTML += `
+            <div style="
+                margin:1px 0 3px 0;
+                line-height:1.15;
+            ">
+                ${html}
+            </div>
+        `;
+
+        /* Separator between G1/G2 entries */
+        if (index < entries.length - 1) {
+            finalHTML += `
+                <div style="
+                    border-top:1px solid #ddd;
+                    margin:2px 0;
+                "></div>
+            `;
+        }
+    });
+
+    return finalHTML;
 }
 
 
@@ -747,6 +808,25 @@ function showStudentList() {
     encodeURIComponent(branch) +
     "&semester=" +
     encodeURIComponent(semester);
+}
+function openSubjectInfo() {
+
+  const branch = document.getElementById("branch").value;
+  const semester = document.getElementById("semester").value;
+
+  if (!branch || !semester) {
+    document.getElementById("msg").innerText =
+      "Please select both Branch and Semester";
+    return;
+  }
+
+  window.open(
+    "subject_info.html?branch=" +
+    encodeURIComponent(branch) +
+    "&semester=" +
+    encodeURIComponent(semester),
+    "_blank"
+  );
 }
 
 </script>

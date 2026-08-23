@@ -1,2898 +1,1928 @@
 [
   {
-    "SubjectCode": 100101,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100101,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100101,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100102,
-    "SubjectAcr": "M1",
-    "SubjectName": "Engineering Mathematics-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100103,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100103,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100103,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100104,
-    "SubjectAcr": "EGD",
-    "SubjectName": "Engg. Graphics & Design",
-    "Department": "Civil Engineering",
-    "Semester": 1,
+    "SubjectCode": 151301,
+    "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
     "Credits": 3
   },
   {
-    "SubjectCode": 100104,
-    "SubjectAcr": "EGD",
-    "SubjectName": "Engg. Graphics & Design",
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100104,
-    "SubjectAcr": "EGD",
-    "SubjectName": "Engg. Graphics & Design",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100105,
-    "SubjectAcr": "EMC",
-    "SubjectName": "Engineering Mechanics",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100105,
-    "SubjectAcr": "EM",
-    "SubjectName": "Engineering Mechanics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100106,
-    "SubjectAcr": "BEE",
-    "SubjectName": "Basic Electrical Engineering",
-    "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100106,
-    "SubjectAcr": "BEE",
-    "SubjectName": "Basic Electrical Engineering",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100106,
-    "SubjectAcr": "BEE",
-    "SubjectName": "Basic Electrical Engineering",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100110,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100110,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100110,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100111,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100111,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100111,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100112,
-    "SubjectAcr": "WP",
-    "SubjectName": "Workshop Practices",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100112,
-    "SubjectAcr": "WP",
-    "SubjectName": "Workshop Practices",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100113,
-    "SubjectAcr": "IWP",
-    "SubjectName": "IT Workshop",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100114,
-    "SubjectAcr": "BECE",
-    "SubjectName": "Basic Electronics Engineering",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100201,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100201,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100201,
-    "SubjectAcr": "PHY",
-    "SubjectName": "Engineering Physics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100202,
-    "SubjectAcr": "M2",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100202,
-    "SubjectAcr": "M2",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100202,
-    "SubjectAcr": "M2",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100202,
-    "SubjectAcr": "M2",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100202,
-    "SubjectAcr": "M2",
-    "SubjectName": "Engineering Mathematics-II",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100203,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100203,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100203,
-    "SubjectAcr": "PPS",
-    "SubjectName": "Programming for Problem Solving",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100204,
-    "SubjectAcr": "EME",
-    "SubjectName": "Elements of Mechanical Engineering",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100206,
-    "SubjectAcr": "WP",
-    "SubjectName": "Workshop Practices",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100209,
-    "SubjectAcr": "BE",
-    "SubjectName": "Basic Electronics",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100209,
-    "SubjectAcr": "BE",
-    "SubjectName": "Basic Electronics",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100211,
-    "SubjectAcr": "WP",
-    "SubjectName": "Workshop",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100211,
-    "SubjectAcr": "WP",
-    "SubjectName": "Workshop",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100212,
-    "SubjectAcr": "BEE",
-    "SubjectName": "Basic Electrical Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100212,
-    "SubjectAcr": "BEE",
-    "SubjectName": "Basic Electrical Engineering",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100215,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100215,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100215,
-    "SubjectAcr": "CHE",
-    "SubjectName": "Engineering Chemistry",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100216,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100216,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100216,
-    "SubjectAcr": "ENG",
-    "SubjectName": "Communicative English",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100217,
-    "SubjectAcr": "EGD",
-    "SubjectName": "Engg. Graphics & Design",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100217,
-    "SubjectAcr": "EGD",
-    "SubjectName": "Engg. Graphics & Design",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100218,
-    "SubjectAcr": "PYP",
-    "SubjectName": "Python Programming",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 100219,
-    "SubjectAcr": "IWD",
-    "SubjectName": "Introduction to Web Design",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 100511,
-    "SubjectAcr": "NPTEL",
-    "SubjectName": "MOOCs/SWAYAM/NPTEL -2",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
+    "SubjectCode": "151301P",
+    "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
     "Credits": 2
   },
   {
-    "SubjectCode": 100601,
-    "SubjectAcr": "BE",
-    "SubjectName": "Biology for Engineers",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100708,
-    "SubjectAcr": "ABK",
-    "SubjectName": "Biology for Engineers",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100714,
-    "SubjectAcr": "",
-    "SubjectName": "Human Resources Development and Organizational Behaviour",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100730,
-    "SubjectAcr": "SSI",
-    "SubjectName": "Intellectual Property Rights",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100801,
-    "SubjectAcr": "CSE-PII",
-    "SubjectName": "Project-II",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100814,
-    "SubjectAcr": "IOT",
-    "SubjectName": "Internet of Things",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100819,
-    "SubjectAcr": "SC",
-    "SubjectName": "Satellite Communication",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100837,
-    "SubjectAcr": "DMS",
-    "SubjectName": "Digital Marketing and SEO",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 100848,
-    "SubjectAcr": "RES",
-    "SubjectName": "Renewable Energy Systems",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 101301,
-    "SubjectAcr": "SM",
-    "SubjectName": "Solid Mechanics",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151302,
+    "SubjectName": "Data Structure and Algorithms",
+    "SubjectAcr": "DSA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 3,
-    "Credits": ""
+    "Credits": 3
   },
   {
-    "SubjectCode": 101302,
-    "SubjectAcr": "M3",
-    "SubjectName": "Engineering Mathematics-III",
-    "Department": "Civil Engineering",
+    "SubjectCode": "151302P",
+    "SubjectName": "Data Structure and Algorithms",
+    "SubjectAcr": "DSA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 3,
-    "Credits": ""
+    "Credits": 2
   },
   {
-    "SubjectCode": 101303,
-    "SubjectAcr": "UHV",
+    "SubjectCode": 151303,
+    "SubjectName": "Object Oriented Programming using JAVA",
+    "SubjectAcr": "JAVA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "151303P",
+    "SubjectName": "Object Oriented Programming using JAVA",
+    "SubjectAcr": "JAVA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 151304,
+    "SubjectName": "Discrete Mathematics and Graph Theory",
+    "SubjectAcr": "DMGT",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
+    "Credits": 4
+  },
+  {
+    "SubjectCode": 151305,
+    "SubjectName": "Operating System",
+    "SubjectAcr": "OS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "151305P",
+    "SubjectName": "Operating System",
+    "SubjectAcr": "OS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 3,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 151306,
     "SubjectName": "Universal Human Values",
-    "Department": "Civil Engineering",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 3,
-    "Credits": ""
+    "Credits": 3
   },
   {
-    "SubjectCode": 101304,
-    "SubjectAcr": "SG",
-    "SubjectName": "Surveying and Geomatics",
-    "Department": "Civil Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 101305,
-    "SubjectAcr": "FLM",
-    "SubjectName": "Fluid Mechanics",
-    "Department": "Civil Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 101306,
-    "SubjectAcr": "MTE",
-    "SubjectName": "Material, Testing & Evaluation",
-    "Department": "Civil Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 101307,
-    "SubjectAcr": "IKS",
+    "SubjectCode": 151307,
     "SubjectName": "Indian Knowledge System",
-    "Department": "Civil Engineering",
+    "SubjectAcr": "IKS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 3,
-    "Credits": ""
+    "Credits": 0
   },
   {
-    "SubjectCode": 101501,
-    "SubjectAcr": "ADCS",
-    "SubjectName": "Analysis & Design of Concrete Structure",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": 151301,
+    "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101502,
-    "SubjectAcr": "EE1",
-    "SubjectName": "Environmental Engineering-I",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": "151301P",
+    "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 2
   },
   {
-    "SubjectCode": 101503,
-    "SubjectAcr": "GE1",
-    "SubjectName": "Geotechnical Engineering-I",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": 151302,
+    "SubjectName": "Data Structure and Algorithms",
+    "SubjectAcr": "DSA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101504,
-    "SubjectAcr": "HYE",
-    "SubjectName": "Hydraulics Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": "151302P",
+    "SubjectName": "Data Structure and Algorithms",
+    "SubjectAcr": "DSA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 2
   },
   {
-    "SubjectCode": 101505,
-    "SubjectAcr": "HWRE",
-    "SubjectName": "Hydrology & Water Resources Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": 151303,
+    "SubjectName": "Object Oriented Programming using JAVA",
+    "SubjectAcr": "JAVA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101506,
-    "SubjectAcr": "MOM",
-    "SubjectName": "Mechanics of Materials",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": "151303P",
+    "SubjectName": "Object Oriented Programming using JAVA",
+    "SubjectAcr": "JAVA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 2
   },
   {
-    "SubjectCode": 101507,
-    "SubjectAcr": "TE",
-    "SubjectName": "Transportation Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 5,
-    "Credits": ""
+    "SubjectCode": 151304,
+    "SubjectName": "Discrete Mathematics and Graph Theory",
+    "SubjectAcr": "DMGT",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": 101602,
-    "SubjectAcr": "CE&M",
-    "SubjectName": "Construction Engineering and Management",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151305,
+    "SubjectName": "Operating System",
+    "SubjectAcr": "OS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "151305P",
+    "SubjectName": "Operating System",
+    "SubjectAcr": "OS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 151306,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151307,
+    "SubjectName": "Indian Knowledge System",
+    "SubjectAcr": "IKS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 3,
+    "Credits": 0
+  },
+  {
+    "SubjectCode": 151401,
+    "SubjectName": "Computer Organization & Architecture",
+    "SubjectAcr": "COA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151402,
+    "SubjectName": "Formal Language & Automata Theory",
+    "SubjectAcr": "FLAT",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 4
+  },
+  {
+    "SubjectCode": 151403,
+    "SubjectName": "Design & Analysis of Algorithms",
+    "SubjectAcr": "DAA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151404,
+    "SubjectName": "Database Management System",
+    "SubjectAcr": "DBMS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151405,
+    "SubjectName": "Effective Technical Communication",
+    "SubjectAcr": "ETC",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151406,
+    "SubjectName": "Computer Networks",
+    "SubjectAcr": "CN",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "151406P",
+    "SubjectName": "Computer Networks",
+    "SubjectAcr": "CN",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151404P",
+    "SubjectName": "Database Management System",
+    "SubjectAcr": "DBMS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151401P",
+    "SubjectName": "Computer Organization & Architecture",
+    "SubjectAcr": "COA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151403P",
+    "SubjectName": "Design & Analysis of Algorithms",
+    "SubjectAcr": "DAA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 151401,
+    "SubjectName": "Computer Organization & Architecture",
+    "SubjectAcr": "COA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151402,
+    "SubjectName": "Formal Language & Automata Theory",
+    "SubjectAcr": "FLAT",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 4
+  },
+  {
+    "SubjectCode": 151403,
+    "SubjectName": "Design & Analysis of Algorithms",
+    "SubjectAcr": "DAA",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151404,
+    "SubjectName": "Database Management System",
+    "SubjectAcr": "DBMS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151405,
+    "SubjectName": "Effective Technical Communication",
+    "SubjectAcr": "ETC",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 151406,
+    "SubjectName": "Computer Networks",
+    "SubjectAcr": "CN",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "151406P",
+    "SubjectName": "Computer Networks",
+    "SubjectAcr": "CN",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151404P",
+    "SubjectName": "Database Management System",
+    "SubjectAcr": "DBMS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151401P",
+    "SubjectName": "Computer Organization & Architecture",
+    "SubjectAcr": "COA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "151403P",
+    "SubjectName": "Design & Analysis of Algorithms",
+    "SubjectAcr": "DAA",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 4,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 151601,
+    "SubjectName": "Machine Learning",
+    "SubjectAcr": "ML",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 4
   },
   {
-    "SubjectCode": 101603,
-    "SubjectAcr": "DSS",
-    "SubjectName": "Design of Steel Structure",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151602,
+    "SubjectName": "Automata Theory and Compiler Design",
+    "SubjectAcr": "ATCD",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 3
   },
   {
-    "SubjectCode": 101604,
-    "SubjectAcr": "EEEC",
-    "SubjectName": "Engineering Economics Estimation and Costing",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151603,
+    "SubjectName": "Ad hoc & Network Sensors",
+    "SubjectAcr": "ANS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 3
   },
   {
-    "SubjectCode": 101605,
-    "SubjectAcr": "EE-II",
-    "SubjectName": "Environmental Engineering-II",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151604,
+    "SubjectName": "AI and Ethics",
+    "SubjectAcr": "AIE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 1
   },
   {
-    "SubjectCode": 101606,
-    "SubjectAcr": "GE-II",
-    "SubjectName": "Geotechnical Engineering-II",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151605,
+    "SubjectName": "Constitution of India",
+    "SubjectAcr": "COI",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 0
   },
   {
-    "SubjectCode": 101617,
-    "SubjectAcr": "CM",
-    "SubjectName": "Concrete Materials",
-    "Department": "Civil Engineering",
+    "SubjectCode": 151609,
+    "SubjectName": "Network Security",
+    "SubjectAcr": "NS",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
     "Semester": 6,
-    "Credits": ""
+    "Credits": 3
   },
   {
-    "SubjectCode": 101701,
-    "SubjectAcr": "PPLE",
-    "SubjectName": "Professional Practice,Law and Ethics",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
+    "SubjectCode": 151615,
+    "SubjectName": "E-Commerce and ERP",
+    "SubjectAcr": "ERP",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 6,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101710,
-    "SubjectAcr": "CT",
-    "SubjectName": "Concrete Technology",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
+    "SubjectCode": "151601P",
+    "SubjectName": "Machine Learning",
+    "SubjectAcr": "ML",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 6,
+    "Credits": 2
   },
   {
-    "SubjectCode": 101722,
-    "SubjectAcr": "FE",
-    "SubjectName": "Foundation Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
+    "SubjectCode": "151603P",
+    "SubjectName": "Ad hoc & Network Sensors",
+    "SubjectAcr": "ANS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 6,
+    "Credits": 2
   },
   {
-    "SubjectCode": 101803,
-    "SubjectAcr": "CoMa",
-    "SubjectName": "Contract Management",
-    "Department": "Civil Engineering",
-    "Semester": 8,
-    "Credits": ""
+    "SubjectCode": 153601,
+    "SubjectName": "Big Data & Tools",
+    "SubjectAcr": "BDT",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101818,
-    "SubjectAcr": "RE",
-    "SubjectName": "Railway Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 8,
-    "Credits": ""
+    "SubjectCode": 153602,
+    "SubjectName": "Data Visualization",
+    "SubjectAcr": "DV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101827,
-    "SubjectAcr": "CEM",
-    "SubjectName": "Construction Engineering Material",
-    "Department": "Civil Engineering",
-    "Semester": 8,
-    "Credits": ""
+    "SubjectCode": 153603,
+    "SubjectName": "Image & Video Processing",
+    "SubjectAcr": "IVP",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 3
   },
   {
-    "SubjectCode": 101838,
-    "SubjectAcr": "EPI",
-    "SubjectName": "Economics Policies in India",
-    "Department": "Civil Engineering",
-    "Semester": 8,
-    "Credits": ""
+    "SubjectCode": 153604,
+    "SubjectName": "AI and Ethics",
+    "SubjectAcr": "AIE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 153605,
+    "SubjectName": "Constitution of India",
+    "SubjectAcr": "COI",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 0
+  },
+  {
+    "SubjectCode": 153607,
+    "SubjectName": "Compiler Design",
+    "SubjectAcr": "CD",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 153616,
+    "SubjectName": "Natural Language Processing",
+    "SubjectAcr": "NLP",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "153601P",
+    "SubjectName": "Big Data & Tools",
+    "SubjectAcr": "BDT",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "153602P",
+    "SubjectName": "Data Visualization",
+    "SubjectAcr": "DV",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "153603P",
+    "SubjectName": "Image & Video Processing",
+    "SubjectAcr": "IVP",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 6,
+    "Credits": 1
   },
   {
     "SubjectCode": 102301,
-    "SubjectAcr": "EM",
     "SubjectName": "Engineering Mechanics",
+    "SubjectAcr": "EM",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
-    "Credits": 5
+    "Credits": 4
   },
   {
     "SubjectCode": 102302,
+    "SubjectName": "Material Science & Engineering",
     "SubjectAcr": "MSE",
-    "SubjectName": "Materials Science and Engineering",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
     "Credits": 3
   },
   {
     "SubjectCode": 102303,
-    "SubjectAcr": "M3",
-    "SubjectName": "Mathematics-III",
+    "SubjectName": "Engineering Mathematics-III",
+    "SubjectAcr": "EM III",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
     "Credits": 4
   },
   {
     "SubjectCode": 102304,
-    "SubjectAcr": "TD",
     "SubjectName": "Thermodynamics",
+    "SubjectAcr": "TD",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
     "Credits": 3
   },
   {
     "SubjectCode": 102305,
-    "SubjectAcr": "BECE",
     "SubjectName": "Basic Electronics Engineering",
+    "SubjectAcr": "BEE",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
-    "Credits": 4
+    "Credits": 3
   },
   {
     "SubjectCode": 102306,
-    "SubjectAcr": "UHV",
     "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
     "Credits": 3
   },
   {
     "SubjectCode": 102307,
-    "SubjectAcr": "IKS",
     "SubjectName": "Indian Knowledge System",
+    "SubjectAcr": "IKS",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 3,
-    "Credits": 3
+    "Credits": 0
   },
   {
-    "SubjectCode": 102501,
-    "SubjectAcr": "FMC",
-    "SubjectName": "Fluid Machinery",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102502,
-    "SubjectAcr": "HT",
-    "SubjectName": "Heat Transfer",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102503,
-    "SubjectAcr": "KM",
-    "SubjectName": "Kinematics of Machine",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 102504,
-    "SubjectAcr": "MFP",
-    "SubjectName": "Manufacturing Processes",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102601,
-    "SubjectAcr": "DME",
-    "SubjectName": "Design of Machine Elements",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 102602,
-    "SubjectAcr": "DM",
-    "SubjectName": "Dynamics of Machinery",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102603,
-    "SubjectAcr": "MT",
-    "SubjectName": "Manufacturing Technology",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102605,
-    "SubjectAcr": "AIM",
-    "SubjectName": "Automation in Manufacturing",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 102609,
-    "SubjectAcr": "CM",
-    "SubjectName": "Composite Materials PE-II",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102610,
-    "SubjectAcr": "PPE",
-    "SubjectName": "Powerplant Engineering PE-I",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102611,
-    "SubjectAcr": "RES",
-    "SubjectName": "Renewable Energy Systems OE-I",
-    "Department": "Mechanical Engineering",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102701,
-    "SubjectAcr": "ICE",
-    "SubjectName": "IC Engine",
-    "Department": "Mechanical Engineering",
-    "Semester": 7,
-    "Credits": 4.5
-  },
-  {
-    "SubjectCode": 102702,
-    "SubjectAcr": "RAC",
-    "SubjectName": "Refrigeration and Air Conditioning PE-III",
-    "Department": "Mechanical Engineering",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102705,
-    "SubjectAcr": "AME",
-    "SubjectName": "Automobile Engineering PE-IV",
-    "Department": "Mechanical Engineering",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102706,
-    "SubjectAcr": "OR",
-    "SubjectName": "Operations Research OE-II",
-    "Department": "Mechanical Engineering",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102801,
-    "SubjectAcr": "POM",
-    "SubjectName": "Principles of Management PE-V",
-    "Department": "Mechanical Engineering",
-    "Semester": 8,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102804,
-    "SubjectAcr": "ECM",
-    "SubjectName": "Energy Conservation and Management PE-VI",
-    "Department": "Mechanical Engineering",
-    "Semester": 8,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102807,
-    "SubjectAcr": "SFM",
-    "SubjectName": "Safety Management OE-III",
-    "Department": "Mechanical Engineering",
-    "Semester": 8,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 102808,
-    "SubjectAcr": "NCM",
-    "SubjectName": "Non-Convetional Manufacturing OE-IV",
-    "Department": "Mechanical Engineering",
-    "Semester": 8,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 103301,
-    "SubjectAcr": "ECA",
-    "SubjectName": "Electrical Cicuit Analysis",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103302,
-    "SubjectAcr": "AE",
-    "SubjectName": "Analog Electronics",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103303,
-    "SubjectAcr": "EM1",
-    "SubjectName": "Electrical Machine-I",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103304,
-    "SubjectAcr": "M3",
-    "SubjectName": "Engineering Mathematics-III",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103305,
-    "SubjectAcr": "EM",
+    "SubjectCode": "102301P",
     "SubjectName": "Engineering Mechanics",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103306,
-    "SubjectAcr": "UHV",
-    "SubjectName": "Universal Human Values",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 103307,
-    "SubjectAcr": "IKS",
-    "SubjectName": "Indian Knowledge System",
-    "Department": "Electrical Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104301,
-    "SubjectAcr": "EDC",
-    "SubjectName": "Electronic Devices and Circuit Theory",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104302,
-    "SubjectAcr": "OOP",
-    "SubjectName": "Object Oriented Programming",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104303,
-    "SubjectAcr": "NT",
-    "SubjectName": "Network Theory",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104304,
-    "SubjectAcr": "SS",
-    "SubjectName": "Signal & System",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104305,
-    "SubjectAcr": "M3",
-    "SubjectName": "Engineering Mathematics-III",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104306,
-    "SubjectAcr": "UHV",
-    "SubjectName": "Universal Human Values",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104307,
-    "SubjectAcr": "IKS",
-    "SubjectName": "Indian Knowledge System",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104501,
-    "SubjectAcr": "CNS",
-    "SubjectName": "Computer Networks and Security",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104502,
-    "SubjectAcr": "DSP",
-    "SubjectName": "Digital Signal Processing",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104503,
-    "SubjectAcr": "LCS",
-    "SubjectName": "Linear Control System",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104504,
-    "SubjectAcr": "LICA",
-    "SubjectName": "Linear Integrated Circuit and Application",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104505,
-    "SubjectAcr": "MM",
-    "SubjectName": "Microprocessor and Microcontroller",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104506,
-    "SubjectAcr": "PTSP",
-    "SubjectName": "Probability Theory and Stochastic Process",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104601,
-    "SubjectAcr": "COA",
-    "SubjectName": "Computer Organization and Architecture",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104602,
-    "SubjectAcr": "DC",
-    "SubjectName": "Digital Communication",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104604,
-    "SubjectAcr": "EIM",
-    "SubjectName": "Electronics Instruments and measurement",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104606,
-    "SubjectAcr": "CMOS VLSI",
-    "SubjectName": "Digital CMOS VLSI Design",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104701,
-    "SubjectAcr": "BA",
-    "SubjectName": "Business Analytics",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104702,
-    "SubjectAcr": "SMEP",
-    "SubjectName": "Cost Management of Engineering Project",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104703,
-    "SubjectAcr": "WC",
-    "SubjectName": "Wireless Communication",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104705,
-    "SubjectAcr": "OFC",
-    "SubjectName": "Optical Fiber Communication",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104710,
-    "SubjectAcr": "VLSI",
-    "SubjectName": "VLSI Technology",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104804,
-    "SubjectAcr": "WSN",
-    "SubjectName": "Wireless Sensor and Network",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 104809,
-    "SubjectAcr": "MEMS",
-    "SubjectName": "Introduction to MEMS",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 119301,
-    "SubjectAcr": "SM",
-    "SubjectName": "Solid Mechanics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119302,
-    "SubjectAcr": "M3",
-    "SubjectName": "Engineering Mathematics-III",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119303,
-    "SubjectAcr": "GI",
-    "SubjectName": "Geo Informatics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119304,
-    "SubjectAcr": "FLM",
-    "SubjectName": "Fluid Mechanics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119305,
-    "SubjectAcr": "ML",
-    "SubjectName": "Machine Learning",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119306,
-    "SubjectAcr": "MTE",
-    "SubjectName": "Material, Testing & Evaluation",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119307,
-    "SubjectAcr": "UHV",
-    "SubjectName": "Universal Human Values",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119308,
-    "SubjectAcr": "IKS",
-    "SubjectName": "Indian Knowledge System",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 0
-  },
-  {
-    "SubjectCode": 119309,
-    "SubjectAcr": "",
-    "SubjectName": "Internship-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 3,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119501,
-    "SubjectAcr": "ADCS",
-    "SubjectName": "Analysis & Design of Concrete Structure",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119502,
-    "SubjectAcr": "EE1",
-    "SubjectName": "Environmental Engineering-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119503,
-    "SubjectAcr": "GE1",
-    "SubjectName": "Geotechnical Engineering-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119504,
-    "SubjectAcr": "HYE",
-    "SubjectName": "Hydraulics Engineering",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119505,
-    "SubjectAcr": "HWRE",
-    "SubjectName": "Hydrology & Water Resources Engineering",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119506,
-    "SubjectAcr": "MOM",
-    "SubjectName": "Mechanics of Materials",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119507,
-    "SubjectAcr": "TE",
-    "SubjectName": "Transportation Engineering",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 119601,
-    "SubjectAcr": "DMS",
-    "SubjectName": "Database Management System",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119602,
-    "SubjectAcr": "DSS",
-    "SubjectName": "Design of Steel Structure",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119603,
-    "SubjectAcr": "EEEC",
-    "SubjectName": "Engineering Economics, Estimation & Costing",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119604,
-    "SubjectAcr": "AI",
-    "SubjectName": "Artificial Intelligence",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119605,
-    "SubjectAcr": "EE-ll",
-    "SubjectName": "Environmental Engineering-II",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119606,
-    "SubjectAcr": "GE-ll",
-    "SubjectName": "Geotechnical Engineering -II",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119607,
-    "SubjectAcr": "NPTEL-ll",
-    "SubjectName": "NPTEL Courses-2 Lab",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119701,
-    "SubjectAcr": "",
-    "SubjectName": "Professional Practice, Law & Ethics",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 153301,
-    "SubjectAcr": "DE",
-    "SubjectName": "Digital Electronics",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153302,
-    "SubjectAcr": "DSA",
-    "SubjectName": "Data Structure and Algorithm",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153303,
-    "SubjectAcr": "OOPS",
-    "SubjectName": "Object Oriented Programming",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153304,
-    "SubjectAcr": "DM",
-    "SubjectName": "Discrete Mathematics & Graph Theory",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153305,
-    "SubjectAcr": "OS",
-    "SubjectName": "Operating System",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153306,
-    "SubjectAcr": "UHV",
-    "SubjectName": "Universal Human Values",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153307,
-    "SubjectAcr": "IKS",
-    "SubjectName": "Indian Knowledge System",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153308,
-    "SubjectAcr": "INT",
-    "SubjectName": "Internship-I",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153501,
-    "SubjectAcr": "ML",
-    "SubjectName": "Machine Learning",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153502,
-    "SubjectAcr": "DBMS",
-    "SubjectName": "Database Management System",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153503,
-    "SubjectAcr": "CN",
-    "SubjectName": "Computer Networks",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153504,
-    "SubjectAcr": "PYP",
-    "SubjectName": "Python Programming",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153505,
-    "SubjectAcr": "SEM",
-    "SubjectName": "Seminar",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153508,
-    "SubjectAcr": "TOC",
-    "SubjectName": "Program Elective-I(TOC)",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153601,
-    "SubjectAcr": "ANP",
-    "SubjectName": "Big Data & Tools",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153602,
-    "SubjectAcr": "SDT",
-    "SubjectName": "Data Visualization",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153603,
-    "SubjectAcr": "SNT",
-    "SubjectName": "Image and Video Processing",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153604,
-    "SubjectAcr": "SSI",
-    "SubjectName": "AI and Ethics",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153605,
-    "SubjectAcr": "SSI",
-    "SubjectName": "Constitution of India",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153607,
-    "SubjectAcr": "ASP",
-    "SubjectName": "Compiler Design",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153613,
-    "SubjectAcr": "ARK",
-    "SubjectName": "Distributed System Design",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153701,
-    "SubjectAcr": "DPK",
-    "SubjectName": "Data Analytics Using R Programming",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153702,
-    "SubjectAcr": "ARK",
-    "SubjectName": "Internet of Things",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153802,
-    "SubjectAcr": "AICS",
-    "SubjectName": "AI in Cyber Security",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 153810,
-    "SubjectAcr": "AND",
-    "SubjectName": "Autonomous Drones",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100109P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Department": "Civil Engineering",
-    "Semester": 1,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100109P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
+    "SubjectAcr": "EM",
+    "SubjectType": "P",
     "Department": "Mechanical Engineering",
-    "Semester": 1,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100109P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 1,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100110P",
-    "SubjectAcr": "",
-    "SubjectName": "Engineering Physics Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100111P",
-    "SubjectAcr": "",
-    "SubjectName": "Programming for Problem Solving Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100113P",
-    "SubjectAcr": "",
-    "SubjectName": "IT Workshop Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100114P",
-    "SubjectAcr": "",
-    "SubjectName": "Basic Electronics Engineering Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100115P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swachha Bharat Mission",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 1,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100115P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swachha Bharat Mission",
-    "Department": "Electrical Engineering",
-    "Semester": 1,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100115P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swachha Bharat Mission",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 1,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100210P",
-    "SubjectAcr": "SE2",
-    "SubjectName": "Summer Entrepreneurship-II",
-    "Department": "Mechanical Engineering",
-    "Semester": 5,
-    "Credits": 6
-  },
-  {
-    "SubjectCode": "100214P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swacha Bharat Mission",
-    "Department": "Civil Engineering",
-    "Semester": 2,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100214P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swacha Bharat Mission",
-    "Department": "Mechanical Engineering",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100214P",
-    "SubjectAcr": "SBM",
-    "SubjectName": "Swacha Bharat Mission",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 2,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100215P",
-    "SubjectAcr": "",
-    "SubjectName": "Engineering Chemistry Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100216P",
-    "SubjectAcr": "",
-    "SubjectName": "Communicative English Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100218P",
-    "SubjectAcr": "",
-    "SubjectName": "Python Programming Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100219P",
-    "SubjectAcr": "",
-    "SubjectName": "Introduction to Web Design Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100220P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 2,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100220P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Department": "Electrical Engineering",
-    "Semester": 2,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100220P",
-    "SubjectAcr": "SYNN",
-    "SubjectName": "Sports/Yoga/NCC/NSS",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 2,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "100408P",
-    "SubjectAcr": "",
-    "SubjectName": "NPTL/MOOC",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 4,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100604P",
-    "SubjectAcr": "NPTL",
-    "SubjectName": "NPTL/MOOC",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100702P",
-    "SubjectAcr": "",
-    "SubjectName": "Summer Entrepreneurship-III",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100707P",
-    "SubjectAcr": "",
-    "SubjectName": "Summer Entrepreneurship III",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100707P",
-    "SubjectAcr": "SDT",
-    "SubjectName": "Summer Entrepreneurship-III",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100709P",
-    "SubjectAcr": "",
-    "SubjectName": "Project I",
-    "Department": "Civil Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100709P",
-    "SubjectAcr": "P1",
-    "SubjectName": "Project-I",
-    "Department": "Mechanical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100709P",
-    "SubjectAcr": "CSE-PI",
-    "SubjectName": "Project-I",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100709P",
-    "SubjectAcr": "",
-    "SubjectName": "Projet-I",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100801P",
-    "SubjectAcr": "",
-    "SubjectName": "Project II",
-    "Department": "Civil Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100801P",
-    "SubjectAcr": "P2",
-    "SubjectName": "Project-II",
-    "Department": "Mechanical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "100801P",
-    "SubjectAcr": "PE-II",
-    "SubjectName": "Project-II",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "101604P",
-    "SubjectAcr": "",
-    "SubjectName": "Engineering Economics Estimation and Costing",
-    "Department": "Civil Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "104602P",
-    "SubjectAcr": "DC",
-    "SubjectName": "Digital Communication",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "104604P",
-    "SubjectAcr": "EIM",
-    "SubjectName": "Electronics Instruments and measurement",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "119508P",
-    "SubjectAcr": "",
-    "SubjectName": "Summer Entrepreneurship-II",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 5,
-    "Credits": 6
-  },
-  {
-    "SubjectCode": "1196xx",
-    "SubjectAcr": "PE-l",
-    "SubjectName": "Program Elective-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 6,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": "119707P",
-    "SubjectAcr": "",
-    "SubjectName": "Summer Entrepreneurship - III",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 8
-  },
-  {
-    "SubjectCode": "119709P",
-    "SubjectAcr": "",
-    "SubjectName": "Project-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 6
-  },
-  {
-    "SubjectCode": "1197XX",
-    "SubjectAcr": "",
-    "SubjectName": "Program Elective-II",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": "1197XX",
-    "SubjectAcr": "",
-    "SubjectName": "Program Elective-IIl",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": "1197XX",
-    "SubjectAcr": "",
-    "SubjectName": "Open Elective-I",
-    "Department": "Civil Engineering with Computer Applications",
-    "Semester": 7,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": "153301P",
-    "SubjectAcr": "",
-    "SubjectName": "Digital Electronics Lab",
-    "Department": "Computer Science Engineering (Data Science)",
     "Semester": 3,
-    "Credits": ""
+    "Credits": 1
   },
   {
-    "SubjectCode": "153302P",
-    "SubjectAcr": "",
-    "SubjectName": "Data Structure and Algorithm Lab",
-    "Department": "Computer Science Engineering (Data Science)",
+    "SubjectCode": "102305P",
+    "SubjectName": "Basic Electronics Engineering",
+    "SubjectAcr": "BEE",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
     "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153303P",
-    "SubjectAcr": "",
-    "SubjectName": "OOPs Using JAVA Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153304P",
-    "SubjectAcr": "",
-    "SubjectName": "Operating System Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 3,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153502P",
-    "SubjectAcr": "",
-    "SubjectName": "Database Management System Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153503P",
-    "SubjectAcr": "",
-    "SubjectName": "Computer Networks Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153511P",
-    "SubjectAcr": "SENTP",
-    "SubjectName": "Summer Entrepreneurship-ii",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153512P",
-    "SubjectAcr": "NPTL",
-    "SubjectName": "NPTEL  Course",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153601P",
-    "SubjectAcr": "ANP",
-    "SubjectName": "Big Data & Tools Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153602P",
-    "SubjectAcr": "SDT",
-    "SubjectName": "Data Visualization Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153603P",
-    "SubjectAcr": "SNT",
-    "SubjectName": "Image and Video Processing Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153606P",
-    "SubjectAcr": "",
-    "SubjectName": "NPTEL  Course -II Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "153701P",
-    "SubjectAcr": "DPK",
-    "SubjectName": "Data Analytics Using R Programming Lab",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "XXXX",
-    "SubjectAcr": "PPLE",
-    "SubjectName": "Professional Practice, Law & Ethics",
-    "Department": "Computer Science Engineering (Data Science)",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "xxxxxx",
-    "SubjectAcr": "CoI/EIKT",
-    "SubjectName": "Constitution of India/Essence of Indian Knowledge System",
-    "Department": "Electronics and Communication Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "CS",
-    "SubjectName": "Control Systems",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "MP",
-    "SubjectName": "Microprocessor",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PE",
-    "SubjectName": "Power Electronics",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PS1",
-    "SubjectName": "Power System-I (Apparatus and Modelling)",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PE1",
-    "SubjectName": "Program Elective-I (Wind and Solar Energy Systems)",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "GESCC",
-    "SubjectName": "Graduate Employability Skill and Competitive Courses",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Control Systems Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Microprocessor Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Power Electronics Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Power System-I Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 5,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "DSP",
-    "SubjectName": "Digital Signal Processing",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "VLSI",
-    "SubjectName": "Introduction to VLSI Design",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PSD",
-    "SubjectName": "Professional Skill Development",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "COA",
-    "SubjectName": "Computer Architecture",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PS-II",
-    "SubjectName": "Power Systems II (Operation and Control)",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "IES",
-    "SubjectName": "Industrial Electrical Operation",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Digital Signal Processing Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Introduction to VLSI Design Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Power Systems II (Operation and Control) Lab",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "Electronics Design Laboratory",
-    "Department": "Electrical Engineering",
-    "Semester": 6,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PSP",
-    "SubjectName": "Power System Protection",
-    "Department": "Electrical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "DSP",
-    "SubjectName": "Digital Signal Processing",
-    "Department": "Electrical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PPE",
-    "SubjectName": "Power Plant Engineering",
-    "Department": "Electrical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "EEM",
-    "SubjectName": "Electrical Materials",
-    "Department": "Electrical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "Project-I",
-    "SubjectName": "Project-I",
-    "Department": "Electrical Engineering",
-    "Semester": 7,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "EHV",
-    "SubjectName": "Electrical and Hybrid Vehicles",
-    "Department": "Electrical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "DIP",
-    "SubjectName": "Digital Image Processing",
-    "Department": "Electrical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "CN",
-    "SubjectName": "Computer Networks",
-    "Department": "Electrical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "PQ&FACTS",
-    "SubjectName": "Power Quality and FACTS",
-    "Department": "Electrical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": "",
-    "SubjectAcr": "Project-II",
-    "SubjectName": "Project-II",
-    "Department": "Electrical Engineering",
-    "Semester": 8,
-    "Credits": ""
-  },
-  {
-    "SubjectCode": 101401,
-    "SubjectAcr": "TE",
-    "SubjectName": "Transportation Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101402,
-    "SubjectAcr": "BPCAED",
-    "SubjectName": "Building Planning and Computer-Aided Civil Engineering Drawing",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101403,
-    "SubjectAcr": "GE-I",
-    "SubjectName": "Geotechnical Engineering-I",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101404,
-    "SubjectAcr": "HE",
-    "SubjectName": "Hydraulic Engineering",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101405,
-    "SubjectAcr": "SA",
-    "SubjectName": "Structural Analysis",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101406,
-    "SubjectAcr": "EG",
-    "SubjectName": "Engineering Geology",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 101407,
-    "SubjectAcr": "CSGI",
-    "SubjectName": "Civil Engineering – Societal & Global Impact",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 0
-  },
-  {
-    "SubjectCode": "101401P",
-    "SubjectAcr": "TE-P",
-    "SubjectName": "Transportation Engineering Lab",
-    "Department": "Civil Engineering",
-    "Semester": 4,
     "Credits": 1
-  },
-  {
-    "SubjectCode": "101402P",
-    "SubjectAcr": "BPCAED-P",
-    "SubjectName": "Building Planning and Computer-Aided Civil Engineering Drawing Lab",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "101403P",
-    "SubjectAcr": "GE-I-P",
-    "SubjectName": "Geotechnical Engineering-I Lab",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "101404P",
-    "SubjectAcr": "HE-P",
-    "SubjectName": "Hydraulic Engineering Lab",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "101406P",
-    "SubjectAcr": "EG-P",
-    "SubjectName": "Engineering Geology Lab",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": 101408,
-    "SubjectAcr": "NPTEL",
-    "SubjectName": "NPTEL (Open Course)",
-    "Department": "Civil Engineering",
-    "Semester": 4,
-    "Credits": 0
   },
   {
     "SubjectCode": 102401,
-    "SubjectAcr": "AT",
     "SubjectName": "Applied Thermodynamics",
+    "SubjectAcr": "AT",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 102402,
-    "SubjectAcr": "FHM",
-    "SubjectName": "Fluid Mechanics and Hydraulic Machines",
+    "SubjectName": "Fluid Mechanics and Hydraulic Machine",
+    "SubjectAcr": "FMHM",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 102403,
+    "SubjectName": "Strength of Materials",
     "SubjectAcr": "SOM",
-    "SubjectName": "Strength of Material",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 102404,
-    "SubjectAcr": "KOM",
     "SubjectName": "Kinematics of Machine",
+    "SubjectAcr": "KOM",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 3
   },
   {
     "SubjectCode": 102405,
-    "SubjectAcr": "PM",
     "SubjectName": "Project Management",
+    "SubjectAcr": "PM",
+    "SubjectType": "L",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 3
   },
   {
     "SubjectCode": "102402P",
-    "SubjectAcr": "FHM-P",
-    "SubjectName": "Fluid Mechanics and Hydraulic Machines Lab",
+    "SubjectName": "Fluid Mechanics and Hydraulic Machine",
+    "SubjectAcr": "FMKM",
+    "SubjectType": "P",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
     "SubjectCode": "102403P",
-    "SubjectAcr": "SOM-P",
-    "SubjectName": "Strength of Material Lab",
+    "SubjectName": "Strength of Materials",
+    "SubjectAcr": "SOM",
+    "SubjectType": "P",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
     "SubjectCode": "102404P",
-    "SubjectAcr": "KOM-P",
-    "SubjectName": "Kinematics of Machine Lab",
+    "SubjectName": "Kinematics of Machine",
+    "SubjectAcr": "KOM",
+    "SubjectType": "P",
     "Department": "Mechanical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
+    "SubjectCode": 102601,
+    "SubjectName": "Design of Machine Elements",
+    "SubjectAcr": "DME",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102602,
+    "SubjectName": "Dynamic of Machinery",
+    "SubjectAcr": "DM",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102603,
+    "SubjectName": "Manufacturing Technology",
+    "SubjectAcr": "MT",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102605,
+    "SubjectName": "Automation In manufacturing",
+    "SubjectAcr": "AM",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102609,
+    "SubjectName": "Composite Materials",
+    "SubjectAcr": "CM",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102610,
+    "SubjectName": "Power Plant Engineering",
+    "SubjectAcr": "PPE",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 102611,
+    "SubjectName": "Renewable Energy System",
+    "SubjectAcr": "RES",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "102601P",
+    "SubjectName": "Design of Machine Elements",
+    "SubjectAcr": "DME",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "102602P",
+    "SubjectName": "Dynamic of Machinery",
+    "SubjectAcr": "DM",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 1.5
+  },
+  {
+    "SubjectCode": "102603P",
+    "SubjectName": "Manufacturing Technology",
+    "SubjectAcr": "MT",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 1.5
+  },
+  {
+    "SubjectCode": "102605P",
+    "SubjectName": "Automation In manufacturing",
+    "SubjectAcr": "AM",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 6,
+    "Credits": 1
+  },
+  {
     "SubjectCode": 103401,
-    "SubjectAcr": "DE",
     "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 103402,
+    "SubjectName": "Signal and System",
     "SubjectAcr": "SS",
-    "SubjectName": "Signals and Systems",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 103403,
-    "SubjectAcr": "EM-II",
     "SubjectName": "Electrical Machine-II",
+    "SubjectAcr": "ELM",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 103404,
-    "SubjectAcr": "EFT",
     "SubjectName": "Electromagnetic Field Theory",
+    "SubjectAcr": "EMF",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 103405,
-    "SubjectAcr": "CS",
     "SubjectName": "Control System",
+    "SubjectAcr": "CS",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 4
   },
   {
     "SubjectCode": 103406,
-    "SubjectAcr": "ES",
     "SubjectName": "Environmental Science",
+    "SubjectAcr": "EVS",
+    "SubjectType": "L",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 0
   },
   {
     "SubjectCode": "103401P",
-    "SubjectAcr": "DE-P",
-    "SubjectName": "Digital Electronics Lab",
+    "SubjectName": "Digital Electronics",
+    "SubjectAcr": "DE",
+    "SubjectType": "P",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
     "SubjectCode": "103403P",
-    "SubjectAcr": "EM-II-P",
-    "SubjectName": "Electrical Machine-II Lab",
+    "SubjectName": "Electrical Machine-II",
+    "SubjectAcr": "ELM-II",
+    "SubjectType": "P",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
     "SubjectCode": "103405P",
-    "SubjectAcr": "CS-P",
-    "SubjectName": "Control System Lab",
+    "SubjectName": "Control System",
+    "SubjectAcr": "CS",
+    "SubjectType": "P",
     "Department": "Electrical Engineering",
     "Semester": 4,
     "Credits": 1
   },
   {
-    "SubjectCode": 104401,
-    "SubjectAcr": "AEIC",
-    "SubjectName": "Analog Electronics and Integrated Circuits",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": 100606,
+    "SubjectName": "Digital Signal Processing",
+    "SubjectAcr": "DSP",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 3
   },
   {
-    "SubjectCode": 104402,
-    "SubjectAcr": "DC",
-    "SubjectName": "Digital Circuits",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": 100607,
+    "SubjectName": "Introduction of VLSI Design",
+    "SubjectAcr": "VLSI",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 3
   },
   {
-    "SubjectCode": 104403,
-    "SubjectAcr": "EMFT",
-    "SubjectName": "Electromagnetic Field Theory",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
-    "Credits": 4
-  },
-  {
-    "SubjectCode": 104404,
-    "SubjectAcr": "AC",
-    "SubjectName": "Analog Communication",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": 100608,
+    "SubjectName": "Professional Skill Development",
+    "SubjectAcr": "PSD",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 3
   },
   {
-    "SubjectCode": 104405,
-    "SubjectAcr": "EMI",
-    "SubjectName": "Electronics Materials and Instrumentation",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": 103601,
+    "SubjectName": "Power System II (Operation & Control)",
+    "SubjectAcr": "PS-II",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 3
   },
   {
-    "SubjectCode": "104401P",
-    "SubjectAcr": "AEIC-P",
-    "SubjectName": "Analog Electronics and Integrated Circuits Lab",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": 103606,
+    "SubjectName": "Industrial Electrical Systems",
+    "SubjectAcr": "IES",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100613,
+    "SubjectName": "Electrical Drive",
+    "SubjectAcr": "ED",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "100606P",
+    "SubjectName": "Digital Signal Processing",
+    "SubjectAcr": "DSP",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 1
   },
   {
-    "SubjectCode": "104402P",
-    "SubjectAcr": "DC-P",
-    "SubjectName": "Digital Circuits Lab",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": "100607P",
+    "SubjectName": "Introduction of VLSI Design",
+    "SubjectAcr": "VLSI",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 1
   },
   {
-    "SubjectCode": "104404P",
-    "SubjectAcr": "AC-P",
-    "SubjectName": "Analog Communication Lab",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
+    "SubjectCode": "103601P",
+    "SubjectName": "Power System II",
+    "SubjectAcr": "PS",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 1
   },
   {
-    "SubjectCode": "104405P",
-    "SubjectAcr": "EMI-P",
-    "SubjectName": "Electronics Materials and Instrumentation Lab",
-    "Department": "Electronics Engineering",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": 119401,
-    "SubjectAcr": "TE",
-    "SubjectName": "Transportation Engineering",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119402,
-    "SubjectAcr": "BPCAED",
-    "SubjectName": "Building Planning and Computer-Aided Civil Engineering Drawing",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
+    "SubjectCode": "103609P",
+    "SubjectName": "Electronics Design Laboratory",
+    "SubjectAcr": "EDL",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 6,
     "Credits": 2
   },
   {
-    "SubjectCode": 119403,
-    "SubjectAcr": "GE-I",
-    "SubjectName": "Geotechnical Engineering-I",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119404,
-    "SubjectAcr": "FDS",
-    "SubjectName": "Fundamentals of Data Science",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 2
-  },
-  {
-    "SubjectCode": 119405,
-    "SubjectAcr": "SA",
-    "SubjectName": "Structural Analysis",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
+    "SubjectCode": 103301,
+    "SubjectName": "Electrical Circuit Analysis",
+    "SubjectAcr": "ECA",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
     "Credits": 4
   },
   {
-    "SubjectCode": 119406,
-    "SubjectAcr": "AI",
-    "SubjectName": "Artificial Intelligence",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 119407,
-    "SubjectAcr": "CSGI",
-    "SubjectName": "Civil Engineering – Societal & Global Impact",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 0
-  },
-  {
-    "SubjectCode": "119401P",
-    "SubjectAcr": "TE-P",
-    "SubjectName": "Transportation Engineering Lab",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "119402P",
-    "SubjectAcr": "BPCAED-P",
-    "SubjectName": "Building Planning and Computer-Aided Civil Engineering Drawing Lab",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "119403P",
-    "SubjectAcr": "GE-I-P",
-    "SubjectName": "Geotechnical Engineering-I Lab",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": "119406P",
-    "SubjectAcr": "AI-P",
-    "SubjectName": "Artificial Intelligence Lab",
-    "Department": "Civil Engineering with Computer Application",
-    "Semester": 4,
-    "Credits": 1
-  },
-  {
-    "SubjectCode": 153401,
-    "SubjectAcr": "COA",
-    "SubjectName": "Computer Organization and Architecture",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 3
-  },
-  {
-    "SubjectCode": 153402,
-    "SubjectAcr": "FLA",
-    "SubjectName": "Formal Language and Automata Theory",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
+    "SubjectCode": 103301,
+    "SubjectName": "Electrical Circuit Analysis",
+    "SubjectAcr": "ECA",
+    "SubjectType": "T",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
     "Credits": 4
   },
   {
-    "SubjectCode": 153403,
-    "SubjectAcr": "DAA",
-    "SubjectName": "Design and Analysis of Algorithms",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 3
+    "SubjectCode": 103302,
+    "SubjectName": "Analog Electronics",
+    "SubjectAcr": "AE",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": 153404,
-    "SubjectAcr": "DBMS",
-    "SubjectName": "Database Management System",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 3
+    "SubjectCode": 103302,
+    "SubjectName": "Analog Electronics",
+    "SubjectAcr": "AE",
+    "SubjectType": "T",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": 153405,
-    "SubjectAcr": "ETC",
-    "SubjectName": "Effective Technical Communication",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 3
+    "SubjectCode": 103303,
+    "SubjectName": "Electrical Machines-I",
+    "SubjectAcr": "ELM-I",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": 153406,
-    "SubjectAcr": "CN",
-    "SubjectName": "Computer Networks",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 3
+    "SubjectCode": 103303,
+    "SubjectName": "Electrical Machines-I",
+    "SubjectAcr": "ELM-I",
+    "SubjectType": "T",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": "153401P",
-    "SubjectAcr": "COA-P",
-    "SubjectName": "Computer Organization and Architecture Lab",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 1
+    "SubjectCode": 103304,
+    "SubjectName": "Engineering Mathematics-III",
+    "SubjectAcr": "MTH",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": "153403P",
-    "SubjectAcr": "DAA-P",
-    "SubjectName": "Design and Analysis of Algorithms Lab",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 1
+    "SubjectCode": 103304,
+    "SubjectName": "Engineering Mathematics-III",
+    "SubjectAcr": "MTH",
+    "SubjectType": "T",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": "153404P",
-    "SubjectAcr": "DBMS-P",
-    "SubjectName": "Database Management System Lab",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 1
+    "SubjectCode": 103305,
+    "SubjectName": "Engineering Mechanics",
+    "SubjectAcr": "EM",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": "153406P",
-    "SubjectAcr": "CN-P",
-    "SubjectName": "Computer Networks Lab",
-    "Department": "Computer Science and Engineering",
-    "Semester": 4,
-    "Credits": 1
+    "SubjectCode": 103305,
+    "SubjectName": "Engineering Mechanics",
+    "SubjectAcr": "EM",
+    "SubjectType": "T",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 4
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "GI",
-    "SubjectName": "Geoinformatics",
-    "Department": "Computer Science and Engineering",
+    "SubjectCode": 103306,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
     "Semester": 3,
     "Credits": 3
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "EM III",
+    "SubjectCode": 103307,
+    "SubjectName": "Indian Knowledge System",
+    "SubjectAcr": "IKS",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 0
+  },
+  {
+    "SubjectCode": "103301P",
+    "SubjectName": "Electrical Circuit Analysis LAB",
+    "SubjectAcr": "ECA",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "103302P",
+    "SubjectName": "Analog Electronics LAB",
+    "SubjectAcr": "AE",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "103303P",
+    "SubjectName": "Electrical Machine – I Lab",
+    "SubjectAcr": "ELM-I",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 3,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101301,
+    "SubjectName": "Solid Mechanics",
+    "SubjectAcr": "SM",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101302,
     "SubjectName": "Engineering Mathematics-III",
-    "Department": "",
-    "Semester": 1,
+    "SubjectAcr": "MTH",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
     "Credits": 4
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": 101303,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": 101304,
+    "SubjectName": "Surveying and Geomatics",
+    "SubjectAcr": "SG",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": 101305,
+    "SubjectName": "Fluid Mechanics",
+    "SubjectAcr": "FM",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": 101306,
+    "SubjectName": "Materials Testing & Evaluation",
+    "SubjectAcr": "MTE",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 3
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": 101307,
+    "SubjectName": "Indian Knowledge System",
+    "SubjectAcr": "IKS",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 0
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": "101301P",
+    "SubjectName": "Solid Mechanics",
+    "SubjectAcr": "SM",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 1
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "",
-    "SubjectName": "",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": "101304P",
+    "SubjectName": "Surveying & Geomatics",
+    "SubjectAcr": "SG",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 1
   },
   {
-    "SubjectCode": "",
-    "SubjectAcr": "FL",
-    "SubjectName": "Foreign language",
-    "Department": "",
-    "Semester": "",
-    "Credits": ""
+    "SubjectCode": "101305P",
+    "SubjectName": "Fluid Mechanics",
+    "SubjectAcr": "FM",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "101306P",
+    "SubjectName": "Materials Testing & Evaluation",
+    "SubjectAcr": "MTE",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 3,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101401,
+    "SubjectName": "Transportation Engineering",
+    "SubjectAcr": "TE",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101402,
+    "SubjectName": "Building Planning and Computer Aided Civil Engineering Drawings",
+    "SubjectAcr": "BPCAD",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101403,
+    "SubjectName": "Geotechnical Engineering-I",
+    "SubjectAcr": "GE",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101404,
+    "SubjectName": "Hydraulic Engineering",
+    "SubjectAcr": "HE",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101405,
+    "SubjectName": "Structural Analysis",
+    "SubjectAcr": "SA",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101406,
+    "SubjectName": "Engineering Geology",
+    "SubjectAcr": "EG",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101407,
+    "SubjectName": "Civil Engineering Societal and Global Impact",
+    "SubjectAcr": "CESGI",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 0
+  },
+  {
+    "SubjectCode": 101401,
+    "SubjectName": "Transportation Engineering",
+    "SubjectAcr": "TE",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101402,
+    "SubjectName": "Building Planning and Computer Aided Civil Engineering Drawings",
+    "SubjectAcr": "BPCAD",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101403,
+    "SubjectName": "Geotechnical Engineering-I",
+    "SubjectAcr": "GE",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101404,
+    "SubjectName": "Hydraulic Engineering",
+    "SubjectAcr": "HE",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101406,
+    "SubjectName": "Engineering Geology",
+    "SubjectAcr": "EG",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 4,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 101602,
+    "SubjectName": "Construction Engineering & Management",
+    "SubjectAcr": "CEM",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101603,
+    "SubjectName": "Design of Steel Structure",
+    "SubjectAcr": "DSS",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101604,
+    "SubjectName": "Engineering Economics, Estimation & Costing",
+    "SubjectAcr": "EEEC",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 101605,
+    "SubjectName": "Environmental Engineering-II",
+    "SubjectAcr": "EE-II",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101606,
+    "SubjectName": "Geotechnical Engineering-II",
+    "SubjectAcr": "GT-II",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101607,
+    "SubjectName": "Concrete Materials",
+    "SubjectAcr": "CM",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 101623,
+    "SubjectName": "Airport Planning and Design",
+    "SubjectAcr": "APD",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "101604P",
+    "SubjectName": "Engineering Economics Estimation & Costing",
+    "SubjectAcr": "EEEC",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 6,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 100101,
+    "SubjectName": "Communication Skills",
+    "SubjectAcr": "CMS",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100103,
+    "SubjectName": "Engineering Chemistry",
+    "SubjectAcr": "CHM",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100107,
+    "SubjectName": "Engineering Graphics and Design",
+    "SubjectAcr": "EGD",
+    "SubjectType": "L",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "100101P",
+    "SubjectName": "Communication Skills",
+    "SubjectAcr": "CMS",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100103P",
+    "SubjectName": "Engineering Chemistry",
+    "SubjectAcr": "CHM",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100107P",
+    "SubjectName": "Engineering Graphics & Design",
+    "SubjectAcr": "EGD",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100113P",
+    "SubjectName": "Sports/Yoga/NCC/NSS",
+    "SubjectAcr": "SYNN",
+    "SubjectType": "P",
+    "Department": "Civil Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 100101,
+    "SubjectName": "Communication Skills",
+    "SubjectAcr": "CMS",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100103,
+    "SubjectName": "Engineering Chemistry",
+    "SubjectAcr": "CHEM",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100107,
+    "SubjectName": "Engineering Graphics and Design",
+    "SubjectAcr": "EGD",
+    "SubjectType": "L",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "100101P",
+    "SubjectName": "Communication Skills",
+    "SubjectAcr": "CMS",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100103P",
+    "SubjectName": "Engineering Chemistry",
+    "SubjectAcr": "CHEM",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100107P",
+    "SubjectName": "Engineering Graphics & Design",
+    "SubjectAcr": "EGD",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100113P",
+    "SubjectName": "Sports/Yoga/NCC/NSS",
+    "SubjectAcr": "SYNN",
+    "SubjectType": "P",
+    "Department": "Mechanical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 100101,
+    "SubjectName": "Communication Skills",
+    "SubjectAcr": "CMS",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100104,
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100106,
+    "SubjectName": "Basics of Electrical Engineering",
+    "SubjectAcr": "BEE",
+    "SubjectType": "L",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "100101P",
+    "SubjectName": "Communication Skills Lab",
+    "SubjectAcr": "CMS",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100104P",
+    "SubjectName": "Engineering Physics Lab",
+    "SubjectAcr": "PHY",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100106P",
+    "SubjectName": "Basics of Electrical Engineering Lab",
+    "SubjectAcr": "BEE",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving Lab",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100113P",
+    "SubjectName": "Sports/Yoga/NCC/NSS",
+    "SubjectAcr": "SYNN",
+    "SubjectType": "P",
+    "Department": "Electrical Engineering",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100104,
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100108,
+    "SubjectName": "Computer Fundamentals & Emerging Technologies",
+    "SubjectAcr": "CFET",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100109,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 100110,
+    "SubjectName": "Essence of Indian Constitution",
+    "SubjectAcr": "EIC",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100111,
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "BEEE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "100104P",
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100111P",
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "EGD",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (DS)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100104,
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100108,
+    "SubjectName": "Computer Fundamentals & Emerging Technologies",
+    "SubjectAcr": "CFET",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100109,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 100110,
+    "SubjectName": "Essence of Indian Constitution",
+    "SubjectAcr": "EIC",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100111,
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "BEEE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "100104P",
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100111P",
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "EGD",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (AI)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": 100102,
+    "SubjectName": "Engineering Mathematics-I",
+    "SubjectAcr": "MATH",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100104,
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100105,
+    "SubjectName": "Introduction to AI",
+    "SubjectAcr": "IAI",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100108,
+    "SubjectName": "Computer Fundamentals & Emerging Technologies",
+    "SubjectAcr": "CFET",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100109,
+    "SubjectName": "Universal Human Values",
+    "SubjectAcr": "UHV",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 2
+  },
+  {
+    "SubjectCode": 100110,
+    "SubjectName": "Essence of Indian Constitution",
+    "SubjectAcr": "EIC",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": 100111,
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "BEEE",
+    "SubjectType": "L",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 3
+  },
+  {
+    "SubjectCode": "100104P",
+    "SubjectName": "Engineering Physics",
+    "SubjectAcr": "PHY",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100111P",
+    "SubjectName": "Basics of Electrical & Electronics Engineering",
+    "SubjectAcr": "EGD",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 1
+  },
+  {
+    "SubjectCode": "100112P",
+    "SubjectName": "Programming for Problem Solving",
+    "SubjectAcr": "PPS",
+    "SubjectType": "P",
+    "Department": "Computer Science and Egineering (M&C)",
+    "Semester": 1,
+    "Credits": 1
   }
 ]
