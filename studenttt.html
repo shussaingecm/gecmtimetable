@@ -225,114 +225,91 @@ cursor:pointer;
 text-decoration:underline;
 }
     /* ===== Mobile specific tweaks ===== */
-/* ---------- Mobile Specific ---------- */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
 h2 {
-  font-size: 16px;
-  margin-bottom: 15px;
+font-size: 16px;
 }
 
-.card {
-  background: #ffffff;
-  width: 100%;
-  max-width: 500px;
-  padding: 15px 10px;
-  border-radius: 14px;
-  text-align: center;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-}
-
-.college-logo {
-  max-width: 100px;
-  margin-bottom: 5px;
-}
-
-/* ===== TIMETABLE ===== */
-
-.table-wrapper {
-  width: 100%;
-  overflow-x: auto;
-}
-
-table {
-  min-width: 600px;
-}
-
-th,
-td {
-  height: 35px;
-  font-size: 11px;
+th, td {
+height: 35px;
+font-size: 11px;
 }
 
 td:first-child,
 th:first-child {
-  min-width: 70px;
+min-width: 70px;
 }
 
-/* ===== INPUT / CONTROLS ===== */
+.table-wrapper {
+overflow-x: auto;
+}
 
-.controls,
-.form-group,
+table {
+min-width: 600px;
+}
+
+.controls, 
+.form-group {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card {
+background: #ffffff;
+width: 95%;
+max-width: 600px;
+padding: 40px 10px;
+border-radius: 14px;
+text-align: center;
+box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
 .input-group {
+flex-direction: column;
+align-items: center;
+max-width: 350px;
+}
+
+.college-logo {
+max-width: 100px;
+}
+
+select, input, button {
+width: 50%;
+max-width: 350px;
+margin: 2px auto;
+margin-right: auto;
+display: block;
+font-size: 12px;
+padding: 10px;
+}
+
+
+/* ===== MOBILE ACTION BUTTONS ===== */
+
+#downloadSection {
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+  box-sizing: border-box;
 }
-
-select,
-input {
-  width: 50%;
-  max-width: 350px;
-  margin: 2px auto;
-  display: block;
-  font-size: 12px;
-  padding: 10px;
-}
-
-/* ===== ACTION BUTTONS ===== */
-
-#downloadSection {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  width: 100%;
-  padding: 10px 0;
-  margin-top: 20px;
-
-  gap: 0;
-}
-
-/* Same style as index.html mobile buttons */
 
 #downloadSection .action-btn {
-  width: 70% !important;
-  max-width: 160px;
+  width: 55% !important;
+  max-width: 300px;
   min-width: 0;
-
-  padding: 12px;
-  margin: 0 auto 2px auto !important;
-
+  margin: 0 auto !important;
+  padding: 12px 10px;
   display: block;
   box-sizing: border-box;
-
-  font-size: 12px;
-  border-radius: 6px;
-  border: 1px;
-
-  background: #074072;
-  color: white;
-  cursor: pointer;
-}
-
-/* ===== FOOTER ===== */
-
-.note {
-  margin-top: 20px;
-  font-size: 12px;
+  text-align: center;
 }
 
 }
