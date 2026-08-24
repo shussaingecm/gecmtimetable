@@ -404,5 +404,19 @@
     "Name": "Mr. Akash Kumar Solanki",
     "Designation": "Lab Assistant",
     "Department": "Computer Science and Engineering"
+  },
+  {
+    "EmployeeID": 4023,
+    "FacultyCode": "KM",
+    "Name": "Ms. Komal Madhvi Kumari",
+    "Designation": "Lab Assistant",
+    "Department": "Applied Sciences"
+  },
+  {
+    "EmployeeID": 4024,
+    "FacultyCode": "NR",
+    "Name": "Mr. Niranjan Kumar",
+    "Designation": "Lab Assistant",
+    "Department": "Applied Sciences"
   }
 ]
