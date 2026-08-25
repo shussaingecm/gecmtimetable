@@ -57,15 +57,15 @@ border:1px solid #0b5592;
 }
 
 button {
-  padding: 8px 15px;
-  font-size: 14px;
-  border: none;
-  border-radius: 6px;
-  background: #05457e;
-  color: #fff;
-  cursor: pointer;
-  width: 100%;
-  max-width: 150px;
+padding: 8px 15px;
+font-size: 14px;
+border: none;
+border-radius: 6px;
+background: #05457e;
+color: #fff;
+cursor: pointer;
+width: 100%;
+max-width: 150px;
 }
 
 table{
@@ -101,6 +101,42 @@ margin-top: 12px;
 color: #0e4791;
 font-weight: bold;
 font-size: 12px;
+}
+.attendance-btn {
+  width: 42px;
+  min-width: 42px;
+  max-width: 42px;
+  padding: 7px 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.attendance-btn.present {
+  background: #16803c;
+  color: white;
+}
+
+.attendance-btn.absent {
+  background: #c62828;
+  color: white;
+}
+
+.attendance-btn:hover {
+  opacity: 0.85;
+}
+#attendanceControls .all-present {
+  background: #16803c;
+}
+
+#attendanceControls .all-absent {
+  background: #c62828;
+}
+#attendanceControls .all-present,
+#attendanceControls .all-absent {
+  margin: 0 10px;
 }
 
 @media (max-width: 600px){
@@ -139,6 +175,7 @@ font-size:14px;
 }
 }
 
+
 </style>
 </head>
 
@@ -155,7 +192,8 @@ font-size:14px;
 
 <select id="branch">
 <option value="">Select Branch</option>
-<option value="CE">CE</option>
+<option value="CE (GA)">CE (GA)</option>
+<option value="CE (GB)">CE (GB)</option>
 <option value="CSE (DS)">CSE (DS)</option>
 <option value="CSE (AI)">CSE (AI)</option>
 <option value="CSE (M&C)">CSE (M&C)</option>
@@ -187,8 +225,40 @@ font-weight:bold;
 color:#0b3c5d;">
 </div>
 
+<div id="attendanceControls" style="display:none; text-align:center; margin:12px 0;">
+
+<button type="button"
+  class="all-present"
+  onclick="markAllAttendance('P')">
+Mark All Present
+</button>
+
+<button type="button"
+  class="all-absent"
+  onclick="markAllAttendance('A')">
+Mark All Absent
+</button>
+
+</div>
+
 <div style="overflow-x:auto;">
   <div id="result"></div>
+</div>
+
+<div id="attendanceSummary" style="
+display:none;
+text-align:center;
+margin-top:15px;
+font-size:14px;
+font-weight:bold;
+color:#0b3c5d;">
+
+Total Students: <span id="totalStudents">0</span>
+&nbsp; | &nbsp;
+Present: <span id="totalPresent">0</span>
+&nbsp; | &nbsp;
+Absent: <span id="totalAbsent">0</span>
+
 </div>
 
 <div id="downloadSection" style="display:none; text-align:center; margin-top:15px;">
@@ -241,20 +311,226 @@ document.getElementById("downloadSection").style.display="none";
 return;
 }
 
-let headers = ["Sr. No.", "Reg. Number", "Name", "Roll Number", "Remarks"];
+let headers = ["Sr. No.", "Reg. Number", "Name", "Roll Number", "Attendance"];
 
 let html="<table>";
 html+="<tr>"+headers.map(h=>`<th>${h}</th>`).join("")+"</tr>";
 
-filtered.forEach(row=>{
-html+="<tr>"+headers.map(h=>`<td>${row[h] || ""}</td>`).join("")+"</tr>";
+filtered.forEach((row, index) => {
+
+  const attendanceKey = getAttendanceKey(branch, semester, row);
+  const savedStatus = getSavedAttendance(attendanceKey);
+
+  html += `
+    <tr>
+      <td>${row["Sr. No."] || index + 1}</td>
+      <td>${row["Reg. Number"] || ""}</td>
+      <td>${row["Name"] || ""}</td>
+      <td>${row["Roll Number"] || ""}</td>
+
+      <td>
+        <button
+          type="button"
+          class="attendance-btn ${savedStatus === "A" ? "absent" : "present"}"
+          data-key="${attendanceKey}"
+          onclick="toggleAttendance(this)"
+        >
+          ${savedStatus}
+        </button>
+      </td>
+    </tr>
+  `;
 });
 
 html+="</table>";
 
 document.getElementById("result").innerHTML=html;
 document.getElementById("downloadSection").style.display="block";
+document.getElementById("attendanceControls").style.display = "block";
 
+updateAttendanceSummary();
+
+}
+
+/* =====================================================
+   ATTENDANCE STORAGE
+   Saved temporarily in browser for maximum 30 minutes
+   ===================================================== */
+
+const ATTENDANCE_STORAGE_KEY = "studentAttendanceState";
+const ATTENDANCE_EXPIRY = 30 * 60 * 1000; // 30 minutes
+
+
+function getAttendanceKey(branch, semester, row) {
+
+  return [
+    branch,
+    semester,
+    row["Reg. Number"] || "",
+    row["Roll Number"] || "",
+    row["Name"] || ""
+  ].join("|");
+
+}
+
+
+/* Get complete saved attendance object */
+
+function getAttendanceData() {
+
+  try {
+
+    const saved =
+      localStorage.getItem(ATTENDANCE_STORAGE_KEY);
+
+    if (!saved) {
+      return {};
+    }
+
+    const data = JSON.parse(saved);
+
+    /* Check 30-minute expiry */
+
+    if (
+      !data.timestamp ||
+      Date.now() - data.timestamp > ATTENDANCE_EXPIRY
+    ) {
+
+      localStorage.removeItem(
+        ATTENDANCE_STORAGE_KEY
+      );
+
+      return {};
+    }
+
+    return data.attendance || {};
+
+  } catch (error) {
+
+    console.error(
+      "Unable to read attendance state:",
+      error
+    );
+
+    return {};
+  }
+
+}
+
+
+/* Get attendance for one student */
+
+function getSavedAttendance(key) {
+
+  const attendance = getAttendanceData();
+
+  return attendance[key] || "P";
+
+}
+
+
+/* Save attendance */
+
+function saveAttendance(key, status) {
+
+  const attendance =
+    getAttendanceData();
+
+  attendance[key] = status;
+
+  const data = {
+
+    timestamp: Date.now(),
+
+    attendance: attendance
+
+  };
+
+  localStorage.setItem(
+    ATTENDANCE_STORAGE_KEY,
+    JSON.stringify(data)
+  );
+
+}
+
+
+/* P ↔ A */
+
+function toggleAttendance(button) {
+
+  const key =
+    button.dataset.key;
+
+  const currentStatus =
+    button.textContent.trim();
+
+  const newStatus =
+    currentStatus === "P" ? "A" : "P";
+
+  button.textContent =
+    newStatus;
+
+  button.classList.toggle(
+    "present",
+    newStatus === "P"
+  );
+
+  button.classList.toggle(
+    "absent",
+    newStatus === "A"
+  );
+
+  saveAttendance(
+    key,
+    newStatus
+  );
+  updateAttendanceSummary();
+
+}
+
+function markAllAttendance(status) {
+
+  const buttons = document.querySelectorAll(".attendance-btn");
+
+  buttons.forEach(button => {
+
+    const key = button.dataset.key;
+
+    button.textContent = status;
+
+    button.classList.toggle("present", status === "P");
+    button.classList.toggle("absent", status === "A");
+
+    saveAttendance(key, status);
+
+  });
+
+  updateAttendanceSummary();
+}
+
+
+function updateAttendanceSummary() {
+
+  const buttons = document.querySelectorAll(".attendance-btn");
+
+  let present = 0;
+  let absent = 0;
+
+  buttons.forEach(button => {
+
+    if (button.textContent.trim() === "P") {
+      present++;
+    } else {
+      absent++;
+    }
+
+  });
+
+  document.getElementById("totalStudents").textContent = buttons.length;
+  document.getElementById("totalPresent").textContent = present;
+  document.getElementById("totalAbsent").textContent = absent;
+
+  document.getElementById("attendanceSummary").style.display = "block";
 }
 
 function downloadPDF(){
@@ -280,10 +556,23 @@ const header = document.createElement("div");
 header.style.textAlign = "center";
 header.style.marginBottom = "10px";
 
+const downloadDateTime = new Date().toLocaleString("en-IN", {
+  day: "2-digit",
+  month: "2-digit",
+  year: "numeric",
+  hour: "2-digit",
+  minute: "2-digit",
+  second: "2-digit",
+  hour12: true
+});
+
 header.innerHTML = `
 <h3 style="margin:0;">Government Engineering College Munger</h3>
-<p style="margin:2px;">Student List</p>
+<p style="margin:2px;">Student Attendance</p>
 <p style="margin:2px;">${document.getElementById("classInfo").innerText}</p>
+<p style="margin:4px 0 0; font-size:10px;">
+  Downloaded on: <b>${downloadDateTime}</b>
+</p>
 `;
 
 /* Clone table */
@@ -320,6 +609,41 @@ el.style.padding = "4px";
 /* Append */
 temp.appendChild(header);
 temp.appendChild(table);
+/* Attendance Summary */
+
+const summary = document.createElement("div");
+
+const attendanceButtons =
+  document.querySelectorAll(".attendance-btn");
+
+let totalStudents = attendanceButtons.length;
+let totalPresent = 0;
+let totalAbsent = 0;
+
+attendanceButtons.forEach(button => {
+
+  if (button.textContent.trim() === "P") {
+    totalPresent++;
+  } else {
+    totalAbsent++;
+  }
+
+});
+
+summary.style.textAlign = "center";
+summary.style.fontSize = "11px";
+summary.style.fontWeight = "bold";
+summary.style.marginTop = "10px";
+
+summary.innerHTML = `
+  Total Students: ${totalStudents}
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  Present: ${totalPresent}
+  &nbsp;&nbsp; | &nbsp;&nbsp;
+  Absent: ${totalAbsent}
+`;
+
+temp.appendChild(summary);
 
 temp.style.width = "90%";   // ⭐ IMPORTANT
 temp.style.margin = "0 auto";
