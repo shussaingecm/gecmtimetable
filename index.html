@@ -52,13 +52,13 @@
   }
 
   .button-group {
-    display: flex;
-    justify-content: center;
-    gap: 12px;
-    padding: 11px;
-    
-    
-  }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 11px;
+  max-width: 450px;
+  margin: 0 auto;
+}
 
   button {
     width: 80%;
@@ -82,7 +82,9 @@
     font-size: 13px;
     color: #226fe2c6;
     font-weight: bold;
-  }
+    text-align: center;
+    width: 100%;
+}
 /* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
 .notice-box{
   margin:15px auto;
@@ -203,24 +205,20 @@ h2 {
 
 <!-- Buttons -->
 <div class="button-group">
-<button onclick="location.href='facultytt.html'">Faculty Timetable</button>
-<button onclick="location.href='studenttt.html'">Student Timetable</button>
-<button onclick="location.href='classlookup.html'">Class Lookup</button>
-<button onclick="location.href='attendance.html'">Take Attendance</button>
-<button onclick="location.href='student_list.html'">Student List</button>
+
+  <button onclick="location.href='facultytt.html'">Faculty Timetable</button>
+  <button onclick="location.href='studenttt.html'">Student Timetable</button>
+  <button onclick="location.href='classlookup.html'">Class Lookup</button>
+  <button onclick="location.href='attendance.html'">Take Attendance</button>
+  <button onclick="location.href='student_list.html'">Student List</button>
+  <button onclick="location.href='disclaimer.html'">Disclaimer</button>
 
 </div>
-<button type="button"
-        onclick="window.open('disclaimer.html','_blank')"
-        class="action-btn">
-  Disclaimer
-</button>
 
-  <!-- Footer -->
 <div class="footer">
-<a href="itcell.html" style="text-decoration:none; color: #135bc7;">
- Hosted by IT Cell GEC Munger</a>
-</div>
+  <a href="itcell.html" style="text-decoration:none; color:#135bc7;">
+    Hosted by IT Cell GEC Munger
+  </a>
 </div>
 </div>
 
