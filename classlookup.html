@@ -5,70 +5,324 @@
 <title>Timetable Slot Search</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body{margin:0;font-family:Georgia,'Times New Roman',Times,serif;background:linear-gradient(120deg,#4facfe,#00f2fe);min-height:100vh;display:flex;justify-content:center;align-items:center;padding:15px}
-.card{background:white;width:100%;max-width:900px;padding:30px;border-radius:12px;box-shadow:0 15px 30px rgba(0,0,0,.2)}
-h1{text-align:center;color:#0b3c5d;margin-bottom:18px;font-size:22px}
-h2{text-align:center;color:#0b3c5d;margin-bottom:50px;font-size:18px}
-.controls{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
-select,button{padding:8px;font-size:13px;border-radius:6px;border:1px solid #0b5592}
-button{background:#0b3c5d;color:white;cursor:pointer;border:none;width:12%}
-button:hover{background:#06263d}
-table{width:100%;border-collapse:collapse;margin-top:15px}
-th,td{border:1px solid #ccc;padding:8px;font-size:13px;text-align:center}
-th{background:#0b3c5d;color:white}
-tr:nth-child(even){background:#f5f8ff}
-.logo-container{text-align:center;margin-bottom:10px}
-.college-logo{max-width:100px;height:auto}
-.college-name{text-align:center;color:#0b3c5d;margin:5px 0 10px;font-size:20px;font-weight:bold}
-.faculty-code{color:green;font-weight:bold;cursor:pointer}
-.faculty-code:hover{text-decoration:underline}
-.subject-code{font-weight:bold;color:#0b3c5d;cursor:pointer}
-.subject-code:hover{text-decoration:underline}
-.class-group{font-weight:bold;margin-bottom:3px}
-.note{text-align:center;margin-top:50px;margin-bottom:30px;color:#0e4791;font-weight:bold;font-size:14px}
-.popup{position:fixed;inset:0;background:rgba(0,0,0,.45);display:none;justify-content:center;align-items:center;z-index:2000}
-.popup-content{background:white;width:90%;max-width:400px;padding:25px;border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.3);position:relative}
-.popup-content h3{margin-top:0;color:#0b3c5d}
-.popup-content p{margin:10px 0}
-.popup-close{position:absolute;right:10px;top:8px;width:auto;background:none;color:#333;border:none;font-size:24px;padding:0;cursor:pointer}
-.popup-close:hover{background:none;color:#d00}
 
-.subject-popup{
-position:absolute;
-background:white;
-border:1px solid #ccc;
-border-radius:6px;
-padding:8px 10px;
-font-size:14px;
-box-shadow:0 4px 10px rgba(0,0,0,.2);
-z-index:1000;
-max-width:250px;
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(120deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 
-.subject-popup b{
-color:#0b3c5d;
-}
-.faculty-popup{
-position:absolute;
-background:white;
-border:1px solid #ccc;
-border-radius:6px;
-padding:8px 10px;
-font-size:14px;
-box-shadow:0 4px 10px rgba(0,0,0,.2);
-z-index:1000;
-max-width:250px;
+
+/* =========================
+   MAIN CARD
+   ========================= */
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .2);
 }
 
-.faculty-popup b{
-color:#0b3c5d;
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1 {
+    text-align: center;
+    color: #0b3c5d;
+    margin-bottom: 18px;
+    font-size: 22px;
 }
-@media(max-width:600px){
-.card{padding:15px}
-button{width:auto}
-th,td{font-size:11px;padding:6px}
-.popup-content{width:80%}
+
+h2 {
+    text-align: center;
+    color: #053b60;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
+
+
+/* =========================
+   CONTROLS
+   ========================= */
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+select,
+button {
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid #0b5592;
+}
+
+button {
+    background: #0b3c5d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 12%;
+}
+
+button:hover {
+    background: #06263d;
+}
+
+
+/* =========================
+   TABLE
+   ========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 13px;
+    text-align: center;
+}
+
+th {
+    background: #0b3c5d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f5f8ff;
+}
+
+
+/* =========================
+   LOGO & COLLEGE NAME
+   ========================= */
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.college-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.college-name {
+    text-align: center;
+    color: #0b3c5d;
+    margin: 5px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   FACULTY & SUBJECT CODES
+   ========================= */
+
+.faculty-code {
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faculty-code:hover {
+    text-decoration: underline;
+}
+
+.subject-code {
+    font-weight: bold;
+    color: #0b3c5d;
+    cursor: pointer;
+}
+
+.subject-code:hover {
+    text-decoration: underline;
+}
+
+.class-group {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+
+/* =========================
+   FOOTER NOTE
+   ========================= */
+
+.note {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #0e4791;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* =========================
+   POPUP
+   ========================= */
+
+.popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.popup-content {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.popup-content h3 {
+    margin-top: 0;
+    color: #0b3c5d;
+}
+
+.popup-content p {
+    margin: 10px 0;
+}
+
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: auto;
+    background: none;
+    color: #333;
+    border: none;
+    font-size: 24px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.popup-close:hover {
+    background: none;
+    color: #d00;
+}
+
+
+/* =========================
+   SUBJECT POPUP
+   ========================= */
+
+.subject-popup {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    z-index: 1000;
+    max-width: 250px;
+}
+
+.subject-popup b {
+    color: #0b3c5d;
+}
+
+
+/* =========================
+   FACULTY POPUP
+   ========================= */
+
+.faculty-popup {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .2);
+    z-index: 1000;
+    max-width: 250px;
+}
+
+.faculty-popup b {
+    color: #0b3c5d;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .card {
+        padding: 15px;
+    }
+
+
+    /* MOBILE: CONTROLS */
+
+    .controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .controls select,
+    .controls button {
+        width: 55%;
+        max-width: 300px;
+        margin: 0;
+        display: block;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+
+    /* MOBILE: TABLE */
+
+    th,
+    td {
+        font-size: 11px;
+        padding: 6px;
+    }
+
+
+    /* MOBILE: POPUP */
+
+    .popup-content {
+        width: 80%;
+    }
+
+}
+
 </style>
 </head>
 <body>
@@ -106,7 +360,7 @@ th,td{font-size:11px;padding:6px}
 <div id="result"></div>
 
 <div class="note">
-<a href="itcell.html" style="text-decoration:none;color:#0f477a;">Hosted by: IT Cell GEC Munger</a>
+<a href="itcell.html" style="text-decoration:none;color:#0f477a;">Hosted by IT Cell GEC Munger</a>
 </div>
 </div>
 
