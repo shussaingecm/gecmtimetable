@@ -7,13 +7,12 @@
 
 <style>
 body {
-  margin-top: 150px;
+  margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
   background: linear-gradient(120deg, #4facfe, #00f2fe);
-  min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 40px 40px 40px;
+  padding: 40px 40px 350px;
   align-items: flex-start;
 }
 
@@ -23,7 +22,7 @@ width:95%;
 max-width:700px;
 height:fit-content;
 min-height:0;
-padding:40px 40px;
+padding:35px 40px;
 border-radius:12px;
 box-shadow:0 15px 30px rgba(0,0,0,0.2);
 }
@@ -32,7 +31,7 @@ box-shadow:0 15px 30px rgba(0,0,0,0.2);
 width:100%;
 max-width:800px;
 height:auto;
-padding:25px 30px 10px;
+padding:10px 35px 20px;
 }
 .logo-container{
   text-align:center;
@@ -46,7 +45,7 @@ padding:25px 30px 10px;
 h2 { 
   text-align:center;
   color:#053b60;
-  margin:15px 0 15px;
+  margin:10px 0 15px;
   font-size:20px;
 }
 
@@ -126,7 +125,7 @@ tr:nth-child(even){
   justify-content:center;
   align-items:center;
   gap:10px;
-  margin-bottom:60px;
+  margin-bottom:30px;
   flex-wrap:wrap;
 }
 
@@ -139,11 +138,12 @@ tr:nth-child(even){
 }
 
 .controls select{
-  width:180px;
+  width:160px;
 }
 
 .controls button{
-  width:120px;
+  width:140px;
+  padding: 8px;
 }
 
 .controls button{
@@ -168,10 +168,20 @@ font-size: 12px;
 }
 
 /* ===== MOBILE ===== */
-@media (max-width: 600px) {
-  th, td {
+@media (max-width: 600px) { 
+
+  th, td { 
+    font-size: 12px; 
+    padding: 6px; 
+  } 
+
+  .card{ 
+    padding: 50px 50px;
+  }
+
+  .note{
+    white-space: nowrap;
     font-size: 12px;
-    padding: 6px;
   }
 }
 
@@ -205,7 +215,7 @@ font-size: 12px;
   </div>
 <div class="note">
   <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
-    Hosted by: IT Cell GEC Munger
+    Hosted by IT Cell GEC Munger
   </a>
 </div>
 
@@ -345,5 +355,4 @@ function showFaculty() {
 
 </body>
 </html>
-
 

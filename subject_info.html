@@ -13,14 +13,14 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 15px;
 }
 
 .card {
   background: white;
-  width: 90%;
-  max-width: 700px;
-  padding: 20px;
+  width: 100%;
+  max-width: 750px;
+  padding: 40px;
   margin: auto;
   border-radius: 12px;
   box-shadow: 0 15px 30px rgba(0,0,0,0.2);
@@ -29,7 +29,7 @@ body {
 h2 {
   text-align: center;
   color: #053b60;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size:18px;
 }
 
@@ -41,24 +41,24 @@ h2 {
 }
 
 .dept-section{
-  margin:35px auto;
+  margin:10px auto;
   max-width:750px;
   text-align:center;
 }
 
 .dept-title{
-  font-weight:normal;
+  font-weight:bold;
   color:#1a3a5f;
   padding:4px 0px;
-  margin:20px 0 6px 0;
-  font-size:15px;
+  margin:10px 0 6px 0;
+  font-size:14px;
 }
 
 .sem-title{
   color:rgb(3, 59, 133);
   padding:6px 0;
   margin:3px 0 2px 0;
-  text-align:left;
+  text-align:center;
   font-size:13px;
   width:100%;
 }
@@ -115,12 +115,59 @@ margin-bottom:5px;
   font-size: 12px;
 }
 
-@media (max-width:600px){
+.controls{
+  display:flex;
+  gap:10px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  margin:10px 0 20px;
+}
+
+.controls select,
+.controls button{
+  padding:8px 12px;
+  font-size:13px;
+  border-radius:6px;
+  border:1px solid #0b5592;
+}
+
+.controls button{
+  background:#05457e;
+  color:white;
+  padding: 10px;
+  border:none;
+  cursor:pointer;
+  width: 20%;
+}
+
+@media(max-width:600px){
+
+  .controls{
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+  }
+
+  .controls select,
+  .controls button{
+    width:70%;
+  }
+  h2 {
+  text-align: center;
+  color: #053b60;
+  margin-bottom: 25px;
+  font-size:16px;
+}
+.card {
+  background: white;
+  width: 82%;
+}
+}
   th,td{
     font-size:12px;
     padding:6px;
   }
-}
 </style>
 </head>
 
@@ -137,12 +184,43 @@ Government Engineering College Munger
 <div id="classInfo" style="
   text-align:center;
   margin:5px 0 15px;
-  font-size:14px;
+  font-size:12px;
   font-weight:bold;
   color:#0b3c5d;">
 </div>
 
-<div id="loading">Loading Subject information…</div>
+<div id="selectionControls" class="controls" style="display:none;">
+
+  <select id="branch">
+    <option value="">Select Branch</option>
+    <option value="CE (GA)">CE (GA)</option>
+    <option value="CE (GB)">CE (GB)</option>
+    <option value="CSE (DS)">CSE (DS)</option>
+    <option value="CSE (AI)">CSE (AI)</option>
+    <option value="CSE (M&C)">CSE (M&C)</option>
+    <option value="EE">EE</option>
+    <option value="ME">ME</option>
+  </select>
+
+  <select id="semester">
+    <option value="">Select Semester</option>
+    <option value="1">Sem 1</option>
+    <option value="2">Sem 2</option>
+    <option value="3">Sem 3</option>
+    <option value="4">Sem 4</option>
+    <option value="5">Sem 5</option>
+    <option value="6">Sem 6</option>
+    <option value="7">Sem 7</option>
+    <option value="8">Sem 8</option>
+  </select>
+
+  <button onclick="loadSelectedSubjects()">Search</button>
+
+</div>
+
+<div id="loading" style="display:none;">
+  Loading Subject information…
+</div>
 
 <div id="tableWrapper"></div>
 
@@ -155,7 +233,6 @@ Government Engineering College Munger
 
 <script>
 
-/* ===== CHANGE THIS WHEN USING JSON ===== */
 const API = "./subject_info.json";
 
 const params = new URLSearchParams(window.location.search);
@@ -163,140 +240,305 @@ const params = new URLSearchParams(window.location.search);
 const selectedBranch = params.get("branch");
 const selectedSemester = params.get("semester");
 
+
+/* ===== DEPARTMENT MAPPING ===== */
+
+const departmentMap = {
+
+  "CE (GA)": "Civil Engineering",
+  "CE (GB)": "Civil Engineering",
+
+  "CSE (DS)": "Computer Science and Egineering (DS)",
+  "CSE (AI)": "Computer Science and Egineering (AI)",
+  "CSE (M&C)": "Computer Science and Egineering (M&C)",
+
+  "EE": "Electrical Engineering",
+  "ME": "Mechanical Engineering"
+
+};
+
+
+/* ===== LOAD SUBJECT DATA ===== */
+
 fetch(API)
+
 .then(res => res.json())
+
 .then(data => {
 
-if (selectedBranch && selectedSemester) {
+  /*
+     If branch and semester are present
+     in URL, directly display subjects.
+  */
 
-  const departmentMap = {
-    "CE (GA)": "Civil Engineering",
-    "CE (GB)": "Civil Engineering",
-    "CSE (DS)": "Computer Science and Egineering (DS)",
-    "CSE (AI)": "Computer Science and Egineering (AI)",
-    "CSE (M&C)": "Computer Science and Egineering (M&C)",
-    "EE": "Electrical Engineering",
-    "ME": "Mechanical Engineering",
-  };
+  if (selectedBranch && selectedSemester) {
 
-  const selectedDepartment =
-    departmentMap[selectedBranch] || selectedBranch;
+    displaySubjects(
+      data,
+      selectedBranch,
+      selectedSemester
+    );
 
-  data = data.filter(row =>
-    String(row.Department || "").trim() ===
-    String(selectedDepartment).trim() &&
-    String(row.Semester || "").trim() ===
-    String(selectedSemester).trim()
-  );
+    return;
+  }
 
-}
 
-data.sort((a,b)=>{
-if(a.Department===b.Department){
-return Number(a.Semester)-Number(b.Semester);
-}
-return a.Department.localeCompare(b.Department);
-});
+  /*
+     If no URL parameters are present,
+     show Branch/Semester selection.
+  */
 
-const container = document.getElementById("tableWrapper");
-
-if(!data || data.length===0){
-document.getElementById("loading").innerText="No data found";
-return;
-}
-
-/* ===== GROUP BY DEPARTMENT ===== */
-
-const deptGroups={};
-
-data.forEach(row=>{
-
-const dept = row.Department;
-const sem = row.Semester;
-
-if(!deptGroups[dept]){
-deptGroups[dept]={};
-}
-
-if(!deptGroups[dept][sem]){
-deptGroups[dept][sem]=[];
-}
-
-deptGroups[dept][sem].push(row);
-
-});
-
-let html="";
-
-/* ===== CREATE TABLE FOR EACH DEPARTMENT ===== */
-
-Object.keys(deptGroups).forEach(dept=>{
-
-html+=`
-<div class="dept-section">
-<h3>${dept}</h3>
-`;
-
-Object.keys(deptGroups[dept]).sort((a,b)=>a-b).forEach(sem=>{
-
-html+=`
-<h4>Semester ${sem}</h4>
-
-<div class="table-container">
-<table>
-
-<thead>
-<tr>
-<th>Sr</th>
-<th>Subject Code</th>
-<th>Acronym</th>
-<th>Subject Name</th>
-<th>Credits</th>
-</tr>
-</thead>
-
-<tbody>
-`;
-deptGroups[dept][sem].sort((a, b) =>
-  Number(b.Credits || 0) - Number(a.Credits || 0)
-);
-deptGroups[dept][sem].forEach((sub,i)=>{
-
-html+=`
-<tr>
-<td>${i+1}</td>
-<td>${sub.SubjectCode || ""}</td>
-<td>${sub.SubjectAcr || ""}</td>
-<td style="text-align:left">${sub.SubjectName || ""}</td>
-<td>${sub.Credits || ""}</td>
-</tr>
-`;
-
-});
-
-html+=`
-</tbody>
-</table>
-</div>
-`;
-
-});
-
-html+=`</div>`;
-
-});
-
-container.innerHTML=html;
-
-document.getElementById("loading").style.display="none";
+  document.getElementById("selectionControls").style.display = "flex";
 
 })
 
-.catch(err=>{
-document.getElementById("loading").innerText=
-"Error loading data. Please try again.";
-console.error(err);
+
+.catch(err => {
+
+  document.getElementById("loading").innerText =
+    "Error loading data. Please try again.";
+
+  document.getElementById("loading").style.display = "block";
+
+  console.error(err);
+
 });
+
+
+/* ===== SEARCH BUTTON ===== */
+
+function loadSelectedSubjects() {
+
+  const branch =
+    document.getElementById("branch").value;
+
+  const semester =
+    document.getElementById("semester").value;
+
+
+  if (!branch || !semester) {
+
+    document.getElementById("tableWrapper").innerHTML =
+      '<div style="text-align:center;color:red;font-weight:bold;">Please select both Branch and Semester.</div>';
+
+    return;
+  }
+
+
+  fetch(API)
+
+  .then(res => res.json())
+
+  .then(data => {
+
+    displaySubjects(
+      data,
+      branch,
+      semester
+    );
+
+  })
+
+  .catch(err => {
+
+    document.getElementById("tableWrapper").innerHTML =
+      '<div style="text-align:center;color:red;font-weight:bold;">Error loading data. Please try again.</div>';
+
+    console.error(err);
+
+  });
+
+}
+
+
+/* ===== DISPLAY SUBJECTS ===== */
+
+function displaySubjects(data, branch, semester) {
+
+  const selectedDepartment =
+    departmentMap[branch] || branch;
+
+
+  /*
+     Filter subjects according to
+     selected branch and semester.
+  */
+
+  data = data.filter(row =>
+
+    String(row.Department || "").trim() ===
+    String(selectedDepartment).trim()
+
+    &&
+
+    String(row.Semester || "").trim() ===
+    String(semester).trim()
+
+  );
+
+
+  const container =
+    document.getElementById("tableWrapper");
+
+
+  document.getElementById("classInfo").innerHTML = "";
+
+
+  if (!data || data.length === 0) {
+
+    container.innerHTML =
+      '<div style="text-align:center;color:red;font-weight:bold;">Semester not running / No subjects found.</div>';
+
+    return;
+  }
+
+
+  /* ===== SORT ===== */
+
+  data.sort((a, b) => {
+
+    if (a.Department === b.Department) {
+
+      return Number(a.Semester) -
+             Number(b.Semester);
+
+    }
+
+    return a.Department.localeCompare(
+      b.Department
+    );
+
+  });
+
+
+  /* ===== GROUP BY DEPARTMENT ===== */
+
+  const deptGroups = {};
+
+
+  data.forEach(row => {
+
+    const dept = row.Department;
+    const sem = row.Semester;
+
+
+    if (!deptGroups[dept]) {
+      deptGroups[dept] = {};
+    }
+
+
+    if (!deptGroups[dept][sem]) {
+      deptGroups[dept][sem] = [];
+    }
+
+
+    deptGroups[dept][sem].push(row);
+
+  });
+
+
+  /* ===== CREATE TABLE ===== */
+
+  let html = "";
+
+
+  Object.keys(deptGroups).forEach(dept => {
+
+    html += `
+      <div class="dept-section">
+
+        <h3 class="dept-title">
+          ${dept}
+        </h3>
+    `;
+
+
+    Object.keys(deptGroups[dept])
+      .sort((a, b) => a - b)
+      .forEach(sem => {
+
+
+        html += `
+          <h4 class="sem-title">
+            Semester ${sem}
+          </h4>
+
+          <div class="table-container">
+
+            <table>
+
+              <thead>
+
+                <tr>
+                  <th>Sr</th>
+                  <th>Subject Code</th>
+                  <th>Acronym</th>
+                  <th>Subject Name</th>
+                  <th>Credits</th>
+                </tr>
+
+              </thead>
+
+              <tbody>
+        `;
+
+
+        /*
+           Sort subjects by credits
+        */
+
+        deptGroups[dept][sem].sort((a, b) =>
+          Number(b.Credits || 0) -
+          Number(a.Credits || 0)
+        );
+
+
+        deptGroups[dept][sem].forEach((sub, i) => {
+
+          html += `
+            <tr>
+
+              <td>${i + 1}</td>
+
+              <td>${sub.SubjectCode || ""}</td>
+
+              <td>${sub.SubjectAcr || ""}</td>
+
+              <td style="text-align:left">
+                ${sub.SubjectName || ""}
+              </td>
+
+              <td>${sub.Credits || ""}</td>
+
+            </tr>
+          `;
+
+        });
+
+
+        html += `
+              </tbody>
+
+            </table>
+
+          </div>
+        `;
+
+      });
+
+
+    html += `
+      </div>
+    `;
+
+  });
+
+
+  container.innerHTML = html;
+
+  document.getElementById("loading").style.display = "none";
+
+}
 
 </script>
 
