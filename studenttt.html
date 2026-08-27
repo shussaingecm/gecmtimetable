@@ -279,7 +279,7 @@ max-width: 100px;
 select, input, button {
 width: 50%;
 max-width: 350px;
-margin: 2px auto;
+margin: auto;
 margin-right: auto;
 display: block;
 font-size: 12px;
@@ -290,28 +290,30 @@ padding: 10px;
 /* ===== MOBILE ACTION BUTTONS ===== */
 
 #downloadSection {
-  width: 100%;
-  margin: 20px 0 0 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  box-sizing: border-box;
+    width: 50%;
+    max-width: 350;
+    margin: 20px auto 0 auto;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
 }
 
-#downloadSection .action-btn {
-  width: 55% !important;
-  max-width: 300px;
-  min-width: 0;
-  margin: 0 auto !important;
-  padding: 12px 10px;
-  display: block;
-  box-sizing: border-box;
-  text-align: center;
+#downloadSection > button {
+    display: block;
+    width: 300px;
+    max-width: 50%;
+    margin: 0;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    text-align: center;
 }
-
+#downloadSection > button:not(:last-child) {
+    margin-bottom: 7px !important;
+}
 }
 </style>
 </head>
@@ -416,7 +418,7 @@ style="
 
 <div class="note">
 <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
-Hosted by IT Cell GEC Munger</a>
+IT Cell GEC Munger</a>
 </div>
 
 </div>
@@ -490,7 +492,11 @@ function formatStudentCell(cell) {
             .join(" + ");
 
         /*
-  
+         * LINE 1:
+         * G1
+         *
+         * LINE 2:
+         * JAVA-P | ZIA | R-229
          */
 
         let html = "";
