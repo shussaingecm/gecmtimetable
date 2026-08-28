@@ -6,108 +6,108 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(120deg, #4facfe,#00f2fe);
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;   /* important for mobile */
-  }
-
-  .card {
-    background: white;
-    width: 100%;
-    max-width: 900px;
-    padding: 80px 40px;
-    border-radius: 14px;
-    text-align: center;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-  }
-
-  .logo {
-    max-width: 140px;
-    width: 140%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  h1 {
-    margin: 10px 0 6px;
-    font-size: 22px;
-    color: #135bc7;
-  }
-
-  h2 {
-    margin: 30px 0 6px;
-    margin-bottom: 25px;
-    font-size: 16px;
-    color: #053b60;
-  }
-
-  .button-group {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  padding: 11px;
-  max-width: 450px;
-  margin: 0 auto;
+* {
+box-sizing: border-box;
 }
 
-  button {
-    width: 80%;
-    max-width: 180px;
-    padding: 11px;
-    font-size: 14px;
-    border-radius: 6px;
-    border: 1px;
-    background: #074072;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-  }
+body {
+margin: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background: linear-gradient(120deg, #4facfe,#00f2fe);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;   /* important for mobile */
+}
 
-  button:hover {
-    background: #043d6f;
-  }
+.card {
+background: white;
+width: 100%;
+max-width: 900px;
+padding: 80px 40px;
+border-radius: 14px;
+text-align: center;
+box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
 
-  .footer {
-    margin-top: 30px;
-    font-size: 13px;
-    color: #226fe2c6;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
+.logo {
+max-width: 140px;
+width: 140%;
+height: auto;
+margin-bottom: 15px;
+}
+
+h1 {
+margin: 10px 0 6px;
+font-size: 22px;
+color: #135bc7;
+}
+
+h2 {
+margin: 30px 0 6px;
+margin-bottom: 25px;
+font-size: 16px;
+color: #053b60;
+}
+
+.button-group {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 12px;
+padding: 11px;
+max-width: 450px;
+margin: 0 auto;
+}
+
+button {
+width: 80%;
+max-width: 180px;
+padding: 11px;
+font-size: 14px;
+border-radius: 6px;
+border: 1px;
+background: #074072;
+color: white;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #043d6f;
+}
+
+.footer {
+margin-top: 30px;
+font-size: 13px;
+color: #226fe2c6;
+font-weight: bold;
+text-align: center;
+width: 100%;
 }
 /* - - - - - - - - Emergency Notice Block 1 of 3- - - - */
 .notice-box{
-  margin:15px auto;
-  padding:12px;
-  background:#fff3f3;
-  border-left:5px solid #c62828;
-  border-radius:6px;
-  font-size:13px;
-  color:#333;
-  line-height:1.5;
-  text-align:left; 
-  word-break:break-word;
+margin:15px auto;
+padding:12px;
+background:#fff3f3;
+border-left:5px solid #c62828;
+border-radius:6px;
+font-size:13px;
+color:#333;
+line-height:1.5;
+text-align:left; 
+word-break:break-word;
 }
 
 .notice-box h3{
-  margin-top:0;
-  margin-bottom:10px;
-  color:#c62828;
-  text-align:center;
+margin-top:0;
+margin-bottom:10px;
+color:#c62828;
+text-align:center;
 }
 
 .notice-box p{
-  text-align:justify;
+text-align:justify;
 }
 
 .notice-link{
@@ -132,60 +132,59 @@ font-size:13px;
 /* ---------- Mobile Specific ---------- */
 @media (max-width: 500px) {
 h1 {
-   font-size: 20px;
-   line-height: 1.2;
-   margin-bottom: 8px;
-   }
+font-size: 20px;
+line-height: 1.2;
+margin-bottom: 8px;
+}
 
 h2 {
-   font-size: 16px;
-   margin-bottom: 15px;
-  }
+font-size: 15px;
+margin-bottom: 15px;
+}
 
 .card {
-  background: #ffffff;
-  width: 100%;
-  max-width: 500px;
-  padding: 15px 10px;
-  border-radius: 14px;
-  text-align: center;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.25);
-  }
- .logo {
-    max-width:100px;
-    margin-bottom: 5px;
-    }
+background: #ffffff;
+width: 100%;
+max-width: 500px;
+padding: 15px 10px;
+border-radius: 14px;
+text-align: center;
+box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+.logo {
+max-width:100px;
+margin-bottom: 5px;
+}
 
-  button {
-   width: 70%;
-   max-width: 160px;
-   padding: 12px;
-   font-size: 12px;
-   border-radius: 6px;
-   border: 1px;
-   background: #074072;
-   color: white;
-   cursor: pointer;
-   transition: 0.3s;
-  }
+button {
+width: 70%;
+max-width: 160px;
+padding: 12px;
+font-size: 12px;
+border-radius: 6px;
+border: 1px;
+background: #074072;
+color: white;
+cursor: pointer;
+transition: 0.3s;
+}
 
- .button-group {
-   flex-direction: column;
-   align-items: center;
-   padding: 10px;
-   }
-/* - - - - - - - - Emergency Notice Block 2 of 3- - - - */
+.button-group {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 8px;
+    width: 100%;
+}
 .notice-box{
-  font-size:12px;
-  padding:10px;
-  margin:10px 5px;
-  text-align:left;
+font-size:12px;
+padding:10px;
+margin:10px 5px;
+text-align:left;
 }
 
 .notice-box h3{
-  text-align:center;
+text-align:center;
 }
-/* - - - - - - - - Emergency Notice Block 2 of 3- - - - */
 }
 </style>
 </head>
@@ -206,19 +205,19 @@ h2 {
 <!-- Buttons -->
 <div class="button-group">
 
-  <button onclick="location.href='facultytt.html'">Faculty Timetable</button>
-  <button onclick="location.href='studenttt.html'">Student Timetable</button>
-  <button onclick="location.href='classlookup.html'">Class Lookup</button>
-  <button onclick="location.href='attendance.html'">Take Attendance</button>
-  <button onclick="location.href='student_list.html'">Student List</button>
-  <button onclick="location.href='disclaimer.html'">Disclaimer</button>
+<button onclick="location.href='facultytt.html'">Faculty Timetable</button>
+<button onclick="location.href='studenttt.html'">Student Timetable</button>
+<button onclick="location.href='classlookup.html'">Class Lookup</button>
+<button onclick="location.href='attendance.html'">Take Attendance</button>
+<button onclick="location.href='student_list.html'">Student List</button>
+<button onclick="location.href='disclaimer.html'">Disclaimer</button>
 
 </div>
 
 <div class="footer">
-  <a href="itcell.html" style="text-decoration:none; color:#135bc7;">
-    Hosted by IT Cell GEC Munger
-  </a>
+<a href="itcell.html" style="text-decoration:none; color:#135bc7;">
+Hosted by IT Cell GEC Munger
+</a>
 </div>
 </div>
 

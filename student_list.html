@@ -113,6 +113,15 @@ color:#555;
 font-size:10px;
 line-height:1.5;
 }
+#downloadSection {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#downloadSection button {
+  margin: 0 5px;
+}
 
 @media (max-width: 600px){
 
@@ -152,21 +161,16 @@ font-size:16px;
 /* MOBILE: separate action buttons */
 
 #downloadSection {
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0px;
     width: 100%;
+    text-align: center;
 }
 
 #downloadSection button {
     display: block;
-    padding: 8px;
     width: 50%;
     max-width: 300px;
-    gap: 10px;
-    margin: 0px!important;
+    padding: 8px;
+    margin: 0 auto 6px auto !important;
 }
 
 }
@@ -224,7 +228,7 @@ color:#0b3c5d;">
   <div id="result"></div>
 </div>
 
-<div id="downloadSection" style="display:none; text-align:center; gap: 10px; margin-top:20px;">
+<div id="downloadSection" style="display:none;">
   
   <button onclick="window.open('disclaimer.html','_blank')">Disclaimer</button>
   <button onclick="downloadPDF()">Download PDF</button>
