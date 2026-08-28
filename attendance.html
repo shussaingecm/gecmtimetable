@@ -103,40 +103,40 @@ font-weight: bold;
 font-size: 12px;
 }
 .attendance-btn {
-  width: 42px;
-  min-width: 42px;
-  max-width: 42px;
-  padding: 7px 0;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 13px;
-  cursor: pointer;
+width: 42px;
+min-width: 42px;
+max-width: 42px;
+padding: 7px 0;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+font-size: 13px;
+cursor: pointer;
 }
 
 .attendance-btn.present {
-  background: #16803c;
-  color: white;
+background: #16803c;
+color: white;
 }
 
 .attendance-btn.absent {
-  background: #c62828;
-  color: white;
+background: #c62828;
+color: white;
 }
 
 .attendance-btn:hover {
-  opacity: 0.85;
+opacity: 0.85;
 }
 #attendanceControls .all-present {
-  background: #16803c;
+background: #16803c;
 }
 
 #attendanceControls .all-absent {
-  background: #c62828;
+background: #c62828;
 }
 #attendanceControls .all-present,
 #attendanceControls .all-absent {
-  margin: 0 10px;
+margin: 0 10px;
 }
 
 @media (max-width: 600px){
@@ -175,11 +175,11 @@ h2{
 font-size:16px;
 }
 #attendanceControls .all-absent {
-    margin-top: 10px !important;
+  margin-top: 10px !important;
 }
 #downloadSection button + button {
-    margin-top: 10px !important;
-    padding: 6px, 10px;
+  margin-top: 10px !important;
+  padding: 6px, 10px;
 }
 }
 
@@ -236,21 +236,21 @@ color:#0b3c5d;">
 <div id="attendanceControls" style="display:none; text-align:center; margin:12px 0;">
 
 <button type="button"
-  class="all-present"
-  onclick="markAllAttendance('P')">
+class="all-present"
+onclick="markAllAttendance('P')">
 Mark All Present
 </button>
 
 <button type="button"
-  class="all-absent"
-  onclick="markAllAttendance('A')">
+class="all-absent"
+onclick="markAllAttendance('A')">
 Mark All Absent
 </button>
 
 </div>
 
 <div style="overflow-x:auto;">
-  <div id="result"></div>
+<div id="result"></div>
 </div>
 
 <div id="attendanceSummary" style="
@@ -275,9 +275,9 @@ Absent: <span id="totalAbsent">0</span>
 </div>
 
 <div class="note">
-  <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
-    Hosted by IT Cell GEC Munger</a>
-  </div>
+<a href="itcell.html" style="text-decoration:none; color:#0f477a;">
+  Hosted by IT Cell GEC Munger</a>
+</div>
 
 </div>
 
@@ -292,12 +292,12 @@ async function loadStudents(){
 const params = new URLSearchParams(window.location.search);
 
 const branch =
-  params.get("branch") ||
-  document.getElementById("branch").value;
+params.get("branch") ||
+document.getElementById("branch").value;
 
 const semester =
-  params.get("semester") ||
-  document.getElementById("semester").value;
+params.get("semester") ||
+document.getElementById("semester").value;
 
 if(!branch || !semester){
 document.getElementById("result").innerHTML="Please select both Branch and Semester";
@@ -327,28 +327,28 @@ html+="<tr>"+headers.map(h=>`<th>${h}</th>`).join("")+"</tr>";
 
 filtered.forEach((row, index) => {
 
-  const attendanceKey = getAttendanceKey(branch, semester, row);
-  const savedStatus = getSavedAttendance(attendanceKey);
+const attendanceKey = getAttendanceKey(branch, semester, row);
+const savedStatus = getSavedAttendance(attendanceKey);
 
-  html += `
-    <tr>
-      <td>${row["Sr. No."] || index + 1}</td>
-      <td>${row["Reg. Number"] || ""}</td>
-      <td>${row["Name"] || ""}</td>
-      <td>${row["Roll Number"] || ""}</td>
+html += `
+  <tr>
+    <td>${row["Sr. No."] || index + 1}</td>
+    <td>${row["Reg. Number"] || ""}</td>
+    <td>${row["Name"] || ""}</td>
+    <td>${row["Roll Number"] || ""}</td>
 
-      <td>
-        <button
-          type="button"
-          class="attendance-btn ${savedStatus === "A" ? "absent" : "present"}"
-          data-key="${attendanceKey}"
-          onclick="toggleAttendance(this)"
-        >
-          ${savedStatus}
-        </button>
-      </td>
-    </tr>
-  `;
+    <td>
+      <button
+        type="button"
+        class="attendance-btn ${savedStatus === "A" ? "absent" : "present"}"
+        data-key="${attendanceKey}"
+        onclick="toggleAttendance(this)"
+      >
+        ${savedStatus}
+      </button>
+    </td>
+  </tr>
+`;
 });
 
 html+="</table>";
@@ -362,9 +362,9 @@ updateAttendanceSummary();
 }
 
 /* =====================================================
-   ATTENDANCE STORAGE
-   Saved temporarily in browser for maximum 30 minutes
-   ===================================================== */
+  ATTENDANCE STORAGE
+  Saved temporarily in browser for maximum 30 minutes
+  ===================================================== */
 
 const ATTENDANCE_STORAGE_KEY = "studentAttendanceState";
 const ATTENDANCE_EXPIRY = 30 * 60 * 1000; // 30 minutes
@@ -372,13 +372,13 @@ const ATTENDANCE_EXPIRY = 30 * 60 * 1000; // 30 minutes
 
 function getAttendanceKey(branch, semester, row) {
 
-  return [
-    branch,
-    semester,
-    row["Reg. Number"] || "",
-    row["Roll Number"] || "",
-    row["Name"] || ""
-  ].join("|");
+return [
+  branch,
+  semester,
+  row["Reg. Number"] || "",
+  row["Roll Number"] || "",
+  row["Name"] || ""
+].join("|");
 
 }
 
@@ -387,42 +387,42 @@ function getAttendanceKey(branch, semester, row) {
 
 function getAttendanceData() {
 
-  try {
+try {
 
-    const saved =
-      localStorage.getItem(ATTENDANCE_STORAGE_KEY);
+  const saved =
+    localStorage.getItem(ATTENDANCE_STORAGE_KEY);
 
-    if (!saved) {
-      return {};
-    }
+  if (!saved) {
+    return {};
+  }
 
-    const data = JSON.parse(saved);
+  const data = JSON.parse(saved);
 
-    /* Check 30-minute expiry */
+  /* Check 30-minute expiry */
 
-    if (
-      !data.timestamp ||
-      Date.now() - data.timestamp > ATTENDANCE_EXPIRY
-    ) {
+  if (
+    !data.timestamp ||
+    Date.now() - data.timestamp > ATTENDANCE_EXPIRY
+  ) {
 
-      localStorage.removeItem(
-        ATTENDANCE_STORAGE_KEY
-      );
-
-      return {};
-    }
-
-    return data.attendance || {};
-
-  } catch (error) {
-
-    console.error(
-      "Unable to read attendance state:",
-      error
+    localStorage.removeItem(
+      ATTENDANCE_STORAGE_KEY
     );
 
     return {};
   }
+
+  return data.attendance || {};
+
+} catch (error) {
+
+  console.error(
+    "Unable to read attendance state:",
+    error
+  );
+
+  return {};
+}
 
 }
 
@@ -431,9 +431,9 @@ function getAttendanceData() {
 
 function getSavedAttendance(key) {
 
-  const attendance = getAttendanceData();
+const attendance = getAttendanceData();
 
-  return attendance[key] || "P";
+return attendance[key] || "P";
 
 }
 
@@ -442,23 +442,23 @@ function getSavedAttendance(key) {
 
 function saveAttendance(key, status) {
 
-  const attendance =
-    getAttendanceData();
+const attendance =
+  getAttendanceData();
 
-  attendance[key] = status;
+attendance[key] = status;
 
-  const data = {
+const data = {
 
-    timestamp: Date.now(),
+  timestamp: Date.now(),
 
-    attendance: attendance
+  attendance: attendance
 
-  };
+};
 
-  localStorage.setItem(
-    ATTENDANCE_STORAGE_KEY,
-    JSON.stringify(data)
-  );
+localStorage.setItem(
+  ATTENDANCE_STORAGE_KEY,
+  JSON.stringify(data)
+);
 
 }
 
@@ -467,79 +467,79 @@ function saveAttendance(key, status) {
 
 function toggleAttendance(button) {
 
-  const key =
-    button.dataset.key;
+const key =
+  button.dataset.key;
 
-  const currentStatus =
-    button.textContent.trim();
+const currentStatus =
+  button.textContent.trim();
 
-  const newStatus =
-    currentStatus === "P" ? "A" : "P";
+const newStatus =
+  currentStatus === "P" ? "A" : "P";
 
-  button.textContent =
-    newStatus;
+button.textContent =
+  newStatus;
 
-  button.classList.toggle(
-    "present",
-    newStatus === "P"
-  );
+button.classList.toggle(
+  "present",
+  newStatus === "P"
+);
 
-  button.classList.toggle(
-    "absent",
-    newStatus === "A"
-  );
+button.classList.toggle(
+  "absent",
+  newStatus === "A"
+);
 
-  saveAttendance(
-    key,
-    newStatus
-  );
-  updateAttendanceSummary();
+saveAttendance(
+  key,
+  newStatus
+);
+updateAttendanceSummary();
 
 }
 
 function markAllAttendance(status) {
 
-  const buttons = document.querySelectorAll(".attendance-btn");
+const buttons = document.querySelectorAll(".attendance-btn");
 
-  buttons.forEach(button => {
+buttons.forEach(button => {
 
-    const key = button.dataset.key;
+  const key = button.dataset.key;
 
-    button.textContent = status;
+  button.textContent = status;
 
-    button.classList.toggle("present", status === "P");
-    button.classList.toggle("absent", status === "A");
+  button.classList.toggle("present", status === "P");
+  button.classList.toggle("absent", status === "A");
 
-    saveAttendance(key, status);
+  saveAttendance(key, status);
 
-  });
+});
 
-  updateAttendanceSummary();
+updateAttendanceSummary();
 }
 
 
 function updateAttendanceSummary() {
 
-  const buttons = document.querySelectorAll(".attendance-btn");
+const buttons = document.querySelectorAll(".attendance-btn");
 
-  let present = 0;
-  let absent = 0;
+let present = 0;
+let absent = 0;
 
-  buttons.forEach(button => {
+buttons.forEach(button => {
 
-    if (button.textContent.trim() === "P") {
-      present++;
-    } else {
-      absent++;
-    }
+  if (button.textContent.trim() === "P") {
+    present++;
+  } else {
+    absent++;
+  }
 
-  });
+});
 
-  document.getElementById("totalStudents").textContent = buttons.length;
-  document.getElementById("totalPresent").textContent = present;
-  document.getElementById("totalAbsent").textContent = absent;
+document.getElementById("totalStudents").textContent = buttons.length;
+document.getElementById("totalPresent").textContent = present;
+document.getElementById("totalAbsent").textContent = absent;
 
-  document.getElementById("attendanceSummary").style.display = "block";
+document.getElementById("attendanceSummary").style.display = "block";
 }
 
 function downloadPDF(){
@@ -566,13 +566,13 @@ header.style.textAlign = "center";
 header.style.marginBottom = "10px";
 
 const downloadDateTime = new Date().toLocaleString("en-IN", {
-  day: "2-digit",
-  month: "2-digit",
-  year: "numeric",
-  hour: "2-digit",
-  minute: "2-digit",
-  second: "2-digit",
-  hour12: true
+day: "2-digit",
+month: "2-digit",
+year: "numeric",
+hour: "2-digit",
+minute: "2-digit",
+second: "2-digit",
+hour12: true
 });
 
 header.innerHTML = `
@@ -580,7 +580,7 @@ header.innerHTML = `
 <p style="margin:2px;">Student Attendance</p>
 <p style="margin:2px;">${document.getElementById("classInfo").innerText}</p>
 <p style="margin:4px 0 0; font-size:10px;">
-  Downloaded on: <b>${downloadDateTime}</b>
+Downloaded on: <b>${downloadDateTime}</b>
 </p>
 `;
 
@@ -623,7 +623,7 @@ temp.appendChild(table);
 const summary = document.createElement("div");
 
 const attendanceButtons =
-  document.querySelectorAll(".attendance-btn");
+document.querySelectorAll(".attendance-btn");
 
 let totalStudents = attendanceButtons.length;
 let totalPresent = 0;
@@ -631,11 +631,11 @@ let totalAbsent = 0;
 
 attendanceButtons.forEach(button => {
 
-  if (button.textContent.trim() === "P") {
-    totalPresent++;
-  } else {
-    totalAbsent++;
-  }
+if (button.textContent.trim() === "P") {
+  totalPresent++;
+} else {
+  totalAbsent++;
+}
 
 });
 
@@ -645,11 +645,11 @@ summary.style.fontWeight = "bold";
 summary.style.marginTop = "10px";
 
 summary.innerHTML = `
-  Total Students: ${totalStudents}
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  Present: ${totalPresent}
-  &nbsp;&nbsp; | &nbsp;&nbsp;
-  Absent: ${totalAbsent}
+Total Students: ${totalStudents}
+&nbsp;&nbsp; | &nbsp;&nbsp;
+Present: ${totalPresent}
+&nbsp;&nbsp; | &nbsp;&nbsp;
+Absent: ${totalAbsent}
 `;
 
 temp.appendChild(summary);
@@ -668,15 +668,15 @@ margin: [0.3, 0.5, 0.4, 0.5],
 filename: 'Student_List.pdf',
 image: { type: 'jpeg', quality: 0.98 },
 html2canvas: {
-  scale: 2,
-  useCORS: true,
-  letterRendering: true,
-  scrollY: 0
+scale: 2,
+useCORS: true,
+letterRendering: true,
+scrollY: 0
 },
 jsPDF: {
-  unit: 'in',
-  format: 'a4',
-  orientation: 'portrait'
+unit: 'in',
+format: 'a4',
+orientation: 'portrait'
 }
 };
 
@@ -691,9 +691,9 @@ temp.remove();
 const params = new URLSearchParams(window.location.search);
 
 if (params.get("branch") && params.get("semester")) {
-  document.getElementById("branch").value = params.get("branch");
-  document.getElementById("semester").value = params.get("semester");
-  loadStudents();
+document.getElementById("branch").value = params.get("branch");
+document.getElementById("semester").value = params.get("semester");
+loadStudents();
 }
 
 </script>
