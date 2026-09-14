@@ -140,6 +140,15 @@ margin-bottom:5px;
   cursor:pointer;
   width: 20%;
 }
+.home-page-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 6px 5px;
+  width: 15%;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: hsl(233, 90%, 16%);
+}
 
 @media(max-width:600px){
 
@@ -223,7 +232,9 @@ Government Engineering College Munger
 </div>
 
 <div id="tableWrapper"></div>
-
+<button id="homePageBtn" onclick="window.location.href='index.html'" class="home-page-btn" style="display:none;">
+  Home Page
+</button>
 <div class="note">
   <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
     Hosted by IT Cell GEC Munger
@@ -534,10 +545,9 @@ function displaySubjects(data, branch, semester) {
   });
 
 
-  container.innerHTML = html;
-
-  document.getElementById("loading").style.display = "none";
-
+container.innerHTML = html;
+document.getElementById("loading").style.display = "none";
+document.getElementById("homePageBtn").style.display = "block";
 }
 
 </script>

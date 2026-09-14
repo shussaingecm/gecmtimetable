@@ -45,8 +45,9 @@ padding:10px 35px 20px;
 h2 { 
   text-align:center;
   color:#053b60;
-  margin:15px 0 15px;
+  margin:25px 0 25px;
   font-size:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* ===== LOADING TEXT ===== */
@@ -166,6 +167,15 @@ color: #0f477a;
 font-weight: bold;
 font-size: 12px;
 }
+.home-page-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 4px 5px;
+  width: 15%;
+  background-color: hsl(233, 90%, 16%);
+  color: #f8fbff;
+  border-radius: 6px;
+}
 
 /* ===== MOBILE ===== */
 @media (max-width: 600px) { 
@@ -213,6 +223,12 @@ font-size: 12px;
       <tbody></tbody>
     </table>
   </div>
+<button id="homePageBtn" class="home-page-btn"
+  onclick="window.location.href='index.html'"
+  style="display:none;">
+  Home Page
+</button>
+
 <div class="note">
   <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
     Hosted by IT Cell GEC Munger
@@ -350,6 +366,8 @@ function showFaculty() {
   container.innerHTML = html;
 
   container.style.display = "block";
+
+document.getElementById("homePageBtn").style.display = "block";
 }
 </script>
 

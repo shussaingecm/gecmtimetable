@@ -138,7 +138,14 @@ background: #c62828;
 #attendanceControls .all-absent {
 margin: 0 10px;
 }
-
+.home-page-btn {
+  display: block;
+  margin: 5px auto 0;
+  padding: 5px 5px;
+  width: 20%;
+  margin-top: 10px;
+  background-color: hsl(233, 90%, 16%);
+}
 @media (max-width: 600px){
 
 .controls{
@@ -272,6 +279,9 @@ Absent: <span id="totalAbsent">0</span>
 <div id="downloadSection" style="display:none; text-align:center; margin-top:15px;">
 <button onclick="window.open('disclaimer.html','_blank')">Disclaimer</button>
 <button onclick="downloadPDF()">Download PDF</button>
+<button onclick="window.location.href='index.html'" class="home-page-btn">
+  Home Page
+</button>
 </div>
 
 <div class="note">

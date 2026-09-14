@@ -37,7 +37,7 @@ max-width: 1200px;   /* bigger after table shows */
 h2 {
 text-align: center;
 color: #053b60;
-margin-bottom: 15px;
+margin-bottom: 25px;
 font-size: 20px;
 }
 
@@ -150,7 +150,7 @@ height: auto;
 
 .note {
 text-align: center;
-margin-top: 18px;
+margin-top: 20px;
 color: #0e4791;
 font-weight: bold;
 font-size: 12px;
@@ -223,6 +223,13 @@ cursor:pointer;
 
 .faculty-code:hover{
 text-decoration:underline;
+}
+.home-page-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 6px 5px;
+  width: 20%;
+  background-color: hsl(233, 90%, 16%);
 }
     /* ===== Mobile specific tweaks ===== */
 @media (max-width: 600px) {
@@ -414,8 +421,18 @@ style="
   font-size:12px;">
   Download (PDF)
 </button>
-
+<button onclick="window.location.href='index.html'" style="
+    background:#0b3c5d;
+    color:white;
+    padding:8px 12px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:12px;">
+    Home Page
+  </button>
 </div>
+
 
 <div class="note">
 <a href="itcell.html" style="text-decoration:none; color:#0f477a;">
