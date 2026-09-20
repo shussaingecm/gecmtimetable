@@ -139,7 +139,7 @@
     "11:00 AM - 12:00 PM": "COA-L|DPK|R-204",
     "12:00 PM - 01:00 PM": "ETC-L|RML|R-204",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "NPTEL",
+    "02:00 PM - 03:00 PM": "Ext Curr Acts",
     "03:00 PM - 04:00 PM": "Ext Curr Acts",
     "04:00 PM - 05:00 PM": "Ext Curr Acts"
   },
@@ -303,7 +303,7 @@
     "Branch": "EE",
     "Semester": 4,
     "Day": "Tuesday",
-    "10:00 AM - 11:00 AM": "EMF-L|GNJ|R-303",
+    "10:00 AM - 11:00 AM": "EMF-L|GJN|R-303",
     "11:00 AM - 12:00 PM": "SS-L|RPS|R-303",
     "12:00 PM - 01:00 PM": "CS-L|DLK|R-303",
     "Lunch": "",
@@ -321,13 +321,13 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "EM-II-P|BLM|R-303",
     "03:00 PM - 04:00 PM": "G2, DE-P|GJ|LAB",
-    "04:00 PM - 05:00 PM": "G2, DE-P|GJ|LAB"
+    "04:00 PM - 05:00 PM": "G2, DE-P|GJN|LAB"
   },
   {
     "Branch": "EE",
     "Semester": 4,
     "Day": "Thursday",
-    "10:00 AM - 11:00 AM": "EMF-L|GNJ|R-303",
+    "10:00 AM - 11:00 AM": "EMF-L|GJN|R-303",
     "11:00 AM - 12:00 PM": "EVS-L|RML|R-303",
     "12:00 PM - 01:00 PM": "EM-II-P|BLM|LAB",
     "Lunch": "",
@@ -341,7 +341,7 @@
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "DE-L|GJN|R-303",
     "11:00 AM - 12:00 PM": "EM-II-P|BLM|LAB",
-    "12:00 PM - 01:00 PM": "EMF-L|GNJ|R-303",
+    "12:00 PM - 01:00 PM": "EMF-L|GJN|R-303",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "SS-L|RPS|R-303",
     "03:00 PM - 04:00 PM": "G2, CS-P|DLK|LAB",
@@ -353,7 +353,7 @@
     "Day": "Saturday",
     "10:00 AM - 11:00 AM": "CS-L|DLK|R-303",
     "11:00 AM - 12:00 PM": "EM-II-P|BLM|LAB",
-    "12:00 PM - 01:00 PM": "EMF-L|GNJ|R-303",
+    "12:00 PM - 01:00 PM": "EMF-L|GJN|R-303",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "Ext Curr Acts",
     "03:00 PM - 04:00 PM": "Ext Curr Acts",
@@ -363,9 +363,9 @@
     "Branch": "EE",
     "Semester": 6,
     "Day": "Monday",
-    "10:00 AM - 11:00 AM": "G1, DPS-P|BLM|LAB; G2, EDL-P|PSP|LAB",
-    "11:00 AM - 12:00 PM": "G1, DPS-P|BLM|LAB; G2, EDL-P|PSP|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "10:00 AM - 11:00 AM": "G1, DSP-P|BLM|LAB; G2, EDL-P|PSP|LAB",
+    "11:00 AM - 12:00 PM": "G1, DSP-P|BLM|LAB; G2, EDL-P|PSP|LAB",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "PS-II-L|AND|R-303",
     "03:00 PM - 04:00 PM": "VLSI-L|RPS|R-303",
@@ -375,9 +375,9 @@
     "Branch": "EE",
     "Semester": 6,
     "Day": "Tuesday",
-    "10:00 AM - 11:00 AM": "G2, DPS-P|BLM|LAB; G1, EDL-P|PSP|LAB",
-    "11:00 AM - 12:00 PM": "G2, DPS-P|BLM|LAB; G1, EDL-P|PSP|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "10:00 AM - 11:00 AM": "G2, DSP-P|BLM|LAB; G1, EDL-P|PSP|LAB",
+    "11:00 AM - 12:00 PM": "G2, DSP-P|BLM|LAB; G1, EDL-P|PSP|LAB",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "ED-L|PSP|R-303",
     "03:00 PM - 04:00 PM": "IES-L|DLK|R-303",
@@ -389,7 +389,7 @@
     "Day": "Wednesday",
     "10:00 AM - 11:00 AM": "G1, VLSI-P|RPS|LAB; G2, EDL-P|PSP|LAB",
     "11:00 AM - 12:00 PM": "G1, VLSI-P|RPS|LAB; G2, EDL-P|PSP|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "VLSI-L|RPS|R-303",
     "03:00 PM - 04:00 PM": "PS-II-L|AND|R-303",
@@ -399,11 +399,11 @@
     "Branch": "EE",
     "Semester": 6,
     "Day": "Thursday",
-    "10:00 AM - 11:00 AM": "G2, VLSI-P|RPS|LAB; G1, EDL-P|PSP|LAB",
+    "10:00 AM - 11:00 AM": "G2, VLSI-P|PSP|LAB; G1, EDL-P|PSP|LAB",
     "11:00 AM - 12:00 PM": "G2, VLSI-P|RPS|LAB; G1, EDL-P|PSP|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "PSD-L|RJN|R-303",
+    "02:00 PM - 03:00 PM": "DSP-L|RJN|R-303",
     "03:00 PM - 04:00 PM": "DSP-L|BLM|R-303",
     "04:00 PM - 05:00 PM": "ED-L|PSP|R-303"
   },
@@ -413,9 +413,9 @@
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "G1, PS-II-P|AND|LAB",
     "11:00 AM - 12:00 PM": "G1, PS-II-P|AND|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "DSP-L|BLM|R-303",
+    "02:00 PM - 03:00 PM": "PSD-L|BLM|R-303",
     "03:00 PM - 04:00 PM": "PSD-L|RJN|R-303",
     "04:00 PM - 05:00 PM": "ED-L|PSP|R-303"
   },
@@ -425,7 +425,7 @@
     "Day": "Saturday",
     "10:00 AM - 11:00 AM": "G22, PS-II-P|AND|LAB",
     "11:00 AM - 12:00 PM": "G2, PS-II-P|AND|LAB",
-    "12:00 PM - 01:00 PM": "NPTL",
+    "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "IES-L|DLK|R-303",
     "03:00 PM - 04:00 PM": "PS-II-L|AND|R-303",
@@ -495,8 +495,8 @@
     "Branch": "CSE (DS)",
     "Semester": 3,
     "Day": "Saturday",
-    "10:00 AM - 11:00 AM": "G2, DSA-P|DSJ|R-215; G1, DE-P|GJN|R-307",
-    "11:00 AM - 12:00 PM": "G2, DSA-P|DSJ|R-215; G1, DE-P|GJN|R-307",
+    "10:00 AM - 11:00 AM": "G2, DSA-P|DPK|R-215; G1, DE-P|GJN|R-307",
+    "11:00 AM - 12:00 PM": "G2, DSA-P|DPK|R-215; G1, DE-P|GJN|R-307",
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "DMGT-L|SRB|R-203",
@@ -651,8 +651,8 @@
     "Branch": "ME",
     "Semester": 3,
     "Day": "Monday",
-    "10:00 AM - 11:00 AM": "G1, BEE-P|AND|LAB",
-    "11:00 AM - 12:00 PM": "G1, BEE-P|AND|LAB",
+    "10:00 AM - 11:00 AM": "G1, BEE-P|AND|LAB; G2, LIBRARY",
+    "11:00 AM - 12:00 PM": "G1, BEE-P|AND|LAB; G2, LIBRARY",
     "12:00 PM - 01:00 PM": "UHV-L|RML|R-102",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "MTH-L|UMS|R-102",
@@ -895,16 +895,16 @@
     "11:00 AM - 12:00 PM": "G1, MTE-P|ABH|LAB; G2, SM-P|ATD|LAB",
     "12:00 PM - 01:00 PM": "UHV-L|RML|R-101",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "MTE-L|ARD|R-101",
-    "03:00 PM - 04:00 PM": "S&G-L|NST|R-101",
+    "02:00 PM - 03:00 PM": "S&G-L|NST|R-101",
+    "03:00 PM - 04:00 PM": "MTE-L|ARD|R-101",
     "04:00 PM - 05:00 PM": "SM-L|GRV|R-101"
   },
   {
     "Branch": "CE (GA)",
     "Semester": 3,
     "Day": "Thursday",
-    "10:00 AM - 11:00 AM": "G1, S&G-P|NST|LAB; G2, FM-P|JTD|LAB",
-    "11:00 AM - 12:00 PM": "G1, S&G-P|NST|LAB; G2, FM-P|JTD|LAB",
+    "10:00 AM - 11:00 AM": "G2, S&G-P|NST|LAB; G1, FM-P|JTD|LAB",
+    "11:00 AM - 12:00 PM": "G2, S&G-P|NST|LAB; G1, FM-P|JTD|LAB",
     "12:00 PM - 01:00 PM": "IKS-L|GRV|R-101",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "S&G-L|NST|R-101",
@@ -915,8 +915,8 @@
     "Branch": "CE (GA)",
     "Semester": 3,
     "Day": "Friday",
-    "10:00 AM - 11:00 AM": "G1, MTE-P|ABH|LAB; G2, SM-P|ATD|LAB",
-    "11:00 AM - 12:00 PM": "G1, MTE-P|ABH|LAB; G2, SM-P|ATD|LAB",
+    "10:00 AM - 11:00 AM": "G2, MTE-P|ABH|LAB; G1, SM-P|ATD|LAB",
+    "11:00 AM - 12:00 PM": "G2, MTE-P|ABH|LAB; G1, SM-P|ATD|LAB",
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "S&G-L|NST|R-101",
@@ -951,8 +951,8 @@
     "Branch": "CE (GB)",
     "Semester": 3,
     "Day": "Tuesday",
-    "10:00 AM - 11:00 AM": "G1, MTE-P|ABH|LAB; G2, SM-P|ATD|LAB",
-    "11:00 AM - 12:00 PM": "G1, MTE-P|ABH|LAB; G2, SM-P|ATD|LAB",
+    "10:00 AM - 11:00 AM": "G1, MTE-P|ARD|LAB; G2, SM-P|GRV|LAB",
+    "11:00 AM - 12:00 PM": "G1, MTE-P|ARD|LAB; G2, SM-P|GRV|LAB",
     "12:00 PM - 01:00 PM": "UHV-L|RML|R-202",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "S&G-L|RJS|R-202",
@@ -968,8 +968,8 @@
     "12:00 PM - 01:00 PM": "IKS-L|ADT|R-202",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "MTE-L|ABH|R-202",
-    "03:00 PM - 04:00 PM": "EM-L|ANL|R-202",
-    "04:00 PM - 05:00 PM": "S&G-L|RJS|R-202"
+    "03:00 PM - 04:00 PM": "S&G-L|RJS|R-202",
+    "04:00 PM - 05:00 PM": "EM-L|ANL|R-202"
   },
   {
     "Branch": "CE (GB)",
@@ -977,7 +977,7 @@
     "Day": "Thursday",
     "10:00 AM - 11:00 AM": "G2, MTE-P|ARD|LAB; G1, SM-P|GRV|LAB",
     "11:00 AM - 12:00 PM": "G2, MTE-P|ARD|LAB; G1, SM-P|GRV|LAB",
-    "12:00 PM - 01:00 PM": "TUTORIAL",
+    "12:00 PM - 01:00 PM": "UHV-L|RML|R-202",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "SM-L|ABK|R-202",
     "03:00 PM - 04:00 PM": "FM-L|ADT|R-202",
@@ -989,11 +989,11 @@
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "G2, FM-P|ADT|LAB; G1, TUTORIAL",
     "11:00 AM - 12:00 PM": "G2, FM-P|ADT|LAB; G1, TUTORIAL",
-    "12:00 PM - 01:00 PM": "UHV-L|RML|R-202",
+    "12:00 PM - 01:00 PM": "IKS-L|ADT|R-102",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "EM-L|ANL|R-202",
+    "02:00 PM - 03:00 PM": "SM-L|ABK|R-202",
     "03:00 PM - 04:00 PM": "SM-L|ABK|R-202",
-    "04:00 PM - 05:00 PM": "SM-L|ABK|R-202"
+    "04:00 PM - 05:00 PM": "EM-L|ANL|R-202"
   },
   {
     "Branch": "CE (GB)",
@@ -1012,7 +1012,7 @@
     "Semester": 4,
     "Day": "Monday",
     "10:00 AM - 11:00 AM": "GE-L|JTD|R-201",
-    "11:00 AM - 12:00 PM": "TUTORIAL",
+    "11:00 AM - 12:00 PM": "EG-L|ARD|R-201",
     "12:00 PM - 01:00 PM": "TE-L|RAJ|R-201",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "HE-L|AMT|R-201",
@@ -1040,8 +1040,8 @@
     "12:00 PM - 01:00 PM": "TE-L|RAJ|R-201",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "HE-L|AMT|R-203",
-    "03:00 PM - 04:00 PM": "G1, GE-P|JTD|LAB; G2, HE-P|AMT|LAB",
-    "04:00 PM - 05:00 PM": "G1, GE-P|JTD|LAB; G2, HE-P|AMT|LAB"
+    "03:00 PM - 04:00 PM": "G1, GE-P|JTD|LAB; G2, BPCAD-P|AKS|LAB",
+    "04:00 PM - 05:00 PM": "G1, GE-P|JTD|LAB; G2, BPCAD-P|AKS|LAB"
   },
   {
     "Branch": "CE (GA)",
@@ -1060,18 +1060,18 @@
     "Semester": 4,
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "GE-L|JTD|R-201",
-    "11:00 AM - 12:00 PM": "EG-L|ARD|R-201",
+    "11:00 AM - 12:00 PM": "BPCAD-L|AKS|R-201",
     "12:00 PM - 01:00 PM": "BPCAD-L|AKS|R-201",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "CESGI-L|ABH|R-201",
-    "03:00 PM - 04:00 PM": "G1, HE-P|AMT|LAB; G2, BPCAD-P|AKS|LAB",
-    "04:00 PM - 05:00 PM": "G1, HE-P|AMT|LAB; G2, BPCAD-P|AKS|LAB"
+    "03:00 PM - 04:00 PM": "G1, HE-P|AMT|LAB; G2, HE-P|AMT|LAB",
+    "04:00 PM - 05:00 PM": "G1, HE-P|AMT|LAB; G2, HE-P|AMT|LAB"
   },
   {
     "Branch": "CE (GA)",
     "Semester": 4,
     "Day": "Saturday",
-    "10:00 AM - 11:00 AM": "BPCAD-L|AKS|R-201",
+    "10:00 AM - 11:00 AM": "EG-L|ARD|R-201",
     "11:00 AM - 12:00 PM": "EG-L|ARD|R-201",
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
@@ -1108,10 +1108,10 @@
     "Semester": 4,
     "Day": "Wednesday",
     "10:00 AM - 11:00 AM": "GE-L|NST|R-301",
-    "11:00 AM - 12:00 PM": "HE-L|AKS|R-201",
+    "11:00 AM - 12:00 PM": "TUTORIAL",
     "12:00 PM - 01:00 PM": "BPCAD-L|ABK|R-301",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "TUTORIAL",
+    "02:00 PM - 03:00 PM": "HE-L|AMT|R-202",
     "03:00 PM - 04:00 PM": "G1, TE-P|RAJ|LAB; G2, BPCAD-P|ABK|LAB",
     "04:00 PM - 05:00 PM": "G1, TE-P|RAJ|LAB; G2, BPCAD-P|ABK|LAB"
   },
@@ -1132,7 +1132,7 @@
     "Semester": 4,
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "GE-L|NST|R-301",
-    "11:00 AM - 12:00 PM": "HE-L|AKS|R-301",
+    "11:00 AM - 12:00 PM": "TUTORIAL",
     "12:00 PM - 01:00 PM": "TE-L|RAJ|R-301",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "EG-L|RJS|R-301",
@@ -1144,7 +1144,7 @@
     "Semester": 4,
     "Day": "Saturday",
     "10:00 AM - 11:00 AM": "TE-L|RAJ|R-301",
-    "11:00 AM - 12:00 PM": "TUTORIAL",
+    "11:00 AM - 12:00 PM": "HE-L|AKS|R-201",
     "12:00 PM - 01:00 PM": "EG-L|RJS|R-301",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "Ext Curr Acts",
@@ -1185,7 +1185,7 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "GT-II-L|NST|R-201",
     "03:00 PM - 04:00 PM": "EE-II-L|RJS|R-201",
-    "04:00 PM - 05:00 PM": "TUTORIAL"
+    "04:00 PM - 05:00 PM": "EEEC-L|AMT|R-201"
   },
   {
     "Branch": "CE (GA)",
@@ -1257,7 +1257,7 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "GT-II-L|JTD|R-301",
     "03:00 PM - 04:00 PM": "EE-II-L|RJS|R-301",
-    "04:00 PM - 05:00 PM": "EEEC-L|PRC|R-301"
+    "04:00 PM - 05:00 PM": "TUTORIAL"
   },
   {
     "Branch": "CE (GB)",
@@ -1277,7 +1277,7 @@
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "TUTORIAL",
     "11:00 AM - 12:00 PM": "TUTORIAL",
-    "12:00 PM - 01:00 PM": "TUTORIAL",
+    "12:00 PM - 01:00 PM": "EEEC-P|PRC|LAB",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "CEM-L|ABH|R-301",
     "03:00 PM - 04:00 PM": "DSS-L|ADT|R-301",
@@ -1303,9 +1303,9 @@
     "11:00 AM - 12:00 PM": "CMS-L|RML|R-101",
     "12:00 PM - 01:00 PM": "CHEM-L|ANI|R-101",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "CHEM-L|GTM|R-101",
-    "03:00 PM - 04:00 PM": "TUTORIAL",
-    "04:00 PM - 05:00 PM": ""
+    "02:00 PM - 03:00 PM": "TUTORIAL",
+    "03:00 PM - 04:00 PM": "CHEM-L|GTM|R-101",
+    "04:00 PM - 05:00 PM": "CHEM-L|GTM|R-101"
   },
   {
     "Branch": "CE (GA)",
@@ -1364,8 +1364,8 @@
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "SYNN|UJL|",
-    "03:00 PM - 04:00 PM": "TUTORIAL",
-    "04:00 PM - 05:00 PM": ""
+    "03:00 PM - 04:00 PM": "SYNN|UJL|",
+    "04:00 PM - 05:00 PM": "TUTORIAL"
   },
   {
     "Branch": "CE (GB)",
@@ -1436,7 +1436,7 @@
     "12:00 PM - 01:00 PM": "IAI-L|RMN|R-202",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "SYNN|PRC|R-202",
-    "03:00 PM - 04:00 PM": "EGD-L|RAJ|R-202",
+    "03:00 PM - 04:00 PM": "SYNN|PRC|R-202",
     "04:00 PM - 05:00 PM": "EGD-L|RAJ|R-202"
   },
   {
@@ -1481,11 +1481,11 @@
     "Day": "Thursday",
     "10:00 AM - 11:00 AM": "EGD-P|UJL|LAB",
     "11:00 AM - 12:00 PM": "EGD-P|UJL|LAB",
-    "12:00 PM - 01:00 PM": "SYNN|MNS|R-102",
+    "12:00 PM - 01:00 PM": "EGD-P|UJL|LAB",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "",
-    "03:00 PM - 04:00 PM": "",
-    "04:00 PM - 05:00 PM": ""
+    "02:00 PM - 03:00 PM": "EGD-P|UJL|LAB",
+    "03:00 PM - 04:00 PM": "S/Y/N/M|MNS",
+    "04:00 PM - 05:00 PM": "S/Y/N/M|MNS"
   },
   {
     "Branch": "ME",
@@ -1493,7 +1493,7 @@
     "Day": "Friday",
     "10:00 AM - 11:00 AM": "CHEM-L|ANI|R-102",
     "11:00 AM - 12:00 PM": "EGD-L|UJL|R-102",
-    "12:00 PM - 01:00 PM": "",
+    "12:00 PM - 01:00 PM": "EGD-L|UJL|R-102",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "Ext Curr Acts",
     "03:00 PM - 04:00 PM": "Ext Curr Acts",
@@ -1553,7 +1553,7 @@
     "Day": "Thursday",
     "10:00 AM - 11:00 AM": "G1, BEEE-P|BLM|LAB; G2, PHY-P|ABS|LAB",
     "11:00 AM - 12:00 PM": "G1, BEEE-P|BLM|LAB; G2, PHY-P|ABS|LAB",
-    "12:00 PM - 01:00 PM": "",
+    "12:00 PM - 01:00 PM": "PHY-L|ABS|R-203",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "BEEE-L|BLM|R-203",
     "03:00 PM - 04:00 PM": "TUTORIAL",
@@ -1581,7 +1581,7 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "PPS-P|SDT|LAB",
     "03:00 PM - 04:00 PM": "PPS-P|SDT|LAB",
-    "04:00 PM - 05:00 PM": ""
+    "04:00 PM - 05:00 PM": "TUTORIAL"
   },
   {
     "Branch": "CSE (AI)",
@@ -1664,8 +1664,8 @@
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "EIC-L|GVD|R-313",
-    "03:00 PM - 04:00 PM": "",
-    "04:00 PM - 05:00 PM": ""
+    "03:00 PM - 04:00 PM": "EIC-L|GVD|R-313",
+    "04:00 PM - 05:00 PM": "EIC-L|GVD|R-313"
   },
   {
     "Branch": "CSE (M&C)",
@@ -1677,7 +1677,7 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "G1, PHY-P|HMT|LAB",
     "03:00 PM - 04:00 PM": "G1, PHY-P|HMT|LAB",
-    "04:00 PM - 05:00 PM": ""
+    "04:00 PM - 05:00 PM": "UHV-L|ANI|R-313"
   },
   {
     "Branch": "CSE (M&C)",
@@ -1747,9 +1747,9 @@
     "11:00 AM - 12:00 PM": "G2, PHY-P|ABS|LAB",
     "12:00 PM - 01:00 PM": "G2, PHY-P|ABS|LAB",
     "Lunch": "",
-    "02:00 PM - 03:00 PM": "G1, BEE-P|AND|LAB",
+    "02:00 PM - 03:00 PM": "TUTORIAL",
     "03:00 PM - 04:00 PM": "G1, BEE-P|AND|LAB",
-    "04:00 PM - 05:00 PM": ""
+    "04:00 PM - 05:00 PM": "G1, BEE-P|AND|LAB"
   },
   {
     "Branch": "EE",
@@ -1796,7 +1796,7 @@
     "12:00 PM - 01:00 PM": "TUTORIAL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "SYNN|RPS|R-103",
-    "03:00 PM - 04:00 PM": "TUTORIAL",
-    "04:00 PM - 05:00 PM": ""
+    "03:00 PM - 04:00 PM": "SYNN|RPS|R-103",
+    "04:00 PM - 05:00 PM": "TUTORIAL"
   }
 ]
