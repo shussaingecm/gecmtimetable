@@ -152,7 +152,7 @@
     "12:00 PM - 01:00 PM": "CL-L|RJN|R-204",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "ERP-L|GOP|R-204",
-    "03:00 PM - 04:00 PM": "ATCD-L|DSJ|R-204",
+    "03:00 PM - 04:00 PM": "ATDC-L|DSJ|R-204",
     "04:00 PM - 05:00 PM": "ML-L|ABY|R-204"
   },
   {
@@ -164,7 +164,7 @@
     "12:00 PM - 01:00 PM": "NPTEL",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "ANS-L|GVD|R-204",
-    "03:00 PM - 04:00 PM": "ATCD-L|DSJ|R-204",
+    "03:00 PM - 04:00 PM": "ATDC-L|DSJ|R-204",
     "04:00 PM - 05:00 PM": "ML-L|ABY|R-204"
   },
   {
@@ -176,7 +176,7 @@
     "12:00 PM - 01:00 PM": "AIE-L|GVD|R-204",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "ERP-L|GOP|R-204",
-    "03:00 PM - 04:00 PM": "ATCD-L|DSJ|R-204",
+    "03:00 PM - 04:00 PM": "ATDC-L|DSJ|R-204",
     "04:00 PM - 05:00 PM": "ML-L|ABY|R-204"
   },
   {
@@ -676,8 +676,8 @@
     "Semester": 3,
     "Day": "Wednesday",
     "10:00 AM - 11:00 AM": "Remedial Classes",
-    "11:00 AM - 12:00 PM": "Remedial Classes",
-    "12:00 PM - 01:00 PM": "IKS-L|MNS|R-102",
+    "11:00 AM - 12:00 PM": "IKS-L|MNS|R-102",
+    "12:00 PM - 01:00 PM": "UHV-L|RML|R-102",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "MTH-L|UMS|R-102",
     "03:00 PM - 04:00 PM": "MSE-L|UJL|R-102",
@@ -689,7 +689,7 @@
     "Day": "Thursday",
     "10:00 AM - 11:00 AM": "G2, EM-P|SNU|LAB",
     "11:00 AM - 12:00 PM": "G2, EM-P|SNU|LAB",
-    "12:00 PM - 01:00 PM": "UHV-L|RML|R-102",
+    "12:00 PM - 01:00 PM": "IKS-L|MNS|R-102",
     "Lunch": "",
     "02:00 PM - 03:00 PM": "MTH-L|UMS|R-102",
     "03:00 PM - 04:00 PM": "EM-L|SNU|R-102",
@@ -717,7 +717,7 @@
     "Lunch": "",
     "02:00 PM - 03:00 PM": "EM-L|SNU|R-102",
     "03:00 PM - 04:00 PM": "MSE-L|UJL|R-102",
-    "04:00 PM - 05:00 PM": "IKS-L|MNS|R-102"
+    "04:00 PM - 05:00 PM": "UHV-L|RML|R-102"
   },
   {
     "Branch": "ME",
